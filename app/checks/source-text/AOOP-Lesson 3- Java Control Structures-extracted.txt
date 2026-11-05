@@ -1,0 +1,110 @@
+? 
+Java Control Structures 
+Control structures allow the flow of execution in a program to be directed depending on 
+conditions and repetitions. Java has three main types of control structures: 
+
+Decision-Making Structures
+
+Looping Structures
+
+Jump Statements (e.g., 
+break
+, 
+continue
+)
+1. Decision Structures 
+a) 
+if
+ Statement 
+int score = 80; 
+if (score > 70) { 
+    System.out.println("Passed!"); 
+} 
+b) 
+if...else
+ Statement 
+int score = 60; 
+if (score >= 70) { 
+    System.out.println("Passed!"); 
+} else { 
+    System.out.println("Failed."); 
+} 
+c) 
+if...else if...else
+ Chain 
+int score = 85; 
+if (score >= 90) { 
+    System.out.println("Grade A"); 
+} else if (score >= 80) { 
+    System.out.println("Grade B"); 
+} else { 
+    System.out.println("Grade C or below"); 
+} 
+d) 
+switch
+ Statement 
+int day = 3; 
+switch(day) { 
+    case 1: 
+        System.out.println("Monday"); 
+        break; 
+    case 2: 
+        System.out.println("Tuesday"); 
+        break; 
+    default: 
+        System.out.println("Another day"); 
+} 
+2. Looping Structures 
+a) 
+for
+ Loop 
+Used when the number of iterations is known. 
+for (int i = 1; i <= 5; i++) { 
+    System.out.println("Count: " + i); 
+} 
+b) 
+while
+ Loop 
+Used when the number of iterations is unknown but condition is checked before the loop 
+starts. 
+int i = 1; 
+while (i <= 5) { 
+    System.out.println("Count: " + i); 
+    i++; 
+} 
+? 
+c) 
+do...while
+ Loop 
+Executes at least once. Condition is checked after the loop. 
+int i = 1; 
+do { 
+    System.out.println("Count: " + i); 
+    i++; 
+} while (i <= 5); 
+3. Nested Control Structures 
+Loops and decision structures can be nested inside one another. 
+for (int i = 1; i <= 3; i++) { 
+    if (i % 2 == 0) { 
+        System.out.println(i + " is even"); 
+    } else { 
+        System.out.println(i + " is odd"); 
+    } 
+} 
+4. Jump Statements 
+a) 
+break
+Terminates a loop or 
+switch
+. 
+for (int i = 1; i <= 5; i++) { 
+    if (i == 3) break; 
+    System.out.println(i); 
+} 
+b) 
+continue
+Skips the current iteration. 
+for (int i = 1; i <= 5; i++) { 
+    if (i == 3) continue; 
+    System.out.println(i); 
+} 

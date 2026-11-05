@@ -1,0 +1,333 @@
+t??? 
+?
+?? 
+?
+Course Code & Title:
+SSE
+2302
+COMPONENT BASED SOFTWARE 
+ENGINEERING 
+SYLLABUS
+Target Audience:
+BSc Software Engineering, Year 
+3
+Sem 1
+Credit Hours / Contact Hours:
+3 Credits / 45 Contact Hours 
+Pre
+-
+Requisite:
+Software Engineering
+Lecturer:
+Samuel Maina
+Phone:
+0726369935
+Purpose
+This course introduces the principles, concepts, methodologies, and practices of Component
+-
+Based Software Engineering (CBSE). Learners examine the identification, specification, 
+development, selection, reuse, integration, testing,
+deployment, and maintenance of software 
+components. The course explores component
+-
+based architectures, interfaces, component 
+composition, software reuse, middleware, APIs, web services, and modern component 
+technologies. Learners develop the knowledge and
+practical skills required to design, integrate, 
+and manage reliable, reusable, and maintainable component
+-
+based software systems.
+Course Learning Outcomes
+Upon successful completion of this course, the learner should be able to:
+1.
+Analyze the principles, co
+ncepts, characteristics, and benefits of Component
+-
+Based 
+Software Engineering and its application in modern software development.
+2.
+Evaluate software components based on their interfaces, functionality, quality 
+attributes, compatibility, reusability, and sui
+tability for integration into software 
+systems.
+3.
+Apply component
+-
+based software engineering practices to identify, specify, design, 
+compose, integrate, test, and deploy reusable software components.
+4.
+Design component
+-
+based software architectures using 
+appropriate component models, 
+interfaces, connectors, APIs, middleware, and integration techniques.
+5.
+Analyze challenges related to component security, interoperability, dependency 
+management, versioning, maintenance, and evolution of component
+-
+based systems
+.
+6.
+Develop a component
+-
+based software solution that demonstrates effective component 
+selection, reuse, integration, testing, deployment, and documentation.
+t??? 
+?
+?? 
+?
+Contact Hours:
+45 Hours 
+Course Content and Delivery Plan
+WEEK
+TOPIC
+SUB
+-
+TOPICS
+INTENDED 
+LEARNING 
+OUTCOMES 
+LEARNING 
+EXPERIENCES
+1
+Introduction to 
+CBSE
+Concepts, evolution, 
+benefits and 
+challenges
+Define and 
+explain CBSE
+Lecture, discussion
+2
+Software 
+Components
+Characteristics, 
+interfaces and 
+contracts
+Identify and 
+explain 
+componen
+ts
+Lecture, exercises
+3
+Component 
+Interfaces
+Interface 
+specification, 
+contracts and 
+compatibility
+Specify and 
+analyze interfaces
+Practical, case 
+study
+4
+Component 
+Architecture
+Architecture, 
+connectors, 
+dependencies and 
+patterns
+Design basic 
+component 
+architecture
+Lecture, design 
+exercise
+5
+Component 
+Identification
+Requirements, 
+domain analysis and 
+specification
+Identify and 
+specify 
+components
+Group work, case 
+study
+6
+Component 
+Reuse
+Reusable 
+components, 
+repositories and 
+reuse strategies
+Select and 
+evaluate reusable 
+components
+Practical, 
+discussion
+7
+Component 
+Composition
+Integration, adapters, 
+wrappers and 
+compatibility
+Integrate and 
+analyze 
+components
+Practical, group 
+project
+8
+Middleware 
+and APIs
+Middleware, APIs, 
+web services and 
+REST
+Explain a
+nd use 
+component 
+technologies
+Demonstration, 
+practical
+9
+CBSE 
+Development 
+Process
+Lifecycle, design, 
+implementation and 
+deployment
+Apply CBSE 
+development 
+processes
+Lecture, project 
+work
+10
+Component 
+Testing
+Unit, interface, 
+integration and 
+regression 
+testing
+Develop and 
+evaluate test 
+cases
+Testing practical
+t??? 
+?
+?? 
+?
+11
+Security and 
+Maintenance
+Security, versioning, 
+maintenance and 
+evolution
+Analyze and 
+apply security 
+measures
+Case study, 
+practical
+12
+Deployment 
+and 
+Management
+Deployment, 
+configuration, 
+dependencies and 
+repositories
+Deploy and 
+manage 
+components
+Demonstration, 
+practical
+13
+Project 
+Presentation 
+and Review
+System 
+demonstration, 
+testing and 
+evaluation
+Evaluate and 
+present a CBSE 
+project
+Presentations, 
+assessment
+Assessment
+Weight 
+(%)
+Continuous Assessment (Assignments, Practical Labs, Research Project, 
+Presentations)
+30
+Final Examination
+70
+Total
+100
+Core Reading Materials
+1.
+Sommerville, I. 
+Software Engineering
+(11th Edition). Pearson Education.
+2.
+Pressman, R. S., & Maxim, B. R. 
+Software Engineering: A Practitioner's Approach
+(9th Edition). McGraw
+-
+Hill.
+3.
+Szyperski, C., Gruntz, D., & Murer, S. 
+Component Software: Beyond Object
+-
+Oriented Programming
+(2nd Edition). Addison
+-
+Wesley.
+4.
+Heineman, G. T., & Councill, W. T. 
+Component
+-
+Based Soft
+ware Engineering: 
+Putting the Pieces Together.
+Addison
+-
+Wesley.
+Recommended References
+1.
+Brown, A. W., & Wallnau, K. C. 
+The Current State of CBSE.
+IEEE Software.
+2.
+Crnkovic, I., & Larsson, M. 
+Building Reliable Component
+-
+Based Software 
+Systems.
+Artech House.
+3.
+Cheesman, J., & Daniels, J. 
+UML Components: A Simple Process for Specifying 
+Component
+-
+Based Software.
+Addison
+-
+Wesley.
+4.
+Fowler, M. 
+Patterns of Enterprise Application Architecture.
+Addison
+-
+Wesley.
+t??? 
+?
+?? 
+?
+5.
+Gamma, E., Helm, R., Johnson, R., & Vlissides, J. 
+Design Patte
+rns: Elements of 
+Reusable Object
+-
+Oriented Software.
+Addison
+-
+Wesley.
+6.
+Newman, S. 
+Building Microservices
+(2nd Edition). O'Reilly Media.
+7.
+Richardson, C. 
+Microservices Patterns: With Examples in Java.
+Manning 
+Publications.

@@ -1,0 +1,37 @@
+Examples of AI (Artificial Intelligence)
+The term "Artificial Intelligence" refers to the simulation of human intelligence processes by machines, especially computer systems. It also includes Expert systems, voice recognition, machine vision, and natural language processing (NLP).
+AI programming focuses on three cognitive aspects such as learning, reasoning, and self-correction.
+Learning Processes
+Reasoning Processes
+Self-correction Processes
+Learning Processes
+This part of AI programming is concerned with gathering data and creating rules for transforming it into useful information. The rules, which are also called algorithms, offer computing devices with step-by-step instructions for accomplishing a particular job.
+Reasoning Processes
+This part of AI programming is concerned with selecting the best algorithm to achieve the desired result.
+Self-Correction Processes
+This part of AI programming aims to fine-tune algorithms regularly in order to ensure that they offer the most reliable results possible.
+Artificial Intelligence
+ is an extensive field of computer science that focuses on developing intelligent machines capable of doing activities that would normally require human intelligence. While AI is a multidisciplinary science with numerous methodologies, advances in deep learning and machine learning create a paradigm shift in almost every aspect of technology.
+Examples of AI
+The following are examples of AI-Artificial Intelligence:
+Google Maps and Ride-Hailing Applications
+Face Detection and Recognition
+Text Editors and Autocorrect
+Chatbots
+E-Payments
+Search and Recommendation Algorithms
+Digital Assistant
+Social Media
+Healthcare
+Gaming
+Online Ads-Network
+Banking and Finance
+Smart Home devices
+Security and Surveillance
+Smart Keyboard App
+Smart Speaker
+E-Commerce
+Smart Email Apps
+Music and Media Streaming Service
+Space Exploration
+Let's discuss the above examples in detail.

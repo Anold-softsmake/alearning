@@ -1,0 +1,144 @@
+Artificial Intelligence (AI) Tutorial
+Artificial Intelligence (AI) can be formulated as an emerging branch of computer science concerned with the creation of actual intelligent systems that mimic different human competencies. 
+Offensive uses include voice assistance, self-driving cars, recommendation systems and diagnoses.
+ It encompasses elements of machine learning, data science, robotics and other areas to design systems that can learn, infer and act. 
+That is why it is important to understand properly the meaning of the main concept of AI as well as the possibilities and outcomes to expect in practice.
+What is Artificial Intelligence (AI)?
+Artificial intelligence, as a computer science discipline, works to develop machines that execute duties that require human cognitive abilities. 
+The human-related operations encompass learning combined with reasoning alongside 
+problem-solving
+ and perception and decision-making paths.
+AI merges the words "Artificial", describing human-made components, and "Intelligence", referring to thinking capabilities to generate machines that emulate human thought processes.
+Definition:
+"It is a branch of 
+computer science
+ by which we can create intelligent machines that can behave like a human, think like humans, and be able to make decisions."
+Artificial intelligence is the ability of a computer to learn, reason, and solve problems like a human being.
+Artificial intelligence is remarkable because it allows you to design a computer with preprogrammed algorithms that can operate with your intellect without requiring you to preprogram it to accomplish any tasks.
+Why Artificial Intelligence?
+AI is important because:
+It solves real-world problems in areas like healthcare, marketing, and traffic management.
+It helps you create your virtual assistant, like Cortana, 
+Google Assistant
+, Siri, etc.
+It allows robots to work in conditions that may be either hazardous to human life or are impossible for a human being to access.
+It promotes creativity and creates a number of opportunities for further development of technology and its usage.
+History of AI
+It is very interesting to know that the concept of intelligent machines has existed even in ancient civilizations, myths, and structures like the Egyptian pyramids. Information about 
+symbolic reasoning
+ was researched by philosophers Aristotle and Ramon Llull.
+In the 1800s-1900s, Charles Babbage and Ada Lovelace introduced the concept of utilizing programmable machines. In the period of 1940s, John Von Neumann invented stored-program computers and 
+McCullochs
+& Pitts introduced ideas of neural networks.
+After the Second World War, particularly in the 1950s, Alan Turing came up with the Turing Test. The term 'AI' was first used in 1956 at Dartmouth College, and the first AI system was known as the logic theorist.
+What Comprises of Artificial Intelligence?
+AI is actually not limited to computer science; it includes several domains that mimic human intelligence. Intelligence includes reasoning, learning, problem-solving, perception and language understanding.
+To achieve this, AI leverages on a number of fields, such as:
+Mathematics
+Biology
+Psychology
+Sociology
+Computer Science
+Neuroscience
+Statistics
+These fields work together to develop intelligent systems capable of human-like 
+behaviour
+.
+Types of Artificial Intelligence
+Artificial Intelligence is divided into different types, mostly determined by two key factors: capabilities and functionality.
+AI Type 1: Based on Capabilities
+Weak AI or Narrow AI: 
+This type of AI can be used to solve certain problems and focus on a particular kind of job. It is only effective when it is used in a specific area and does not produce the same results when applied in other areas. It applies to smart products, 
+known as virtual assistants such as Siri, systems engaged in image recognition, and 
+IBM
+'s Watson.
+General AI: 
+General AI, also known as Strong AI, on the other hand, refers to machines capable of achieving any action that a man is capable of accomplishing. It is planning to attain human-like features such as intelligence characteristics like reasoning and learning processes. This is another type of AI that is still under research and has not been developed to its realization.
+Super AI: 
+An advanced artificial intelligence in which every domain is superior to that of humans in terms of their decision-making power, problem-solving skills, learning capabilities, as well as their feelings and emotions. It is the final stage of AI development, and it does not currently exist in the world.
+AI Type 2: Based on Functionality
+Reactive Machines: 
+This type of AI processes the current input data and does not have any previous experience. They follow pre-defined rules. Some of the most widely known examples include IBM's chess machine known as Deep Blue and the Go-playing computer termed Google's AlphaGo.
+Limited Memory:
+ Many of them use the earlier information to establish something for a limited period. Some of the concrete samples include self-driving cars that follow other vehicles, the speed, and the road condition of the environment.
+Theory of Mind: 
+The purpose of this AI is to comprehend the feelings, desires or even gestures of people. As previously stated, it is still part of the theoretical research and has not been fully realized.
+Self-Awareness: 
+The final type of artificial intelligence that remains at the level of theory is even more superior to human intelligence as it would have consciousness and feelings. People would consider this level of AI as a significant level of advancement in technology as well as in knowledge.
+Advantages of AI
+The following are some main advantages of Artificial Intelligence:
+High Accuracy with less error:
+ AI machines or systems have a low incidence of error and are highly accurate because they make their decisions based on experience or knowledge.
+High-Speed:
+ AI systems are able to make decisions quickly and with extreme speed; as a result, they are able to defeat a chess champion in a chess game.
+High reliability:
+ AI systems are incredibly dependable and capable of accurately repeating the same task over and again.
+Beneficial for hazardous environments: AI devices can be useful in dangerous environments where utilizing humans might be harmful, such as defusing a bomb or researching the ocean floor.
+Digital Assistant:
+ AI has a number of applications, for instance, in the current generation of E-commerce websites where AI technology can be used to show products in accordance with consumers' demands.
+Useful as a public utility:
+ Artificial intelligence (AI) has the potential to be highly helpful for public utilities like self-driving cars, which can make our travels safer and less complicated, face recognition for security, natural language processing to speak to people in their native tongue, etc.
+Enhanced Security: 
+AI can indeed be very beneficial in improving security issues because of its ability to scan security threats when they are happening and counteract them to prevent affecting the firm and organization's information and machinery.
+Aid in Research:
+ AI is useful to the research process as it helps researchers analyze large data sets in areas such as astronomy, genomics, and materials science in a timely manner.
+Disadvantages of AI
+There are drawbacks to any technology, including artificial intelligence. The drawbacks of AI are as follows:
+Expensive:
+ Since the AI requires regular maintenance to adjust to modern standards, the hardware and software costs are relatively high.
+Unable to think creatively:
+ However, to this date, robots cannot be said to possess creativity because their operations are limited to specific instructions and programs given to them.
+No feelings or emotions:
+ These robots can be incredible performers, but one thing they don't possess is feelings, which are essential for the formation of friendly relationships with humans. Consequently, there is a probability that such users may be unsafe if not provided adequate care.
+Increased reliance on machines:
+ In today's society, one can observe that people's minds are gradually failing due to their tight connection with devices.
+Lack of Original Creativity:
+ Nevertheless, although the growth rate within humans is amazing or even inspiring, artificial intelligence computers can hardly be compared to human intelligence in terms of creativity and inventiveness.
+Complexity:
+ The creation and sustained operation of artificial intelligence may be quite difficult and require certain skills. For this reason, some persons or organizations may have it hard in being able to employ them as a result.
+Job Concerns: 
+This means that it will not stop at replacing basic professions only; it may also impose on specific skilled professions. It is for this reason that many people in a number of parts are anxious about losing their jobs due to this.
+Challenges of AI
+AI has several benefits, but it also has some challenges that must be solved:
+Doing the Right Thing: 
+AI has to make the right decisions, but sometimes it does not do that. It can be wrong or perform acts that are undesirable or not objectively right. There is a need to improve the decision-making ability of artificial intelligence and increase the 'good choice' factor of artificial intelligence.
+Government and AI: 
+Sometimes governments employ AI surveillance on people. This can threaten the concept of freedom; therefore, we have to ensure that they include the aspects of artificial intelligence in a good manner.
+Bias in AI: 
+Sometimes, AI seems to be partial, for instance, when identifying the facial features of different people. This is rather disadvantageous, speaking of which this affects individuals who are not 'like most people'.
+AI and 
+Social Media
+: 
+Social media feeds are controlled by AI. However, sometimes, it reveals some probably false or even a little cruel information. It is important for 'AI' to show the right things.
+Legal and Regulatory Challenges: 
+With the advancement of AI, there is inadequate legislative and regulatory law to cover most of the issues that surround AI, such as accountability and responsibility.
+AI Tools and Services
+AI tools and services for various applications are developing rapidly, and this development has some roots in 2012, which is related to the appearance of the 
+AlexNet
+ neural network. This made a new epoch of high-performance AI possible by the utilization of GPUs and large data sets. This highlighted the largest change in training neural networks with large quantities of data on multiple 
+GPU
+s at once, which became more efficient.
+Transformers:
+ Google used a large number of standard computers with specialized processors called GPUs to develop AI more effectively. Transformers were made feasible by this discovery. Transformers enable AI to learn from 
+unlabelled
+ data, much like a computer learning to comprehend English.
+Hardware Advancements:
+ Businesses such as Nvidia enhanced these GPUs' internal mechanisms. They improved their ability to handle the mathematical tasks that AI must perform. AI became a million times better thanks to the collaboration of computer data 
+centres
+, smarter AI software, and improved hardware! Nvidia is also collaborating with cloud services providers to ensure that others can apply this mighty AI without a problem.
+GPTs: 
+Earlier, if a company wanted to incorporate AI in its operations, it had to build it from the ground up, which was costly and would take a lot of time. These days, companies like OpenAI, Nvidia, Microsoft, and Google provide pre-trained AI models. The specific models can be fine-tuned on such tasks more efficiently and at a lower expense. This assists businesses in adopting AI at a faster pace and with fewer risks involved in the process.
+AI in the Cloud: 
+It is not always easy to use AI because it requires a lot of data processing in the cloud. Some of the largest cloud computing firms, such as 
+Amazon, Google, Microsoft, IBM and 
+Oracle
+, are helping to ease this problem. There, it offers AI services for the difficult components of the task, such as data preparation, training of models for AI and integrating AI into applications.
+Advanced AI for Everyone: 
+Some organizations develop excellent AI modes and publish them. For instance, OpenAI has models ranging from certain ones that are proficient in negotiating to others proficient in language comprehension, image creation, and even coding. The former is Nvidia, and the latter is not affiliated with a single cloud firm. Other people have come up with different ways of producing special models of AI for various occupations and professions. The English Club has been likened to a vast toolbox that contains a number of strong implements in a range of activities.
+Prerequisite
+Before studying artificial intelligence, you need to be familiar with the following basics to help you grasp the ideas:
+Any computer language, including Python, Java, C, C++, etc. (but proficiency in Python will be helpful)
+Understanding fundamental concepts in mathematics, including probability theory, derivatives, etc.
+Conclusion
+Artificial Intelligence (AI) today has become an integral part of society that affects functionality based on technical support. AI impacts are present in all spheres of human lives, including healthcare, education, transportation, and entertainment. The level of AI integration that exists is the kind of application that has the hope of assisting in addressing major problems as well as enhancing people's performance.
+However, it also raises some important social and ethical issues of job loss, privacy invasion, and responsibility. For enhanced and desirable results, especially in the improvement of human life, AI should be developed morally and ethically. By studying AI, one assumes the ability to live directly in a future that is expected to be characterized by artificial intelligence.

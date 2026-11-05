@@ -1,0 +1,459 @@
+Search Algorithms in Artificial Intelligence
+Search algorithms in AI are the algorithms that are created to aid the searchers in getting the right solution. The search issue contains search space, first start and end point. Now, by performing simulations of scenarios and alternatives, searching algorithms help AI agents find the optimal state for the task.
+Search algorithms in AI
+ are techniques used to help AI systems find solutions to problems by exploring possible alternatives.
+Key points:
+A search problem has an 
+initial state, goal state, and search space
+ containing possible solutions. 
+AI algorithms explore different paths or alternatives to find an 
+appropriate or optimal solution
+. 
+AI agents use search algorithms to 
+plan actions and achieve specific goals
+. 
+The effectiveness of an AI system depends largely on the 
+quality of its search algorithm
+. 
+Search is a fundamental task in 
+Artificial Intelligence
+, especially for problem-solving, decision-making, and planning.
+Logic used in algorithms processes the initial state and tries to get the expected state as the solution. Because of this, AI machines and applications just functioning using search engines and solutions that come from these algorithms can only be as effective as the algorithms.
+AI agents can make the AI interfaces usable without any software literacy. The agents that carry out such activities do so with the aim of reaching an end goal and developing action plans that, in the end, will bring the mission to an end. Completion of the action is gained after the steps of these different actions. The 
+AI agents
+ find the best way through the process by evaluating all the alternatives that are present. Search systems are a common task in 
+artificial intelligence
+ by which you are going to find the optimum solution for the AI agents.
+Problem-solving Agents
+In Artificial Intelligence, Search techniques are universal problem-solving methods. Rational agents or Problem-solving agents in AI mostly use these search strategies or algorithms to solve a specific problem and provide the best result. Problem-solving agents are the goal-based agents and use atomic representation. In this topic, we will learn various problem-solving search algorithms.
+Search techniques in Artificial Intelligence
+ are general methods used to solve problems and find suitable solutions.
+Key points:
+AI agents use 
+search strategies and algorithms
+ to solve specific problems. 
+Rational agents
+ choose actions that help achieve the desired goal. 
+Problem-solving agents
+ are 
+goal-based agents
+ that search for a sequence of actions leading to a solution. 
+These agents commonly use 
+atomic representation
+, where a state is represented as a single unit. 
+AI search techniques include different algorithms for exploring possible solutions and selecting an appropriate path.
+Properties of Search Algorithms
+Following are the four essential properties of search algorithms to compare the efficiency of these algorithms:
+Completeness:
+ A search algorithm is said to be complete if it guarantees to return a solution if at least any solution exists for any random input.
+Optimality:
+ If a solution found for an algorithm is guaranteed to be the best solution (lowest path cost) among all other solutions, then such a solution is said to be an optimal solution.
+Time Complexity:
+ Time complexity is a measure of time for an algorithm to complete its task.
+Space Complexity:
+ It is the maximum storage space required at any point during the search, as the complexity of the problem.
+Importance of Search Algorithms in Artificial Intelligence
+Here are some important factors of the role of search algorithms used by AI as follows.
+1. Solving problems:
+"Workflow" logical search methods like describing the issue, getting the necessary steps together and specifying an area to search help AI search algorithms get better at solving problems. Take, for instance, the development of AI search algorithms that support applications like Google Maps by finding the fastest way or shortest route between given destinations. These programs basically search various options to find the best solution possible.
+2. Search programming:
+Many AI functions can be designed as search oscillations, which thus specify what to look for in formulating the solution to the given problem.
+3. Goal-based agents:
+Instead, the goal-directed and high-performance systems use a wide range of search algorithms to improve the efficiency of AI. Though they are not robots, these agents look for the ideal route for action dispersion so as to avoid the most impacting steps that can be used to solve a problem. It is their main aims to come up with an optimal solution which takes into account all possible factors.
+4. Support production systems:
+AI Algorithms in search engines for systems manufacturing help them run faster. These programmable systems assist AI applications with applying rules and methods, thus making an effective implementation possible. Production systems involve learning of artificial intelligence systems and their search for canned rules that lead to the wanted action.
+5. Neural network systems:
+Beyond this, employing neural network algorithms is also of importance to neural network systems. The systems are composed of these structures: a hidden layer, an input layer, an output layer, and interconnected nodes. One of the most important functions offered by neural networks is to address the challenges of AI within any given scenario. AI is somehow able to navigate the search space to find the connection weights that will be required in the mapping of inputs to outputs. This is made better by search algorithms in AI.
+Search Algorithm Terminologies
+Search:
+ Searching is a step-by-step procedure to solve a search problem in a given search space. A search problem can have three main factors:
+Search Space:
+ Search space represents a set of possible solutions that a system may have.
+Start State:
+ It is a state from where the agent begins the search.
+Goal test:
+ It is a function that observes the current state and returns whether the goal state is achieved or not.
+Search Tree:
+ A tree representation of a search problem is called a Search tree. The root of the search tree is the root node, which corresponds to the initial state.
+Actions:
+ It describes all the available actions to the agent.
+Transition Model:
+ A description of what each action does can be represented as a transition model.
+Path Cost:
+ It is a function that assigns a numeric cost to each path.
+Solution:
+ It is an action sequence that leads from the start node to the goal node.
+Optimal Solution: 
+If a solution has the lowest cost among all solutions.
+Types of Search Algorithms
+Based on the search problems we can classify the search algorithms into uninformed (Blind search) search and informed search (Heuristic search) algorithms.
+1. Uninformed/Blind Search
+The uninformed search does not contain any domain knowledge, such as closeness or the location of the goal. It operates in a brute-force way as it only includes information about how to traverse the tree and how to identify leaf and goal nodes. Uninformed search applies a way in which a search tree is searched without any information about the search space, like initial state operators and tests for the goal, so it is also called blind search. It examines each node of the tree until it achieves the goal node.
+It can be divided into six main types:
+1.1. Breadth-First Search
+Breadth-First Search (BFS)
+ explores the search tree level by level. It first checks all nodes at the current level before moving to the next level. BFS is useful when the solution is expected to be close to the starting point.
+1.2. Uniform Cost Search
+Uniform Cost Search (UCS)
+ selects the path with the lowest total cost. It does not simply choose the path with the fewest steps. UCS is useful when different paths have different costs and we want to find a minimum-cost solution.
+1.3. Depth-First Search
+Depth-First Search (DFS)
+ explores one path as deeply as possible before going back and trying another path. It uses less memory than BFS in many cases. However, it may spend a long time exploring a path that does not lead to the goal.
+1.4. Depth-Limited Search
+Depth-Limited Search (DLS)
+ is a modified version of DFS. It searches only up to a specified depth limit. This prevents the search from going too deep when the search tree is very large or contains infinite paths.
+1.5. Iterative Deepening Depth-First Search
+Iterative Deepening Depth-First Search (IDDFS) performs a depth-limited search several times. It starts with a small depth limit and increases the limit after each search. This combines some of the advantages of BFS and DFS.
+1.6. Bidirectional Search
+Bidirectional Search
+ searches from both directions. One search starts from the initial state, while the other starts from the goal state. The searches continue until they meet, which can reduce the amount of searching required.
+2. Informed Search
+Informed search algorithms use domain knowledge. In an informed search, problem information is available, which can guide the search. Informed search strategies can find a solution more efficiently than an uninformed search strategy. An informed search is also called a Heuristic search.
+A heuristic is a way that might not always be guaranteed for the best solutions but guaranteed to find a good solution in a reasonable time.
+Informed search can solve many complex problems that could not be solved in another way.
+An example of informed search algorithms is a 
+travelling salesman problem
+.
+Greedy Search
+A* Search
+Uninformed Search Algorithms
+An uninformed search is one in which the search systems do not use any clues about the suitable area, but it depends on the random nature of the Search. Nevertheless, they begin the exploration of search space (all possible solutions) synchronously. The search operation begins from the initial state and provides all possible next steps arrangements until the goal is reached.
+Uninformed search
+ is a search technique in AI that solves problems 
+without using additional information or clues
+ about where the solution is likely to be.
+Key points:
+It starts from the 
+initial state
+ and explores possible states until it finds the goal. 
+It does not have knowledge about which path is more promising. 
+It systematically explores the 
+search space
+ of possible solutions. 
+These methods are generally 
+simple
+, but they can be inefficient for large or complex problems. 
+Common uninformed search algorithms include 
+Breadth-First Search (BFS), Depth-First Search (DFS), Uniform-Cost Search, and Depth-Limited Search
+.
+These are mostly the simplest search strategies, but they may not be suitable for complex paths that involve irrelevant or even irrelevant components. These algorithms are necessary for solving basic tasks or providing simple processing before passing on the data to more advanced search algorithms that incorporate prioritized information.
+Following are the various types of uninformed search algorithms:
+1. Breadth-first Search:
+Breadth-first Search
+ is the most common search strategy for traversing a tree or graph. This algorithm searches breadthwise in a tree or graph, so it is called breadth-first Search.
+The BFS algorithm starts searching from the root node of the tree and expands all successor nodes at the current level before moving to nodes of the next level.
+The breadth-first search algorithm is an example of a general-graph search algorithm.
+Breadth-first Search was implemented using a 
+FIFO
+ queue data structure.
+Advantages
+BFS will provide a solution if any solution exists.
+If there is more than one solution for a given problem, then BFS will provide the minimal solution that requires the least number of steps.
+It also helps find the shortest path in the goal state since it needs all nodes at the same hierarchical level before moving to nodes at lower levels.
+It is also very easy to comprehend. With this, we can assign a higher rank among path types.
+Disadvantages
+It requires lots of memory since each level of the tree must be saved in memory to expand to the next level.
+BFS needs lots of time if the solution is far away from the root node.
+It can be a very inefficient approach for searching through deeply layered spaces, as it needs to thoroughly explore all nodes at each level before moving on to the next.
+Example
+In the tree structure below, we show the traversing of the tree using the BFS algorithm from root node S to goal node K. The BFS search algorithm traverses in layers, so it will follow the path which is shown by the dotted arrow, and the traversed path will be:
+S---> A--->B---->C--->D---->G--->H--->E---->F---->I---->K
+Time Complexity:
+ The 
+time Complexity
+ of the BFS algorithm can be obtained by the number of nodes traversed in BFS until the shallowest Node. Where the d= depth of shallowest solution and b is a node at every state.
+T (b) = 1+b
+2
++b
+3
++.......+ 
+b
+d
+= O (
+b
+d
+)
+Space Complexity:
+ The space complexity of the BFS algorithm is determined by the memory size of the frontier, which is 
+O(
+b
+d
+).
+Completeness:
+ BFS is complete, which means if the shallowest goal node is at some finite depth, then BFS will find a solution.
+Optimality:
+ BFS is optimal if path cost is a non-decreasing function of the depth of the Node.
+2. Depth-first Search
+Depth-first Search
+ is a recursive algorithm for traversing a tree or 
+graph data structure
+.
+It is called the depth-first Search because it starts from the root node and follows each path to its greatest depth node before moving to the next path.
+DFS uses a stack data structure for its implementation.
+The process of the DFS algorithm is similar to that of the BFS algorithm.
+Note: Backtracking is an algorithm technique that uses recursion to find all possible solutions.
+Advantages
+DFS requires very little memory as it only needs to store a stack of the nodes on the path from the root node to the current Node.
+It takes less time to reach the goal node than the BFS algorithm (if it traverses in the right path).
+With the help of this, we can store the route that is being tracked in memory to save time, as it only needs to keep one at a particular time.
+Disadvantage
+There is the possibility that many states keep re-occurring, and there is no guarantee of finding a solution.
+DFS algorithm goes for deep-down searching, and sometimes, it may go to the infinite loop.
+The depth-first Search (DFS) algorithm does not always find the shortest path to a solution.
+Example
+In the below search tree, we have shown the flow of the depth-first Search, and it will follow the order:
+Root node--->Left node ----> Right Node.
+It will start searching from root node S and traverse A, then B, then D, and E; after traversing E, it will backtrack the tree as E has no other successor, and the goal node is still not found. After backtracking, it will traverse node C and then G, and here, it will terminate as it found the goal node.
+Completeness:
+ The DFS search algorithm is complete within finite state space as it will expand every Node within a limited search tree.
+Time Complexity:
+ The time complexity of DFS will be equivalent to the Node traversed by the algorithm. It is given by:
+T(
+n)= 1+ n
+2
++ n
+3
+ +.........+ n
+m
+=O(n
+m
+)
+Where m= maximum depth of any node, and this can be much larger than d (Shallowest solution depth)
+Space Complexity:
+ The DFS algorithm needs to store only a single path from the root node. Hence, the space complexity of DFS is equivalent to the size of the fringe set, which is 
+O(
+bm
+)
+.
+Optimal:
+ The DFS search algorithm is non-optimal, as it may generate a large number of steps or high Cost to reach the goal node.
+3. Depth-Limited Search Algorithm
+A 
+Depth-limited Search Algorithm
+ is similar to a depth-first Search with a predetermined limit. 
+Depth-limited Search
+ can solve the drawback of the infinite path in the Depth-first search. In this algorithm, the Node at the depth limit will be treated as having no successor nodes further.
+Depth-limited Search can be terminated with two Conditions of failure:
+Standard failure value:
+ It indicates that the problem does not have any solution.
+Cutoff failure 
+value
+:
+It
+ defines no solution for the problem within a given depth limit.
+Advantages
+Depth-limited Search will restrict the search depth of the tree. Thus, the algorithm will require fewer memory resources than the straight BFS (Breadth-First Search) and IDDFS (Iterative Deepening Depth-First Search). After all, this implies the automatic selection of more segments of the search space and the consequent reason for the consumption of the resources. Due to the depth restriction, DLS omits the predicament of holding the entire search tree within memory, which contemplatively leaves room for a more memory-efficient vice for solving a particular kind of problem.
+When there is a leaf node depth that is as large as the highest level allowed, do not describe its children, and then discard it from the 
+stack
+.
+Depth-limited Search does not explain the infinite loops that can arise in classical when there are cycles in a graph of cities.
+Disadvantages
+Depth-limited Search also has the disadvantage of incompleteness.
+It may not be optimal if the problem has more than one solution.
+The effectiveness of the Depth-Limited Search (DLS) algorithm is largely dependent on the depth limit specified. If the depth limit is set too low, the algorithm may fail to find the solution altogether.
+Example
+Completeness:
+ The DLS search algorithm is complete if the solution is above the depth limit.
+Time Complexity:
+ The time complexity of the DLS algorithm is 
+O(
+b
+ℓ
+)
+, where b is the branching factor of the search tree, and l is the depth limit.
+Space Complexity:
+ The space complexity of the DLS algorithm is 
+O
+(
+b×ℓ)
+, where 
+b
+ is the branching factor of the search tree, and 
+l
+ is the depth limit.
+Optimal:
+ Depth-limited Search can be viewed as a special case of DFS, and it is also not optimal even if ℓ>d.
+4. Uniform-cost Search Algorithm
+Uniform cost search
+ is a searching algorithm used for traversing a weighted tree or graph. This algorithm is used when a different cost is available for each edge. The primary goal of the uniform-cost Search is to find a path to the goal node that has the lowest cumulative Cost. Uniform-cost Search expands nodes according to their path costs form the root node.
+It can be used to solve any graph/tree where the optimal Cost is in demand. The priority queue implements a uniform-cost search algorithm. It gives maximum priority to the lowest cumulative Cost. A uniform cost search is equivalent to the BFS algorithm if the path cost of all edges is the same.
+Advantages
+A uniform cost search is optimal because, at every state, the path with the least cost is chosen.
+It is efficient when the edge weights are small, as it explores the paths in an order that ensures that the shortest path is found early.
+It's a fundamental search method that is not overly complex that makes it accessible for many users.
+It is a type of comprehensive algorithm that will find a solution if one exists. This means the algorithm is complete and ensures that it can locate a solution whenever a viable one is available. The algorithm covers all the necessary steps to arrive at a resolution.
+Disadvantages
+It does not care about the number of steps involved in searching and is only concerned about path cost. Due to this, this algorithm may be stuck in an infinite loop.
+When in operation, UCS shall know all the edge weights to start the Search.
+This Search holds constant the list of the nodes that it has already discovered in a priority queue. Such is a much weightier thing if you have a large graph. The algorithm allocates the memory by storing the path sequence of prioritizes, which can be memory-intensive as the graph gets larger.
+With the help of a Uniform cost search, we can end up with the problem if the graph has edge cycles with a smaller cost than that of the shortest path.
+The Uniform cost search will keep deploying a priority queue so that the paths explored can be stored in any case as the graph size can be even bigger, which can eventually result in too much memory being used.
+Example
+Completeness:
+Uniform-cost Search is complete; if there is a solution, UCS will find it.
+Time Complexity:
+Let C* 
+be the Cost of the optimal solution
+, and 
+ε
+ is each step to get closer to the goal node. Then the number of steps is = C*/ε+1. Here, we have taken +1, as we start from state 0 and end with C*/ε.
+Hence, the worst-case time complexity of the Uniform-cost search is
+ (b
+1 + [C*/ε]
+)/
+.
+Space Complexity:
+The same logic is for space complexity, so the worst-case space complexity of Uniform-cost search is 
+O(
+b
+1 + [C*/ε]
+)
+.
+Optimal:
+Uniform-cost Search is always optimal as it only selects a path with the lowest path cost.
+5. Iterative Deepening Depth-first Search (IDDFS)
+The 
+Iterative deepening depth-first Search
+ is a combination of DFS and BFS algorithms. This search algorithm finds out the best depth limit and does it by gradually increasing the limit until a goal is found.
+This algorithm performs a depth-first Search up to a certain "depth limit", and it keeps increasing the depth limit after each iteration until the goal node is found.
+This Search algorithm combines the benefits of Breadth-first search's fast Search and depth-first Search's memory efficiency.
+The iterative search algorithm is useful for uninformed Search when the search space is large, and the depth of the goal node is unknown.
+Steps for Iterative deepening depth-first search algorithm
+Set the depth limit to 0.
+Perform DFS to the depth limit.
+If the goal state is found, return it.
+If the goal state is not found and the maximum depth has not been reached, increment the depth limit and repeat steps 2-4.
+If the goal state is not found and the maximum depth has been reached, terminate the search and return failure.
+Advantages
+It combines the benefits of BFS and DFS search algorithms in terms of fast search and memory efficiency.
+It is a type of straightforward which is used to put into practice since it builds upon the conventional depth-first search algorithm.
+It is a type of search algorithm that provides guarantees to find the optimal solution as long as the Cost of each edge in the search space is the same.
+It is a type of complete algorithm, and the meaning of this is it will always find a solution if one exists.
+The Iterative Deepening Depth-First Search (IDDFS) algorithm uses less memory compared to Breadth-First Search (BFS) because it only stores the current path in memory rather than the entire search tree.
+Disadvantages
+The main drawback of IDDFS is that it repeats all the work of the previous phase.
+Example:
+The following tree structure shows the iterative deepening depth-first Search. The IDDFS algorithm performs various iterations until it cannot find the goal node. The iteration performed by the algorithm is given as:
+1'st Iteration-----> A
+2'nd Iteration----> A, B, C
+3'rd Iteration------>A, B, D, E, C, F, G
+4'th
+ Iteration------>A, B, D, H, I, E, C, F, K, G
+In the fourth iteration, the algorithm will find the goal node.
+Completeness:
+This algorithm is complete if the branching factor is finite.
+Time Complexity:
+Let's suppose b is the branching factor, depth is d, and then the worst-case time complexity is 
+O(
+b
+d
+)
+.
+Space Complexity:
+The space complexity of IDDFS will be 
+O(
+bd
+)
+.
+Optimal:
+IDDFS algorithm is optimal if path cost is a non-decreasing function of the depth of the Node.
+6. Bidirectional Search Algorithm
+A 
+Bidirectional Search
+ runs two simultaneous searches, one form the initial state called forward-search and the other from the goal node called backward-search, to find the goal node. Bidirectional Search replaces one single search graph with two small 
+subgraphs
+ in which one starts the Search from an initial vertex and the other starts from a goal vertex. The Search stops when these two graphs intersect each other.
+Bidirectional Search can use search techniques such as BFS, DFS, DLS, etc.
+Advantages
+Bidirectional Search
+ is fast.
+Bidirectional Search requires less memory.
+The graph can be extremely helpful when it is very large, and there is no way to make it smaller. In such cases, using this tool becomes particularly useful.
+The Cost of expanding nodes can be high in certain cases. In such scenarios, using this approach can help reduce the number of nodes that need to be expanded.
+Disadvantages
+Implementation of the bidirectional search tree is difficult.
+In bidirectional Search, one should know the goal state in advance.
+Finding an efficient way to check if a match exists between search trees can be tricky, which can increase the time it takes to complete the task.
+Example
+In the below search tree, the bidirectional search algorithm is applied. This algorithm divides one graph/tree into two sub-graphs. It starts traversing from node 1 in the forward direction and starts from goal node 16 in the backward direction. The algorithm terminates at node 9, where two searches meet.
+Completeness:
+ Bidirectional Search is complete if we use BFS in both searches.
+Time Complexity:
+ The time complexity of bidirectional Search using BFS is 
+O(
+b
+d
+)
+.
+Space Complexity:
+ The space complexity of bidirectional Search is 
+O(
+b
+d
+)
+.
+Optimal:
+ Bidirectional Search is Optimal.
+Applications of Uninformed Search Algorithms
+Blind search algorithms, also referred to as uninformed search algorithms, have quite a few applications in various domains. Even though they look and smell simple and lack typical domain-specific heuristics, these algorithms are remarkably powerful for solving 
+fundamental problems in 
+Artificial Intelligence
+, network routing, puzzle solving, and web crawling.
+Artificial Intelligence
+Pathfinding in Games
+: This means that characters or agents must traverse through virtual environments in games. For instance, in the type of games in which you must solve mazes, algorithms like Breadth First Search (BFS) and Depth First Search (DFS) are meant for finding paths between different points. Such methods are simple but effective in deterministic environments where the map is completely known.
+Robotics
+: For uninformed Search in 
+robotics
+, autonomous systems can use it to explore an environment. For example, 
+Uniform Cost Search
+ (UCS) is a strategy that a robot performing consecutive moves through a warehouse grid might use to find the path of the shortest distance to a target location.
+Planning
+: Planning with AI is a task that involves finding a sequence of actions to realize a desired goal. With tasks such as scheduling and logistics and making simple decisions in constrained environments, the Depth First Search (DFS) and Iterative Deepening Depth First Search (IDDFS) are commonly used.
+Network Routing
+Shortest Path Problems
+: Uniform-Cost Search (UCS) is the perfect algorithm for finding the cheapest path if we have two network nodes. It is applied to the routing of data packets in 
+computer networks
+, to find optimal transportation routes, etc., and to manage power grids.
+Connection Troubleshooting
+: It helps in tracing a path to debug a network to trace all nodes reachable from a fixed source using BFS.
+Puzzle Solving
+Sliding Puzzles
+: Sliding tile puzzles like the 8 puzzle or 15 puzzles are puzzles where tiles need to be arranged into some specific order and solved by finding a sequence of moves to do it. BFS guarantees that the solution will be optimal, and DFS can quickly find any solution.
+N-Queens Problem
+: The 
+N-Queens Problem
+ is to place exactly N queens on an N x N chessboard with the constraint that no two queens can attack each other. Systematic exploration of board configurations is done with Depth Limited Search and IDDFS.
+Sudoku Solving
+: While an uninformed search is not the most efficient approach for solving a 
+Sudoku
+ problem, it can help us complete enumerations of possibilities and check for solutions.
+Web Crawling
+Efficient Traversal
+: In particular, BFS is used when web crawling pages to make sure all reachable pages from a starting 
+URL
+ are explored. This method is particularly useful when used to index/search on 
+search engines
+ or during exhaustive Search through connected web pages.
+Depth Management
+: To control the level of exploration in large web graphs, Depth Limited Search is used to limit the number of links followed so systems are not overloaded.
+Strengths of Uninformed Search Algorithms
+Universality
+: All of it is given in terms of uninformed search algorithms that can be applied to any graph or tree problem. The obvious general-purpose nature of them makes them suitable for general-purpose problem-solving without requiring such problem-specific heuristics.
+Simplicity
+: They are easy to formulate and even easier to implement. Larger popular examples like BFS and DFS have very little conceptual content that allows you to understand them without much work, making them ideal as both building blocks for other, more sophisticated techniques as well as educational tools.
+Guaranteed Solution (When Applicable)
+: BFS is an algorithm that is complete; it guarantees that a solution is found if one exists, and, in the case of the Search, space is finite. A major advantage of this reliability is in the case where a solution must be ensured, which is not always true.
+Optimality (In Specific Cases)
+: Unlike BFS, to find the shortest path to the goal in 
+unweighted
+ graphs, BFS guarantees to find the shortest path. In cases where the path cost is uniform or irrelevant, this property provides a benefit.
+Weaknesses of Uninformed Search Algorithms
+High Resource Consumption (Time and Space)
+: In the worst case, such uninformed search algorithms often explore vast regions of the search space and, therefore, have exponential time complexity. A simple example is that BFS needs to maintain a queue of all frontier nodes, and this will overspend memory in large search spaces.
+Inefficiency in Large or Complex Search Spaces
+: Algorithms such as DFS are likely to fall into infinite loops in environments with many nodes or having deep solutions. This is because they use no heuristic information for steering, and so they have biased behavior in exploring irrelevant paths.
+Lack of Domain Knowledge Utilisation
+: Without taking such problem-specific insights into account, uninformed algorithms tend to result in an order of magnitude increase in computational effort. The algorithms, such as A*, use heuristics to guide the Search more efficiently, while in contrast to them, the algorithm is not informed.
+Not Always Optimal
+: For example, DFS does not ensure a shortest path, as it is concerned with depth before minimizing Cost. For weighted machines, BFS is not optimal either.

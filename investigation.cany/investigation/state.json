@@ -1,0 +1,39 @@
+{
+  "revision": 20,
+  "brief": {
+    "question": "Match the current start page to the supplied original portal login screenshots at 1440, 768, and 390 px, and resolve the reported RSC file-loading errors.",
+    "purpose": "Apply the latest user-requested visual corrections and verify with rebuild_check.",
+    "targets": [
+      "app/",
+      "capture/",
+      "checks/round-1/"
+    ],
+    "constraints": [
+      "The latest instruction explicitly requests original login likeness, superseding the earlier dashboard-only start page preference.",
+      "Preserve the existing learning platform and curriculum on its own route.",
+      "Do not claim real university authentication or shared data without backend credentials."
+    ],
+    "done_when": "The login start page matches the supplied layout, typography, imagery and controls; build succeeds; rebuild_check is rerun and remaining actionable findings resolved."
+  },
+  "plan": [
+    {
+      "title": "Compare the original and current screenshots at each width",
+      "status": "done",
+      "why": "The restored portal matches the three supplied layouts; prior comparison reached96% similarity."
+    },
+    {
+      "title": "Restore the portal start page and fix navigation requests",
+      "status": "done",
+      "why": "Portal and dashboard routes implemented; disabled link prefetch; fixed three return links after moving dashboard."
+    },
+    {
+      "title": "Build, verify controls and rerun rebuild_check",
+      "status": "doing",
+      "why": "Export now includes dashboard. Building final return-link changes, then running portal and workflow checks and final comparison."
+    }
+  ],
+  "hypotheses": [],
+  "findings": [],
+  "handoff": "Active resume 2026-11-05T14:33Z. Latest task supersedes earlier dashboard-home preference: match supplied original KyU maintenance login at root and preserve learning pages at /dashboard/. Root page now PortalLogin, original local logo/photo, responsive CSS, native cookie/recovery dialogs, maintenance feedback; no credentials submitted. All next/link imports go through navigation-link.tsx prefetch=false. dashboard source and exported route exist. First resumed production build exited0 (build7AkUNCLMRBZ4K8Do82RLj),15static pages,347.7s incl166.9s tracing on Windows/OneDrive. During it, audit fixed management.tsx three stale root hrefs (Student dashboard, Back to learning, Explore sample workspace) to /dashboard/; final second npm.cmd run build is running unified exec session44870 and must finish before tests. This second build incorporates those three source-link changes. No config change warranted; keep cleanDistDir Windows workaround and app-scoped tracing root. Expanded existing checks/portal-verify.mjs to preflight exported dashboard, verify recovery maintenance feedback/Escape, guest actual route, and account/admin return links plus1440/768/390layouts and zero errors/failed requests. Added cleanup stage logs. Existing portal-results.json still FAILURE from prior run; must rerun after final build and replace with true results. verify.mjs and semester-workflow.cjs already target dashboard route; prior7units/57topics/53documents/33workflow passes are earlier build. Run portal then broader workflow tests sequentially (concurrent browsers previously caused timeouts); Edge cleanup can take minutes, allow natural exit. Then rerun Craft rebuild_check(final earlier14:23compare96%6/6 but current craft metadata stale59%). Update resume-summary.json, all checklist/plan done and final handoff with accurate final results. SETUP.md updated portal/dashboard route description and test command. Production Supabase accounts/shareddata still require owner project and adapters; do not imply university integration. Do not call project_build_finish (requires user says happy). No app code edits outstanding.",
+  "updated": "2026-11-05T14:34:22Z"
+}

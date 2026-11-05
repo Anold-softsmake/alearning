@@ -1,0 +1,231 @@
+{
+  "checkedAt": "2026-11-05T14:40:06.574Z",
+  "buildId": "UHPNNvBK6CUbinKvXgZJ6",
+  "layouts": [
+    {
+      "width": 1440,
+      "pageHeight": 971,
+      "card": {
+        "x": 444,
+        "y": 0,
+        "width": 552,
+        "height": 939.328125,
+        "fontSize": "15px",
+        "padding": "32px",
+        "color": "rgb(29, 33, 37)",
+        "background": "rgb(255, 255, 255)"
+      },
+      "logo": {
+        "x": 491,
+        "y": 32,
+        "width": 458,
+        "height": 468.453125,
+        "fontSize": "15px",
+        "padding": "0px",
+        "color": "rgb(29, 33, 37)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      "section": {
+        "x": 15,
+        "y": 0,
+        "width": 1410,
+        "height": 971.328125,
+        "fontSize": "15px",
+        "padding": "0px 15px",
+        "color": "rgb(29, 33, 37)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      "notice": {
+        "x": 491,
+        "y": 516.453125,
+        "width": 458,
+        "height": 69,
+        "fontSize": "15px",
+        "padding": "12px 20px",
+        "color": "rgb(105, 25, 17)",
+        "background": "rgb(244, 214, 210)"
+      },
+      "username": {
+        "x": 491,
+        "y": 601.453125,
+        "width": 458,
+        "height": 46.125,
+        "fontSize": "18.75px",
+        "padding": "8px 16px",
+        "color": "rgb(73, 80, 87)",
+        "background": "rgb(255, 255, 255)"
+      },
+      "login": {
+        "x": 491,
+        "y": 725.703125,
+        "width": 458,
+        "height": 46.125,
+        "fontSize": "18.75px",
+        "padding": "8px 16px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(30, 150, 79)"
+      },
+      "guest": {
+        "x": 491,
+        "y": 826.328125,
+        "width": 458,
+        "height": 36.5,
+        "fontSize": "15px",
+        "padding": "6px 12px",
+        "color": "rgb(29, 33, 37)",
+        "background": "rgb(206, 212, 218)"
+      }
+    },
+    {
+      "width": 768,
+      "pageHeight": 900,
+      "card": {
+        "x": 242.40625,
+        "y": 102.296875,
+        "width": 283.1875,
+        "height": 679.390625,
+        "fontSize": "14.8056px",
+        "padding": "32px",
+        "color": "rgb(29, 33, 37)",
+        "background": "rgb(255, 255, 255)"
+      },
+      "logo": {
+        "x": 289.40625,
+        "y": 134.296875,
+        "width": 189.1875,
+        "height": 193.5,
+        "fontSize": "14.8056px",
+        "padding": "0px",
+        "color": "rgb(29, 33, 37)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      "section": {
+        "x": 15,
+        "y": 16,
+        "width": 738,
+        "height": 884,
+        "fontSize": "14.8056px",
+        "padding": "0px 15px",
+        "color": "rgb(29, 33, 37)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      "notice": {
+        "x": 289.40625,
+        "y": 343.796875,
+        "width": 189.1875,
+        "height": 90.65625,
+        "fontSize": "14.8056px",
+        "padding": "12px 20px",
+        "color": "rgb(105, 25, 17)",
+        "background": "rgb(244, 214, 210)"
+      },
+      "username": {
+        "x": 289.40625,
+        "y": 450.453125,
+        "width": 189.1875,
+        "height": 44,
+        "fontSize": "17.3406px",
+        "padding": "8px 16px",
+        "color": "rgb(73, 80, 87)",
+        "background": "rgb(255, 255, 255)"
+      },
+      "login": {
+        "x": 289.40625,
+        "y": 570.453125,
+        "width": 189.1875,
+        "height": 44.015625,
+        "fontSize": "17.3406px",
+        "padding": "8px 16px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(30, 150, 79)"
+      },
+      "guest": {
+        "x": 289.40625,
+        "y": 668.6875,
+        "width": 189.1875,
+        "height": 36.5,
+        "fontSize": "15px",
+        "padding": "6px 12px",
+        "color": "rgb(29, 33, 37)",
+        "background": "rgb(206, 212, 218)"
+      }
+    },
+    {
+      "width": 390,
+      "pageHeight": 900,
+      "card": {
+        "x": 15,
+        "y": 16,
+        "width": 360,
+        "height": 751.359375,
+        "fontSize": "14.6355px",
+        "padding": "32px",
+        "color": "rgb(29, 33, 37)",
+        "background": "rgb(255, 255, 255)"
+      },
+      "logo": {
+        "x": 62,
+        "y": 48,
+        "width": 266,
+        "height": 272.078125,
+        "fontSize": "14.6355px",
+        "padding": "0px",
+        "color": "rgb(29, 33, 37)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      "section": {
+        "x": 0,
+        "y": 16,
+        "width": 390,
+        "height": 783.359375,
+        "fontSize": "14.6355px",
+        "padding": "0px 15px",
+        "color": "rgb(29, 33, 37)",
+        "background": "rgba(0, 0, 0, 0)"
+      },
+      "notice": {
+        "x": 62,
+        "y": 336.078125,
+        "width": 266,
+        "height": 89.859375,
+        "fontSize": "14.6355px",
+        "padding": "12px 20px",
+        "color": "rgb(105, 25, 17)",
+        "background": "rgb(244, 214, 210)"
+      },
+      "username": {
+        "x": 62,
+        "y": 441.9375,
+        "width": 266,
+        "height": 42.15625,
+        "fontSize": "16.1074px",
+        "padding": "8px 16px",
+        "color": "rgb(73, 80, 87)",
+        "background": "rgb(255, 255, 255)"
+      },
+      "login": {
+        "x": 62,
+        "y": 558.25,
+        "width": 266,
+        "height": 42.15625,
+        "fontSize": "16.1074px",
+        "padding": "8px 16px",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(30, 150, 79)"
+      },
+      "guest": {
+        "x": 62,
+        "y": 654.359375,
+        "width": 266,
+        "height": 36.5,
+        "fontSize": "15px",
+        "padding": "6px 12px",
+        "color": "rgb(29, 33, 37)",
+        "background": "rgb(206, 212, 218)"
+      }
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "passed": true
+}

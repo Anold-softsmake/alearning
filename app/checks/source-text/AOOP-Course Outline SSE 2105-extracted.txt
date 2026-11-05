@@ -1,0 +1,474 @@
+Kirinyaga University
+Mobile: +254 0709 742000, 
+P.O.Box: 143
+-
+10300 Kerugoya.
+Email: info@kyu.ac.ke
+Web: www.kyu.ac.ke
+KyU is ISO 9001:2015 Certified
+Kirinyaga University is
+Zero Tolerant to Corruption
+.
+Welcome Message
+Welcome to the course
+SSE 2105
+: 
+Advanced Object Oriented Programming
+that 
+enable
+s
+students 
+use object
+-
+oriented design methods and programming techniques to produce 
+solutions for a wide range of problem specifications.
+Learning Outcomes
+1.
+To learn the basic syntax and semantics of the Java language
+.
+2.
+To understand the concepts of classes and objects.
+3.
+Design, code, and implement, simple to intermediate level standalone OOP 
+applications
+Teaching Methodology
+
+Blended learning 
+-
+combines both online and physical classroom learning
+
+Case analysis
+
+Group discussions
+Instructional Materials
+
+White board
+
+LCD Projector
+
+Smarboards
+
+Masomo Portal
+Course Evaluation
+
+CAT 1 = 15 %
+
+CAT 2 = 15 %
+
+Assignments = 10 %
+
+Examination = 70%
+
+Pass mark = 40 %
+S
+C
+H
+OO
+L
+:
+S
+c
+h
+oo
+l
+of
+Pure and Applied Sciences
+DEPARTMENT:
+Pure and Applied Sciences
+P
+R
+O
+G
+R
+A
+MM
+E
+:
+B
+a
+c
+h
+e
+l
+o
+r
+of
+Science in 
+Software Engineering
+YEAR: 
+3
+SEMESTER: 
+1
+UNIT
+C
+O
+D
+E
+:
+S
+SE 2
+1
+05
+UNIT
+T
+I
+T
+L
+E
+:
+Advanced 
+Object
+-
+Oriented
+Programming
+L
+E
+C
+T
+U
+R
+E
+H
+O
+U
+R
+S
+:
+4
+5
+PRE
+-
+REQUISITES:
+None
+L
+E
+C
+T
+U
+R
+E
+R
+Ô
+S
+N
+A
+M
+E
+:
+Mr
+.
+David Gichohi Maina
+LECTURERÔS CONTACTS
+;
+TEL:
+0708398130
+EMAIL
+:
+dmaina@kyu.ac.ke
+Kirinyaga University
+Mobile: +254 0709 742000, 
+P.O.Box: 143
+-
+10300 Kerugoya.
+Email: info@kyu.ac.ke
+Web: www.kyu.ac.ke
+KyU is ISO 9001:2015 Certified
+Kirinyaga University is
+Zero Tolerant to Corruption
+.
+COURSE OUTLINE
+S/N.
+Week
+Sub
+-
+Topic
+Remarks
+1.
+Introduction 
+to object
+-
+oriented 
+programming 
+paradigm
+
+Definitions
+-
+encapsulation, abstraction, classes, 
+objects, polymorphism, inheritance, data hiding. 
+
+Examples of object
+-
+oriented programming 
+languages. 
+
+Merits and demerits of OOP. 
+
+Comparison between procedure
+-
+oriented 
+programming and OOP
+
+Topic Activity (Group Discussions, summarize 
+every weekÔs topic on what you have learnt 
+& 
+practice exercises)
+2.
+Introduction 
+to 
+Java 
+Programming
+
+Why learn Java, application & benefits.
+
+Overview of Java, installing & setting up Java
+
+Java basic concepts; identifiers & keywords, Java 
+data types, operators, expressions, namespace, type 
+casting, I/O statements.
+
+Topic Activity (Group Discussions, summarize 
+every weekÔs topic on what you have learnt 
+& 
+practice exercises
+)
+3.
+Java Co
+ntrol 
+Structures
+
+Decision structures
+-
+if, if..else, nested if.
+
+Loops 
+Ï
+for, while, do..while, nested loops.
+
+Topic Activity (Group Discussions, summarize 
+every weekÔs topic on what you have learnt 
+& 
+practice exercises
+)
+4.
+Java Functions
+& Arrays
+
+Declaring and defining functions 
+
+Calling functions
+
+Parameters and parameter passing
+
+Declaring and defining arrays
+-
+One dimensional and 
+multidimensional arrays
+
+Topic Activity (Group Discussions, summarize 
+every weekÔs topic on what you have learnt 
+& 
+practice exercises
+)
+5.
+Week 5
+
+CAT ONE
+/ ASSIGNMENT ONE
+6.
+Objects and 
+Classes
+
+Introduction
+
+Defining class in Java
+
+Data members, member functions, access specifiers, 
+
+Creating objects in Java. 
+Kirinyaga University
+Mobile: +254 0709 742000, 
+P.O.Box: 143
+-
+10300 Kerugoya.
+Email: info@kyu.ac.ke
+Web: www.kyu.ac.ke
+KyU is ISO 9001:2015 Certified
+Kirinyaga University is
+Zero Tolerant to Corruption
+.
+
+Topic Activity (Group Discussions, summarize 
+every weekÔs topic on what you have learnt 
+& 
+practice exercises
+)
+7.
+Java 
+Inheritance
+
+Introduction
+
+Types of inheritance
+
+Implementing inheritance in Java
+
+Topic Activity (Group Discussions, summarize 
+every weekÔs topic on what you have learnt 
+& 
+practice exercises
+)
+8.
+Java 
+Polymorphism 
+
+Introduction
+
+Method and operator overriding and overloading
+
+Implementing polymorphism in Java 
+
+Topic Activity (Group Discussions, summarize 
+every weekÔs topic on what you have learnt 
+& 
+practice exercises
+)
+9.
+Java 
+Encapsulation 
+and 
+Abstraction 
+
+Introduction
+
+Why encapsulation?
+
+Ways of achieving abstraction
+
+Topic Activity (Group Discussions, summarize 
+every weekÔs topic on what you have learnt 
+& 
+practice exercises
+)
+10.
+Java 
+Input
+/Output
+
+Creating and using GUIs, 
+
+GUI Components, 
+
+Adding components to containers 
+
+Topic Activity (Group Discussions, summarize 
+every weekÔs topic on what you have learnt 
+& 
+practice exercises
+)
+11.
+Week 10
+
+CAT TWO/ ASSIGNMENT TWO
+12.
+Java Applets
+
+Introduction to Java Applets, 
+
+Drawing strings, applets, lines and other basic 
+shapes, 
+
+Putting applets on the web.
+
+Topic Activity (Group Discussions, summarize 
+every weekÔs topic on what you have learnt 
+& 
+practice exercises
+)
+13.
+Advanced 
+Java 
+Programming
+
+Java database connection, Data insertion, retrieval, 
+updates and deletion from Java forms to database.
+Kirinyaga University
+Mobile: +254 0709 742000, 
+P.O.Box: 143
+-
+10300 Kerugoya.
+Email: info@kyu.ac.ke
+Web: www.kyu.ac.ke
+KyU is ISO 9001:2015 Certified
+Kirinyaga University is
+Zero Tolerant to Corruption
+.
+
+Topic Activity (Group Discussions, summarize 
+every weekÔs topic on what you have learnt 
+& 
+practice exercises
+)
+14.
+Week 13
+
+REVISION 
+FOR
+EXAMS
+15.
+Week 14
+
+END OF SEMESTER 
+EXAM
+INATION
+S
+COURSE TEXTBOOKS
+1.
+Savitch W.(2011). Java an Introduction to Problem Solving and Programming, 
+Prentice Hall. 
+I
+S
+B
+N :  
+978
+-
+0534359492.
+2.
+Savitch, W. (2009). Java 
+Ï
+An introduction to problem solving and programming 
+(6
+th
+Ed), Prentice Hall 
+I
+S
+B
+N :  
+978
+-
+046783222492.
+3.
+Deitel and Deitel. (2010) Java. How to Program by (6
+th
+Ed). 
+I
+S
+B
+N: 978
+-
+6789023456.
+REFERENCE TEXTBOOKS
+1.
+Savitch W. (2011). Java an Introduction to Problem Solving and Programming, 
+Prentice Hall. ISBN :   978
+-
+078909492.
+2.
+Barry J. Holmes, Daniel T. Joyce. ( 2000). Object Oriented Programming with 
+Java. Java Software Solutions
+-
+Foundations of Program Design
+-
+John Lewis, 
+William Loftus, ISBN :  978
+-
+35678959492.

@@ -1,0 +1,72 @@
+Difference between Artificial Intelligence and Human Intelligence
+This topic discusses the definition of both Artificial Intelligence (AI) and Human Intelligence (HI) and differentiates them. AI and HI are two such ideas that are likely to be compared and contrasted. AI is a field that is concerned with designing machines or computer programs to do things that can be described as intelligent for instance, learning, comprehension, planning, perceiving, etc. Human intelligence is defined as the mental abilities of people and their capability to think alike.
+What is Artificial Intelligence?
+Artificial Intelligence
+ is an intellectual system imitating in the solution of matters typically done by human intelligence. This machine employs 
+machine learning
+ approaches and methods that help in determining decisions from large datasets. The domains in which artificial intelligence is applied are the Media domain, the healthcare domain, and many more.
+Decision-making by artificial intelligence systems is actually the copying of certain kinds of activity with respect to the usage in 
+robotics
+. This essay will show that most people do not realize how influenced their lives are with AI-powered systems at present. Some examples include autocorrect, 
+face recognition
+, smart speakers, Google Maps, and among others, AI has an incredible feature of self-diagnostic, self-training, and self-correcting mechanism with negligible or no human interjection.
+What is Human Intelligence?
+Human intelligence may be defined as a capability that allows individuals to acquire knowledge from experience, be flexible, think in a sophisticated manner, and use acquired knowledge to make decisions. These factors entail characteristics such as thinking, solving problems, comprehending language, innovating, and regulating emotions. Both our genes and the environment around us shape our intelligence. It also increases as children gain knowledge, relate with others, and encounter other cultures.
+Differences Between Artificial Intelligence Vs. Human Intelligence
+The main way that human beings can differ is through the flexibility and innovation of Human Intelligence. On the other hand, the following qualities are aspects that cannot be embedded in an AI model: abstract thinking, adapting to new environments, and finding innovative ways of adapting to change. Other areas where humanness is most evident and where people can relate include emotional intelligence, empathy, intuition, and interpersonal skills through which 
+people can relate and interact right from the workplace in terms of cooperation and information sharing.
+Three significant fields where AI performs exceptionally well are vast scale data processing, quick and accurately categorized data processing, and doing any kind of repetitive job at its best. It is outstanding when it comes to its capacity for pattern recognition, further to the assessment of probable outcomes, and last but not least, in its ability of sound decision-making that is grounded on extensive and comprehensive data processing.
+In some sectors, such as health, finance, and transportation, AI operates very fast and efficiently, and there is a lot of increase in productivity. The areas of concern are that it is not capable of understanding some things or will not be creative as well, as it has no 'emotional intelligence'. It operates within certain parameters and does not incorporate reason or what may be deemed ethical.
+Listed below are some of the central differences between human and artificial intelligence:
+Element
+Human Intelligence
+Artificial Intelligence
+Nature
+Biological, Natural Computes
+Synthetic
+Learning Method
+Experience-based, intuitive, and emotional
+Data-driven, Algorithms, and predefined rules
+Adaptability
+Chaotically adaptive and can handle novelty and unpredictability
+Poor adaptability; excels in specific, pre-defined tasks
+Creativity
+Chaotically creative, highly able to think abstractly, and innovate
+Poor creativity; can only pattern mimic, lacks innovation
+Decision-Making
+Emotionally, ethically, and socially driven
+Based purely on data, logic, and parameters set
+Speed
+Slower, biologically limited
+Extremely fast, computing power dependent
+Generalization
+Good at generalizing knowledge across different domains
+Poor at generalization; often task-specific
+Energy Consumption
+Low, around 20W for the human brain
+High, depending on task complexity and hardware
+Communication
+Complex language, emotions,
+Limited to pre-defined language models and interfaces
+Learning Capacity
+Lifelong, able to learn continuously and dynamically
+Requires retraining and update of models, not lifelong
+Problem-Solving
+Both Logical and Emotional Reasoning
+Rules base and pattern-dependent
+Error Handling
+Emotionally intuitive
+Can learn from errors by retraining or adjusting the algorithms.
+Consciousness
+Self-aware, has consciousness, and experiences subjectivity
+No consciousness and self-awareness
+Ethics and Morality
+Driven by cultural, social, and personal values
+No inherent ethics, ethics are formed and constrained by code
+Resourcefulness
+Very resourceful in inventing new ways of solving problems
+Resourcefulness is limited to its programming and data.
+Human Creativity vs. AI Efficiency
+While AI is unbeatable in efficiency, human intelligence has no equivalent for creativity. Creativity describes the act of coming up with new ideas, thinking "outside the box," or creating some original work of art or literature, for instance, coming up with a solution to some problem. 
+However, human creativity is greatly inflamed by emotions, cultural background, and personal experience.
+AI is also helpful in bringing out creativity: it gives inspiration, variation of ideas on a theme, or even in the automation of some creative work. For instance, it may be an AI algorithm generating music or art following the patterns that are learned from existing works. However, those creations usually lack the depth, meanings, and emotional resonance that come from human creativity. Perhaps what truly distinguishes humans from artificial intelligence is the ability for humans to create something entirely new, born out of imagination and fueled by personal experience.

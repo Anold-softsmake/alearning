@@ -1,0 +1,1055 @@
+{
+  "a11y": {
+    "images_without_alt": 0,
+    "landmarks": {
+      "main": 1
+    },
+    "lang": "en",
+    "unnamed_controls": 0,
+    "unnamed_examples": []
+  },
+  "assets": {
+    "background_images": [
+      "http://127.0.0.1:49907/portal/login-background.png"
+    ],
+    "fonts": [
+      "http://127.0.0.1:49907/_next/static/media/1e41be92c43b3255-s.p.woff2"
+    ],
+    "images": [
+      {
+        "alt": "KyU Masomo Portal",
+        "h": 1074,
+        "src": "http://127.0.0.1:49907/portal/kyu-logo.png",
+        "w": 1050
+      }
+    ],
+    "inline_scripts": 6,
+    "requests": [
+      {
+        "bytes": 838775,
+        "type": "link",
+        "url": "http://127.0.0.1:49907/portal/kyu-logo.png"
+      },
+      {
+        "bytes": 18425,
+        "type": "link",
+        "url": "http://127.0.0.1:49907/_next/static/css/e41ced9778e95083.css"
+      },
+      {
+        "bytes": 77714,
+        "type": "link",
+        "url": "http://127.0.0.1:49907/_next/static/css/bb07607a3bf6b538.css"
+      },
+      {
+        "bytes": 3955,
+        "type": "link",
+        "url": "http://127.0.0.1:49907/_next/static/css/8bc08439c1a64e66.css"
+      },
+      {
+        "bytes": 3843,
+        "type": "link",
+        "url": "http://127.0.0.1:49907/_next/static/chunks/webpack-fff5bd9f6fde1f48.js"
+      },
+      {
+        "bytes": 173319,
+        "type": "script",
+        "url": "http://127.0.0.1:49907/_next/static/chunks/4bd1b696-c023c6e3521b1417.js"
+      },
+      {
+        "bytes": 857,
+        "type": "script",
+        "url": "http://127.0.0.1:49907/_next/static/chunks/main-app-2c846b94a7f3fad1.js"
+      },
+      {
+        "bytes": 174720,
+        "type": "script",
+        "url": "http://127.0.0.1:49907/_next/static/chunks/255-0e5ac6cd71b0e266.js"
+      },
+      {
+        "bytes": 111885,
+        "type": "script",
+        "url": "http://127.0.0.1:49907/_next/static/chunks/241-795a527f2f954bec.js"
+      },
+      {
+        "bytes": 792,
+        "type": "script",
+        "url": "http://127.0.0.1:49907/_next/static/chunks/app/layout-72e0abce5bd3d1ca.js"
+      },
+      {
+        "bytes": 4634,
+        "type": "script",
+        "url": "http://127.0.0.1:49907/_next/static/chunks/app/page-079bcf195574bb97.js"
+      },
+      {
+        "bytes": 685818,
+        "type": "css",
+        "url": "http://127.0.0.1:49907/portal/login-background.png"
+      },
+      {
+        "bytes": 37820,
+        "type": "css",
+        "url": "http://127.0.0.1:49907/_next/static/media/1e41be92c43b3255-s.p.woff2"
+      },
+      {
+        "bytes": 4586,
+        "type": "other",
+        "url": "http://127.0.0.1:49907/favicon.ico"
+      }
+    ],
+    "scripts": [
+      "http://127.0.0.1:49907/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "http://127.0.0.1:49907/_next/static/chunks/255-0e5ac6cd71b0e266.js",
+      "http://127.0.0.1:49907/_next/static/chunks/main-app-2c846b94a7f3fad1.js",
+      "http://127.0.0.1:49907/_next/static/chunks/241-795a527f2f954bec.js",
+      "http://127.0.0.1:49907/_next/static/chunks/app/layout-72e0abce5bd3d1ca.js",
+      "http://127.0.0.1:49907/_next/static/chunks/app/page-079bcf195574bb97.js",
+      "http://127.0.0.1:49907/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "http://127.0.0.1:49907/_next/static/chunks/webpack-fff5bd9f6fde1f48.js"
+    ],
+    "stylesheets": [
+      "http://127.0.0.1:49907/_next/static/css/e41ced9778e95083.css",
+      "http://127.0.0.1:49907/_next/static/css/bb07607a3bf6b538.css",
+      "http://127.0.0.1:49907/_next/static/css/8bc08439c1a64e66.css"
+    ]
+  },
+  "breakpoints": [
+    {
+      "count": 5,
+      "px": 576,
+      "query": "max-width 576px"
+    },
+    {
+      "count": 2,
+      "px": 640,
+      "query": "min-width 640px"
+    },
+    {
+      "count": 2,
+      "px": 768,
+      "query": "min-width 768px"
+    },
+    {
+      "count": 1,
+      "px": 768,
+      "query": "max-width 768px"
+    },
+    {
+      "count": 2,
+      "px": 992,
+      "query": "max-width 992px"
+    },
+    {
+      "count": 2,
+      "px": 993,
+      "query": "min-width 993px"
+    },
+    {
+      "count": 1,
+      "px": 1024,
+      "query": "min-width 1024px"
+    },
+    {
+      "count": 3,
+      "px": 1200,
+      "query": "max-width 1200px"
+    },
+    {
+      "count": 1,
+      "px": 1280,
+      "query": "min-width 1280px"
+    },
+    {
+      "count": 1,
+      "px": 1536,
+      "query": "min-width 1536px"
+    },
+    {
+      "count": 1,
+      "px": 1600,
+      "query": "min-width 1600px"
+    }
+  ],
+  "design": {
+    "backgrounds": [
+      {
+        "count": 3,
+        "value": "#ffffff"
+      },
+      {
+        "count": 2,
+        "value": "#1e964f"
+      },
+      {
+        "count": 1,
+        "value": "#f6f8fa"
+      },
+      {
+        "count": 1,
+        "value": "#f2f3f7"
+      },
+      {
+        "count": 1,
+        "value": "#f4d6d2"
+      },
+      {
+        "count": 1,
+        "value": "#ced4da"
+      }
+    ],
+    "css_variables": {
+      "--accent": "#e8f1eb",
+      "--accent-foreground": "#275a43",
+      "--background": "#f6f8fa",
+      "--border": "#e4e9e6",
+      "--card": "#fff",
+      "--card-foreground": "#243c34",
+      "--chart-1": "oklch(87% 0 0)",
+      "--chart-2": "oklch(55.6% 0 0)",
+      "--chart-3": "oklch(43.9% 0 0)",
+      "--chart-4": "oklch(37.1% 0 0)",
+      "--chart-5": "oklch(26.9% 0 0)",
+      "--color-black": "#000",
+      "--color-white": "#fff",
+      "--container-lg": "32rem",
+      "--container-sm": "24rem",
+      "--default-font-family": "var(--font-sans)",
+      "--default-mono-font-family": "var(--font-mono)",
+      "--default-transition-duration": ".15s",
+      "--default-transition-timing-function": "cubic-bezier(.4,0,.2,1)",
+      "--destructive": "#b53e39",
+      "--ease-in-out": "cubic-bezier(.4,0,.2,1)",
+      "--font-mono": "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,\"Liberation Mono\",\"Courier New\",monospace",
+      "--font-sans": "var(--font-sans)",
+      "--font-weight-medium": "500",
+      "--font-weight-semibold": "600",
+      "--foreground": "#243c34",
+      "--input": "#dbe3de",
+      "--muted": "#f1f4f3",
+      "--muted-foreground": "#7c8983",
+      "--popover": "#fff",
+      "--popover-foreground": "#243c34",
+      "--primary": "#247852",
+      "--primary-foreground": "#fff",
+      "--radius": ".6rem",
+      "--radius-xs": ".125rem",
+      "--ring": "#79ad92",
+      "--secondary": "#edf3ef",
+      "--secondary-foreground": "#275a43",
+      "--shimmer-angle": "20deg",
+      "--sidebar": "oklch(98.5% 0 0)",
+      "--sidebar-accent": "oklch(97% 0 0)",
+      "--sidebar-accent-foreground": "oklch(20.5% 0 0)",
+      "--sidebar-border": "oklch(92.2% 0 0)",
+      "--sidebar-foreground": "oklch(14.5% 0 0)",
+      "--sidebar-primary": "oklch(20.5% 0 0)",
+      "--sidebar-primary-foreground": "oklch(98.5% 0 0)",
+      "--sidebar-ring": "oklch(70.8% 0 0)",
+      "--spacing": ".25rem",
+      "--text-base": "1rem",
+      "--text-base--line-height": "calc(1.5 / 1)",
+      "--text-lg": "1.125rem",
+      "--text-lg--line-height": "calc(1.75 / 1.125)",
+      "--text-sm": ".875rem",
+      "--text-sm--line-height": "calc(1.25 / .875)",
+      "--text-xs": ".75rem",
+      "--text-xs--line-height": "calc(1 / .75)"
+    },
+    "font_faces": [
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "600"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto Fallback",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "normal"
+      }
+    ],
+    "font_sizes": [
+      {
+        "count": 7,
+        "value": "15px"
+      },
+      {
+        "count": 1,
+        "value": "30px"
+      },
+      {
+        "count": 1,
+        "value": "18.75px"
+      },
+      {
+        "count": 1,
+        "value": "11px"
+      }
+    ],
+    "font_weights": [
+      {
+        "count": 8,
+        "value": "400"
+      },
+      {
+        "count": 2,
+        "value": "700"
+      }
+    ],
+    "fonts": [
+      {
+        "count": 10,
+        "value": "Roboto, \"Roboto Fallback\", Arial, sans-serif"
+      }
+    ],
+    "max_widths": [],
+    "radii": [
+      {
+        "count": 4,
+        "value": "8px"
+      },
+      {
+        "count": 3,
+        "value": "9.6px"
+      },
+      {
+        "count": 1,
+        "value": "50%"
+      }
+    ],
+    "shadows": [
+      {
+        "count": 1,
+        "value": "rgba(0, 0, 0, 0.15) 0px 8px 16px 0px"
+      }
+    ],
+    "spacing": [
+      {
+        "count": 12,
+        "value": "16px"
+      },
+      {
+        "count": 8,
+        "value": "-1px"
+      },
+      {
+        "count": 8,
+        "value": "8px"
+      },
+      {
+        "count": 6,
+        "value": "12px"
+      },
+      {
+        "count": 4,
+        "value": "6px"
+      },
+      {
+        "count": 3,
+        "value": "32px"
+      },
+      {
+        "count": 2,
+        "value": "15px"
+      },
+      {
+        "count": 2,
+        "value": "47px"
+      },
+      {
+        "count": 2,
+        "value": "20px"
+      },
+      {
+        "count": 2,
+        "value": "4px"
+      }
+    ],
+    "text_colors": [
+      {
+        "count": 4,
+        "value": "#1d2125"
+      },
+      {
+        "count": 3,
+        "value": "#1e964f"
+      },
+      {
+        "count": 2,
+        "value": "#ffffff"
+      },
+      {
+        "count": 1,
+        "value": "#691911"
+      }
+    ]
+  },
+  "forms": [
+    {
+      "action": "",
+      "fields": [
+        {
+          "label": "Username",
+          "name": "username",
+          "placeholder": "Username",
+          "required": false,
+          "tag": "input",
+          "type": "text"
+        },
+        {
+          "label": "Password",
+          "name": "password",
+          "placeholder": "Password",
+          "required": false,
+          "tag": "input",
+          "type": "password"
+        },
+        {
+          "label": "",
+          "name": "",
+          "placeholder": "",
+          "required": false,
+          "tag": "button",
+          "type": "submit"
+        }
+      ],
+      "method": "get"
+    },
+    {
+      "action": "/dashboard/",
+      "fields": [
+        {
+          "label": "",
+          "name": "",
+          "placeholder": "",
+          "required": false,
+          "tag": "button",
+          "type": "submit"
+        }
+      ],
+      "method": "get"
+    },
+    {
+      "action": "",
+      "fields": [
+        {
+          "label": "Username or email address",
+          "name": "username",
+          "placeholder": "",
+          "required": true,
+          "tag": "input",
+          "type": "text"
+        },
+        {
+          "label": "",
+          "name": "",
+          "placeholder": "",
+          "required": false,
+          "tag": "button",
+          "type": "button"
+        },
+        {
+          "label": "",
+          "name": "",
+          "placeholder": "",
+          "required": false,
+          "tag": "button",
+          "type": "submit"
+        }
+      ],
+      "method": "get"
+    }
+  ],
+  "headings": [
+    {
+      "level": 1,
+      "text": "Log in to KyU Masomo Portal"
+    },
+    {
+      "level": 2,
+      "text": "Cookies notice"
+    },
+    {
+      "level": 2,
+      "text": "Lost password?"
+    }
+  ],
+  "health": {
+    "errors": [],
+    "failed_requests": []
+  },
+  "lang": "en",
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "h": 965,
+          "heading": "Log in to KyU Masomo Portal",
+          "pad": [
+            0,
+            15,
+            0,
+            15
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 1395,
+          "y": 0
+        },
+        {
+          "h": 869,
+          "heading": "Log in to KyU Masomo Portal",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "main",
+          "w": 452,
+          "y": 32
+        }
+      ],
+      "page_h": 965,
+      "page_w": 1425,
+      "type": {
+        "body": 0,
+        "h1": 30,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 1440
+    },
+    {
+      "blocks": [
+        {
+          "h": 884,
+          "heading": "Log in to KyU Masomo Portal",
+          "pad": [
+            0,
+            15,
+            0,
+            15
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 738,
+          "y": 16
+        },
+        {
+          "h": 615,
+          "heading": "Log in to KyU Masomo Portal",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "main",
+          "w": 189,
+          "y": 134
+        }
+      ],
+      "page_h": 900,
+      "page_w": 768,
+      "type": {
+        "body": 0,
+        "h1": 30,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 768
+    },
+    {
+      "blocks": [
+        {
+          "h": 783,
+          "heading": "Log in to KyU Masomo Portal",
+          "pad": [
+            0,
+            15,
+            0,
+            15
+          ],
+          "per_row": 1,
+          "tag": "section",
+          "w": 390,
+          "y": 16
+        },
+        {
+          "h": 687,
+          "heading": "Log in to KyU Masomo Portal",
+          "pad": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "per_row": 1,
+          "tag": "main",
+          "w": 266,
+          "y": 48
+        }
+      ],
+      "page_h": 900,
+      "page_w": 390,
+      "type": {
+        "body": 0,
+        "h1": 30,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 390
+    }
+  ],
+  "links": [
+    {
+      "href": "http://127.0.0.1:49907/#maincontent",
+      "text": "Skip to main content"
+    },
+    {
+      "href": "http://127.0.0.1:49907/#lost-password",
+      "text": "Lost password?"
+    }
+  ],
+  "meta": {
+    "description": "Log in to KyU Masomo Portal.",
+    "icons": [],
+    "og_image": "",
+    "og_title": "",
+    "theme_color": ""
+  },
+  "outline": [
+    {
+      "box": {
+        "h": 1,
+        "w": 1,
+        "x": -1,
+        "y": -1
+      },
+      "class": "portal-sr-only portal-skip-link",
+      "color": "#1e964f",
+      "depth": 3,
+      "font": "15px 400",
+      "href": "http://127.0.0.1:49907/#maincontent",
+      "tag": "a",
+      "text": "Skip to main content"
+    },
+    {
+      "box": {
+        "h": 965,
+        "w": 1395,
+        "x": 15,
+        "y": 0
+      },
+      "class": "portal-region",
+      "color": "#1d2125",
+      "depth": 3,
+      "display": "block",
+      "font": "15px 400",
+      "tag": "section"
+    },
+    {
+      "box": {
+        "h": 869,
+        "w": 452,
+        "x": 487,
+        "y": 32
+      },
+      "color": "#1d2125",
+      "depth": 6,
+      "display": "block",
+      "font": "15px 400",
+      "id": "maincontent",
+      "tag": "main"
+    },
+    {
+      "alt": "KyU Masomo Portal",
+      "box": {
+        "h": 462,
+        "w": 452,
+        "x": 487,
+        "y": 32
+      },
+      "color": "#1d2125",
+      "depth": 8,
+      "font": "15px 400",
+      "src": "http://127.0.0.1:49907/portal/kyu-logo.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 1,
+        "w": 1,
+        "x": 486,
+        "y": 493
+      },
+      "class": "portal-sr-only",
+      "color": "#1d2125",
+      "depth": 8,
+      "font": "30px 700",
+      "tag": "h1",
+      "text": "Log in to KyU Masomo Portal"
+    },
+    {
+      "background": "#f4d6d2",
+      "box": {
+        "h": 69,
+        "w": 452,
+        "x": 487,
+        "y": 510
+      },
+      "class": "portal-maintenance",
+      "color": "#691911",
+      "depth": 7,
+      "font": "15px 400",
+      "role": "status",
+      "tag": "div",
+      "text": "The site is undergoing maintenance and is currently not available"
+    },
+    {
+      "box": {
+        "h": 209,
+        "w": 452,
+        "x": 487,
+        "y": 595
+      },
+      "class": "portal-login-form",
+      "color": "#1d2125",
+      "depth": 7,
+      "display": "block",
+      "font": "15px 400",
+      "tag": "form"
+    },
+    {
+      "background": "#ffffff",
+      "box": {
+        "h": 46,
+        "w": 452,
+        "x": 487,
+        "y": 595
+      },
+      "color": "#495057",
+      "depth": 9,
+      "font": "18.75px 400",
+      "id": "username",
+      "name": "username",
+      "placeholder": "Username",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "background": "#ffffff",
+      "box": {
+        "h": 46,
+        "w": 452,
+        "x": 487,
+        "y": 657
+      },
+      "color": "#495057",
+      "depth": 9,
+      "font": "18.75px 400",
+      "id": "password",
+      "name": "password",
+      "placeholder": "Password",
+      "tag": "input",
+      "type": "password"
+    },
+    {
+      "background": "#1e964f",
+      "box": {
+        "h": 46,
+        "w": 452,
+        "x": 487,
+        "y": 720
+      },
+      "class": "portal-login-button",
+      "color": "#ffffff",
+      "depth": 9,
+      "font": "18.75px 400",
+      "tag": "button",
+      "text": "Log in"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 105,
+        "x": 660,
+        "y": 784
+      },
+      "color": "#1e964f",
+      "depth": 9,
+      "font": "15px 400",
+      "href": "http://127.0.0.1:49907/#lost-password",
+      "tag": "a",
+      "text": "Lost password?"
+    },
+    {
+      "box": {
+        "h": 37,
+        "w": 452,
+        "x": 487,
+        "y": 820
+      },
+      "class": "portal-guest-form",
+      "color": "#1d2125",
+      "depth": 7,
+      "display": "block",
+      "font": "15px 400",
+      "tag": "form"
+    },
+    {
+      "background": "#ced4da",
+      "box": {
+        "h": 37,
+        "w": 452,
+        "x": 487,
+        "y": 820
+      },
+      "class": "portal-guest-button",
+      "color": "#1d2125",
+      "depth": 8,
+      "font": "15px 400",
+      "tag": "button",
+      "text": "Access as a guest"
+    },
+    {
+      "box": {
+        "h": 37,
+        "w": 144,
+        "x": 795,
+        "y": 865
+      },
+      "class": "portal-cookie-button",
+      "color": "#1e964f",
+      "depth": 8,
+      "font": "15px 400",
+      "tag": "button",
+      "text": "? Cookies notice"
+    }
+  ],
+  "page": {
+    "h": 965,
+    "w": 1425
+  },
+  "text": "Skip to main content Log in to KyU Masomo Portal The site is undergoing maintenance and is currently not available Username Password Log in Lost password? Access as a guest ? Cookies notice",
+  "title": "In maintenance mode | Masomo Year 3 & 4",
+  "unreadable_stylesheets": 0,
+  "url": "http://127.0.0.1:49907/",
+  "viewport": {
+    "h": 900,
+    "w": 1440
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "unk_ffd13cbdf429b2bc",
+  "revision": 2,
+  "question": "No Supabase project or credentials are provided. Which production authentication, database, storage, and email services should be connected? Current implementation will label browser-local sample data and provide a secured Supabase schema and configuration path.",
+  "severity": "high",
+  "domain": "backend",
+  "status": "blocked",
+  "probes": [
+    "Supply a Supabase project URL and public anonymous key",
+    "Apply the schema on staging, connect the live curriculum/admin queries, and test cross-account authorization and email recovery"
+  ],
+  "evidence_for": [],
+  "evidence_against": [],
+  "resolution": "Workspace and environment contained no Supabase credentials or existing integration. Complete device-local learning and review workflows were implemented and browser-tested. Supabase relational schema, RLS, seed, auth forms, client helpers, and setup guide are provided. Production curriculum/admin adapters and live database/security/email tests require an owner-provided Supabase project."
+}

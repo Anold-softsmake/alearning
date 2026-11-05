@@ -1,0 +1,223 @@
+{
+  "id": "ev_9a081441a3c3d6fe7f47788819458ef3033c382c709d8e2e7fca7bd9fc981ae7",
+  "subject": {
+    "kind": "website",
+    "name": "https://masomo3.kyu.ac.ke/login/index.php"
+  },
+  "operation": "web_page_watch",
+  "params": {
+    "endpoint": "http://127.0.0.1:49991",
+    "sensitive_value_declarations": 0
+  },
+  "result": {
+    "accessibility": null,
+    "console": {
+      "count": 1,
+      "entries": [
+        {
+          "level": "log",
+          "source": "console-api"
+        }
+      ],
+      "has_text": false
+    },
+    "dom": {
+      "attribute_names": [
+        "action",
+        "alt",
+        "aria-label",
+        "aria-live",
+        "async",
+        "autocomplete",
+        "charset",
+        "class",
+        "content",
+        "crossorigin",
+        "data-modal",
+        "data-modal-content-str",
+        "data-modal-title-str",
+        "data-requirecontext",
+        "data-requiremodule",
+        "dir",
+        "for",
+        "href",
+        "http-equiv",
+        "id",
+        "lang",
+        "method",
+        "name",
+        "placeholder",
+        "rel",
+        "role",
+        "src",
+        "style",
+        "type",
+        "value",
+        "xml:lang"
+      ],
+      "elements_by_name": {
+        "a": 3,
+        "body": 1,
+        "button": 3,
+        "div": 22,
+        "form": 2,
+        "h1": 1,
+        "head": 1,
+        "html": 1,
+        "i": 1,
+        "img": 1,
+        "input": 6,
+        "label": 2,
+        "link": 6,
+        "meta": 4,
+        "script": 16,
+        "section": 1,
+        "span": 2,
+        "title": 1
+      },
+      "text_nodes": 19,
+      "total_nodes": 95,
+      "truncated": false
+    },
+    "dropped_events": 0,
+    "frame_origins": [
+      "https://masomo3.kyu.ac.ke"
+    ],
+    "network": {
+      "request_count": 0,
+      "requests": []
+    },
+    "origin": "https://masomo3.kyu.ac.ke/login/index.php",
+    "resources": [
+      {
+        "mime_type": "application/javascript",
+        "type": "Script",
+        "url": "https://masomo3.kyu.ac.ke/lib/javascript.php/1789046438/lib/requirejs/require.min.js"
+      },
+      {
+        "mime_type": "image/png",
+        "type": "Image",
+        "url": "https://masomo3.kyu.ac.ke/theme/moove/pix/loginbg.png"
+      },
+      {
+        "mime_type": "image/png",
+        "type": "Image",
+        "url": "https://masomo3.kyu.ac.ke/pluginfile.php/1/theme_moove/logo/1789046438/kyu_logo2.png"
+      },
+      {
+        "mime_type": "font/woff2",
+        "type": "Font",
+        "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2"
+      },
+      {
+        "mime_type": "font/woff2",
+        "type": "Font",
+        "url": "https://masomo3.kyu.ac.ke/theme/font.php/moove/core/1789046438/fa-solid-900.woff2"
+      },
+      {
+        "mime_type": "application/javascript",
+        "type": "Script",
+        "url": "https://masomo3.kyu.ac.ke/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js"
+      },
+      {
+        "mime_type": "application/javascript",
+        "type": "Script",
+        "url": "https://2.7.9/MathJax.js?delayStartupUntil=configured"
+      },
+      {
+        "mime_type": "application/javascript",
+        "type": "Script",
+        "url": "https://masomo3.kyu.ac.ke/lib/javascript.php/1789046438/lib/polyfills/polyfill.js"
+      },
+      {
+        "mime_type": "application/javascript",
+        "type": "Script",
+        "url": "https://masomo3.kyu.ac.ke/lib/javascript.php/1789046438/lib/javascript-static.js"
+      }
+    ],
+    "scripts": [
+      {
+        "length": 12142,
+        "source_map_url": null,
+        "url": "https://masomo3.kyu.ac.ke/login/index.php"
+      },
+      {
+        "length": 200052,
+        "source_map_url": null,
+        "url": "https://masomo3.kyu.ac.ke/lib/javascript.php/1789046438/lib/polyfills/polyfill.js"
+      },
+      {
+        "length": 272032,
+        "source_map_url": null,
+        "url": "https://masomo3.kyu.ac.ke/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js"
+      },
+      {
+        "length": 21041,
+        "source_map_url": null,
+        "url": "https://masomo3.kyu.ac.ke/lib/javascript.php/1789046438/lib/javascript-static.js"
+      },
+      {
+        "length": 17588,
+        "source_map_url": null,
+        "url": "https://masomo3.kyu.ac.ke/lib/javascript.php/1789046438/lib/requirejs/require.min.js"
+      },
+      {
+        "length": 63499,
+        "source_map_url": null,
+        "url": "https://2.7.9/MathJax.js?delayStartupUntil=configured"
+      },
+      {
+        "length": 3033981,
+        "source_map_url": null,
+        "url": "https://masomo3.kyu.ac.ke/lib/requirejs.php/1789046438/core/first.js"
+      },
+      {
+        "length": 87531,
+        "source_map_url": null,
+        "url": "https://masomo3.kyu.ac.ke/lib/javascript.php/1789046438/lib/jquery/jquery-3.7.1.min.js"
+      },
+      {
+        "length": 15452,
+        "source_map_url": null,
+        "url": "https://masomo3.kyu.ac.ke/theme/yui_combo.php?3.18.1/event-mousewheel/event-mousewheel-min.js&3.18.1/event-resize/event-resize-min.js&3.18.1/event-hover/event-hover-min.js&3.18.1/event-touch/event-touch-min.js&3.18.1/event-move/event-move-min.js&3.18.1/event-flick/event-flick-min.js&3.18.1/event-valuechange/event-valuechange-min.js&3.18.1/event-tap/event-tap-min.js&m/1789046438/core/event/event-min.js"
+      }
+    ],
+    "scripts_truncated": false,
+    "secret_redactions": 0,
+    "storage_keys": null,
+    "watch_ms": 10000,
+    "websockets": {
+      "connections": [],
+      "frames": []
+    }
+  },
+  "summary": "Watched https://masomo3.kyu.ac.ke/login/index.php for 10000ms: 0 request outline(s), 1 console entr(y/ies).",
+  "confidence": "observed",
+  "authority": "earlier-record",
+  "environment": {
+    "clean_room": false,
+    "engine": "cdp",
+    "engine_version": "1.3",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "passive_snapshot",
+      "message": "A passive observation of one moment in a live page; it shows what happened during the window, not everything the page can do."
+    },
+    {
+      "code": "values_not_kept",
+      "message": "Cookies, authorization headers and storage values are never kept; JSON bodies are reduced to outlines and declared secrets are redacted."
+    }
+  ],
+  "coverage": {
+    "status": "partial"
+  },
+  "locations": [
+    {
+      "kind": "url",
+      "value": "https://masomo3.kyu.ac.ke/login/index.php"
+    }
+  ],
+  "links": []
+}

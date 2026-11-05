@@ -1,0 +1,360 @@
+Systems 
+programming lesson 2
+COM 312: BSc Computer science/BSc IT
+Topics area coverage.
+Û
+Preparing your tool Box
+Û
+GNU gcc and gdb
+Û
+NASM (Netwide Assembler)
+Û
+Unix readlf, objdump, od, nm, idd and id config
+Û
+Creating your own static and dynamic libraries
+C code
+compilation process using GNU Gcc  (compiler collection)
+How is C code compiled? 
+Four steps process.
+Open your kali linux Tool 
+Click >terminal 
+Step 1. Open up a terminal
+using kali linux
+Step 2. Use a text editor to create the C source 
+code. (
+using
+nano editor)
+Type the command
+nano
+hello.c 
+and enter the C source code below: 
+#include<stdio.h> 
+M
+ain
+()
+{ printf
+("Hello World
+\
+n"); 
+Return 0;
+} 
+Close the editor window.
+Or 
+Linux commands
+cd
+-
+change directory
+touch
+Ï
+the touch command is often used just to create an empty file. 
+Gcc
+-
+Gnu compiler collection.
+-
+o
+Ï
+flag for output after compilation 
+./
+-
+forward slash command for running the test binary file.
+Cat
+-
+concatenate file and print on the standard output.
+Step 1 and 2 : Preprocessor to compiler(
+to generate assembly code.s files
+) 
+Unix commands 
+Ls
+-
+list directory contents (list information about FILES current directory)
+Vi myprogram.c
+Ï
+vim editor enables viewing of program code
+Gcc
+-
+s myprogram.c
+Ï
+to 
+make assembler code(low level programming)  from our C File.
+Ls
+-
+converting myprogram.c to my program.s File
+Ls 
+Ï
+l *.s
+Ï
+searches for all assembly Files 
+Cat myprogram.s |less
+-
+opposite of more
+(to view assembly hello world code)
+Step 3 
+Ï
+Assembler 
+Converts assembly code to machine object code 
+Object code output
+Last step 4: linker
+Ï
+merges object code files and 
+libraly object code
+NASM (netwide Assembler)
+Û
+What is assembly language and its importance?
+Û
+What you need to know to start 
+writing your first assembly program.
+What is assembly language and its importance?
+
+Processor 
+Ï
+Dependent
+
+Low level programming language (Human Readable machine language)
+
+Assembly code is converted into execu
+table machine code by a utility 
+program referred 
+to as an assembler 
+-
+Each family of 
+CPUs have its own set of instructions
+or Assembly 
+language for Handling Various operations such as 
+i.
+Getting input from keyboard
+ii.
+Performing various task
+iii.
+Displaying information on the screen
+There are main different 
+types of Assembly languages for different types of CPU 
+Architecture 
+ARM
+Ï
+Architecture used on phones among others (i.e ios, Android)
+MIPS
+-
+Architecture used in video games console among others (i.e sony PlayStation)
+X86
+?
+Architecture used on 
+intel PCs and other (16 bit to 64bit)
+Why Assembly?
+
+Direct communication with the hardware
+
+Writing device driver
+
+Access to specialized processor instructions 
+
+Operating systems design
+
+Embedded systems programs 
+i. e A good example is 
+Aviation industry 
+uses a lot of assembler like computer 
+Assembler Engineer 
+learning Assembly will help us understand
+
+How data is represented in memory and other external devices 
+
+How programs interface with your operating system, processor, and BIOS
+
+How the processor acces
+ses and executes instructions? 
+
+How instructions access and process data
+
+How a program accesses external 
+devices?
+Basic features of a computer Hardware
+Registers
+Memory
+Processor
+Understanding 
+Registers
+One of the ma
+in tools to write programs in X
+86 assembly are the 
+processor 
+registers.
+You can, informally, think of 
+registers 
+as variables that are built in
+the 
+processor
+Using 
+registers
+instead of memory to 
+store values
+, makes the process faster 
+and more efficient.
+An assembly program can be divided
+into three sections
+Č
+
+The
+data
+section
+,
+-
+declaring initialized data or constants. This data does not 
+change at runtime. You can declare various constant values, file names, or buffer 
+size, etc
+
+The
+bss
+section
+, 
+-
+The
+bss
+section is used for declaring 
+variables
+
+The
+text
+section.
+-
+The
+text
+section is used for keeping the actual code. This section 
+must begin with the declaration
+global _start
+, which tells the kernel where the 
+program execution begins.
+syntax
+The Hello World Program in Assembly
+Output
+Hello, world!
+Code explanation
+Mnemonic in assembly language
+Mnemonic language
+Ï
+memory aid 
+to represent machine operation, or opcode
+MOV
+-
+move (assign) one value to another
+ADD
+-
+Add two values
+SUB
+-
+sub
+tract one value from another
+MUL
+-
+multiplying 
+two values
+JMP
+-
+jump to a new location
+CALL
+-
+call a procedure
+EAX
+-
+to store the return value of a function and as a special
+registe
+r
+for certain 
+calculations
+.
+(
+general purpose register
+)
+EBX
+-
+base pointer to the data section
+ECX
+-
+counter for string and loop operations
+EDX
+-
+1/0 pointer 
+Unix readlf, objdump, od, nm, idd and id config
+Unix read elf
+-
+Executable Linking Format
+.
+This is the file which is loaded by the Kernel 
+to create a process.
+NB:
+A relocatable file
+holds code and data
+suitable for linking with other object files to create 
+an executable
+Û
+ELF 
+is the file format used for object files
+(
+.o
+'s), binaries, 
+shared libraries 
+and 
+core 
+dumps 
+in Linux.
+Û
+ELF is used as standard file format 
+for object files
+on Linux. Prior to this, the 
+a.out file format was being used as a standard but lately ELF took over the 
+charge as a standard.
+Û
+An object file
+is
+a computer file containing object code
+, that is, machine code output 
+of an assembler or compiler. The object code is usually 
+relocatable
+, 
+and not usually 
+directly 
+executable.
+Û
+Since then, the ELF format is in use by several different operating systems. 
+Among others, this includes Linux, Solaris/Illumos, Free
+-
+, Net
+-
+and OpenBSD, 
+QNX, BeOS/Haiku, and Fuchsia OS [2]. Furthermore, you will find it on mobile 
+devices running Android, 
+Maemo or Meego OS/Sailfish OS as well as on game 
+consoles like the PlayStation Portable, Dreamcast, and Wii.
+ELF 
+supports:
+Û
+Different processors
+(cross plat
+-
+form)
+Û
+Different data encoding
+Û
+Different classes of machines
+What is executable?
+Binary file with in
+struction to be performed by the CPU
+Why use ELF Files?
+Generic understanding of how an operating system works
+Development of software
+Digital Forensics and Incident Response (DFIR)
+Malware research (binary analysis)
+Revision Questions 
+1.
+Why does Assembly 
+It 
+require
+less memory and execution time
+?
+2.
+Why does Assembly 
+language 
+allow
+hardware
+-
+specific complex jobs in an easier 
+way?

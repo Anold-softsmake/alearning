@@ -1,0 +1,40 @@
+{
+  "build": {
+    "command": "npm.cmd run build",
+    "exitCode": 0,
+    "buildId": "PFjUv0FERT_5SyNPhPV8D",
+    "output": "out/"
+  },
+  "curriculum": {
+    "passed": true,
+    "units": 7,
+    "topics": 57,
+    "documents": 53,
+    "results": "checks/semester-results.json",
+    "exitCode": 0,
+    "checkedAt": "2026-11-05T13:59:41.233Z"
+  },
+  "workflows": {
+    "passed": 33,
+    "scriptErrors": [],
+    "results": "checks/results.json",
+    "note": "All 33 assertions passed; browser and local test server closed, command exited 0.",
+    "exitCode": 0,
+    "checkedAt": "2026-11-05T13:58:35.936Z"
+  },
+  "rebuildCheck": {
+    "completedAt": "2026-11-05T13:57:34Z",
+    "claimsPassed": 6,
+    "claimsTotal": 6,
+    "scriptErrors": 0,
+    "failedRequests": 0,
+    "visualSimilarityPercent": 59,
+    "visualTargetPercent": 90,
+    "visualTargetMet": false,
+    "reference": "Original Moodle maintenance login",
+    "interpretation": "The original request explicitly asks for a new student dashboard and LMS, so maintenance-login visual likeness is not the redesign acceptance criterion.",
+    "evidence": "../build-activity.log"
+  },
+  "remaining": "Owner-provided Supabase project, live curriculum/admin adapters, database authorization tests and email setup are still required for shared production accounts and data. Current sample workspace uses browser-local state.",
+  "environmentNote": "Edge shutdown took several minutes after the assertions on this Windows machine. Both final test commands completed naturally with exit code 0."
+}

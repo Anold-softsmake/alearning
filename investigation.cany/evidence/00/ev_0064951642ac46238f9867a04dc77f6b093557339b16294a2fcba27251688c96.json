@@ -1,0 +1,565 @@
+{
+  "id": "ev_0064951642ac46238f9867a04dc77f6b093557339b16294a2fcba27251688c96",
+  "subject": {
+    "kind": "website",
+    "name": "https://masomo3.kyu.ac.ke/login/index.php"
+  },
+  "operation": "web_site_capture",
+  "params": {
+    "include_html": true,
+    "max_height": 12000,
+    "noise_pass": true,
+    "visitor_view": false,
+    "widths": [
+      1440,
+      768,
+      390
+    ]
+  },
+  "result": {
+    "counts": {
+      "forms": 2,
+      "headings": 1,
+      "images": 1,
+      "links": 3,
+      "outline": 13
+    },
+    "design": {
+      "backgrounds": [
+        {
+          "count": 3,
+          "value": "#ffffff"
+        },
+        {
+          "count": 1,
+          "value": "#f2f3f7"
+        },
+        {
+          "count": 1,
+          "value": "#f8f9fa"
+        },
+        {
+          "count": 1,
+          "value": "#f4d6d2"
+        },
+        {
+          "count": 1,
+          "value": "#1e964f"
+        },
+        {
+          "count": 1,
+          "value": "#ced4da"
+        }
+      ],
+      "css_variables": {
+        "--activityadministration": "#5d63f6",
+        "--activityassessment": "#eb66a2",
+        "--activitycollaboration": "#f7634d",
+        "--activitycommunication": "#11a676",
+        "--activitycontent": "#399be2",
+        "--activityinterface": "#a378ff",
+        "--blue": "#0f6cbf",
+        "--breakpoint-lg": "992px",
+        "--breakpoint-md": "768px",
+        "--breakpoint-sm": "576px",
+        "--breakpoint-xl": "1200px",
+        "--breakpoint-xs": "0",
+        "--cyan": "#008196",
+        "--danger": "#ca3120",
+        "--dark": "#343a40",
+        "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+        "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Free\"",
+        "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Free\"",
+        "--fa-style-family-brands": "\"Font Awesome 6 Brands\"",
+        "--fa-style-family-classic": "\"Font Awesome 6 Free\"",
+        "--font-family-monospace": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+        "--font-family-sans-serif": "Roboto",
+        "--gray": "#6a737b",
+        "--gray-dark": "#343a40",
+        "--green": "#64a44e",
+        "--indigo": "#6610f2",
+        "--info": "#008196",
+        "--light": "#f8f9fa",
+        "--navbar-height": "60px",
+        "--orange": "#f0ad4e",
+        "--pink": "#e83e8c",
+        "--primary": "#1e964f",
+        "--purple": "#613d7c",
+        "--red": "#ca3120",
+        "--secondary": "#ced4da",
+        "--success": "#64a44e",
+        "--teal": "#20c997",
+        "--warning": "#f0ad4e",
+        "--white": "#fff",
+        "--yellow": "#ff7518"
+      },
+      "font_faces": [
+        {
+          "family": "VideoJS",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Font Awesome 6 Brands",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Font Awesome 6 Free",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Font Awesome 6 Free",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "900"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "italic",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "300"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "400"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "500"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "unloaded",
+          "style": "normal",
+          "weight": "700"
+        },
+        {
+          "family": "Roboto",
+          "status": "loaded",
+          "style": "normal",
+          "weight": "700"
+        }
+      ],
+      "font_sizes": [
+        {
+          "count": 7,
+          "value": "15px"
+        },
+        {
+          "count": 1,
+          "value": "30px"
+        },
+        {
+          "count": 1,
+          "value": "18.75px"
+        }
+      ],
+      "font_weights": [
+        {
+          "count": 8,
+          "value": "400"
+        },
+        {
+          "count": 1,
+          "value": "700"
+        }
+      ],
+      "fonts": [
+        {
+          "count": 9,
+          "value": "Roboto"
+        }
+      ],
+      "max_widths": [],
+      "radii": [
+        {
+          "count": 5,
+          "value": "8px"
+        },
+        {
+          "count": 3,
+          "value": "9.6px"
+        }
+      ],
+      "shadows": [
+        {
+          "count": 1,
+          "value": "rgba(0, 0, 0, 0.15) 0px 8px 16px 0px"
+        }
+      ],
+      "spacing": [
+        {
+          "count": 12,
+          "value": "16px"
+        },
+        {
+          "count": 8,
+          "value": "-1px"
+        },
+        {
+          "count": 8,
+          "value": "15px"
+        },
+        {
+          "count": 8,
+          "value": "8px"
+        },
+        {
+          "count": 6,
+          "value": "12px"
+        },
+        {
+          "count": 5,
+          "value": "32px"
+        },
+        {
+          "count": 4,
+          "value": "6px"
+        },
+        {
+          "count": 2,
+          "value": "20px"
+        }
+      ],
+      "text_colors": [
+        {
+          "count": 4,
+          "value": "#1d2125"
+        },
+        {
+          "count": 3,
+          "value": "#1e964f"
+        },
+        {
+          "count": 1,
+          "value": "#691911"
+        },
+        {
+          "count": 1,
+          "value": "#ffffff"
+        }
+      ]
+    },
+    "files": [
+      "README.md",
+      "capture.json"
+    ],
+    "html_bytes": 23268,
+    "output_directory": "C:\\Users\\annord\\OneDrive\\Documents\\Craft Anything\\masomo3-kyu-ac-ke\\capture",
+    "screenshots": [
+      {
+        "css_width": 1440,
+        "cut": false,
+        "file": "screenshot-1440.png",
+        "height": 966,
+        "noise_tiles": 0,
+        "sha256": "8268f8018472e8a180ba1e332752d0af654d05b2d3fb75fe149b53017c05d2bd",
+        "width": 1440
+      },
+      {
+        "css_width": 768,
+        "cut": false,
+        "file": "screenshot-768.png",
+        "height": 900,
+        "noise_tiles": 0,
+        "sha256": "b48e948573ffe158bc047e09565f442b2ba9d44f0abddfcce59420446e79d100",
+        "width": 768
+      },
+      {
+        "css_width": 390,
+        "cut": false,
+        "file": "screenshot-390.png",
+        "height": 900,
+        "noise_tiles": 0,
+        "sha256": "d6a98c4737811796da798370a3fc4330a4f0bcfa7d113bdc323e9a456a2faf69",
+        "width": 390
+      }
+    ],
+    "title": "In maintenance mode | Masomo Year 3 & 4",
+    "url": "https://masomo3.kyu.ac.ke/login/index.php"
+  },
+  "summary": "Captured https://masomo3.kyu.ac.ke/login/index.php: 3 screenshot(s), 13 outline items, 1 headings, 1 images, 3 links, 2 forms → C:\\Users\\annord\\OneDrive\\Documents\\Craft Anything\\masomo3-kyu-ac-ke\\capture.",
+  "confidence": "observed",
+  "authority": "our-run",
+  "environment": {
+    "clean_room": false,
+    "engine": "cdp",
+    "engine_version": "1.3",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "one_state",
+      "message": "One state of the page: menus, dialogs and content behind interactions are not opened."
+    },
+    {
+      "code": "cross_origin_css",
+      "message": "CSS custom properties and breakpoints from cross-origin stylesheets can't be read."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 3,
+    "total": 3
+  },
+  "locations": [
+    {
+      "kind": "url",
+      "value": "https://masomo3.kyu.ac.ke/login/index.php"
+    },
+    {
+      "kind": "path",
+      "value": "C:\\Users\\annord\\OneDrive\\Documents\\Craft Anything\\masomo3-kyu-ac-ke\\capture"
+    }
+  ],
+  "links": []
+}

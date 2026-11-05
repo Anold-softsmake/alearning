@@ -1,0 +1,656 @@
+1
+| 
+Page
+Systems 
+programming lesson 5 & 6 combined
+COM 
+312: BSc Computer science
+Topics area coverage.
+UNIX i
+nter process communication Tool
+Defination1:
+-
+Inter process communication
+is the mechanism 
+where process 
+communicate with each other and with the kernel to coordinate their 
+activities.
+to 
+synchronize their action. 
+Definition 2
+:
+-
+it is a set of programming interface
+(API)
+which allows a programmer 
+to coordinate activities among various program processes which can run concurrently 
+in an operating system
+. This allows a specific
+program to handle many user requests 
+at the same time.
+Communication can be 
+related or unrelated
+(
+using pipes one process running in 
+one terminal and another process in another terminal
+)
+processes 
+
+Linux supports a number of inter
+-
+process 
+communication
+(IPC)
+o
+Signals, shared
+memory 
+and pipes are the most common 
+o
+But other IPCs are
+-
+shared files
+-
+shared memory with (with semaphores)
+-
+message Queues
+-
+sockets
+Inter
+-
+process communication Approaches
+a)
+Pipes
+b)
+Message passing
+c)
+Message queues
+d)
+Direct communication
+UNIX inter process communication Tools
+
+Topic introduction 
+
+Pipes 
+and practices using P
+open () and P 
+close () functions
+UNIX Thread management and synchronization
+
+P
+osix standards and 
+its sub group
+
+Threading Concept in systems programming
+
+Thread ID calls
+
+Mutex and semaphore in systems administration 
+2
+| 
+Page
+e)
+Indirect communication
+f)
+Shared memory
+g)
+F
+iF
+o
+Pipes
+Pipes is widely used for communication
+between two related processes. This is a 
+half
+-
+duplex method, so the first process communicates with the second process. 
+However, in order to achiev
+e a full
+-
+duplex, another pipe is needed.
+Message passing
+The process communicates with each other without resorting to shared variables.
+Message Queues
+A message
+queue is a linked list of messages stored within the kernel. It is 
+identified by a message queue identifier. This method offers communication 
+between single or multiple processes with full
+-
+duplex capacity.
+Direct communication
+In this method, a link
+is es
+tablished one pair of communicating process and 
+between each pair, only one link exists.
+What is 
+Shared memory
+?
+Shared memory
+is the fastest interposes communication mechanism
+. The 
+operating systems maps a memory segment in the address space of several 
+processes. 
+So that several processes can read and write in that memory segment 
+without calling operating system
+functions. 
+However,
+we need some
+kind of 
+between processes that re
+ad and write shared memory.
+Why use processes use shared memory?
+Shared memory
+is memory that may be simultaneously accessed multiple 
+programs with an intent to provide communication among them or 
+avoid 
+redundant copies.
+Shared memory run on single 
+processor
+, parallel processor, or clustered 
+processors
+3
+| 
+Page
+Example: 
+Consider what happens when a server process wants to send an HTML file to a 
+client process that resides in the same machine using network mechanisms.
+o
+Single server that enables clients and servers to exchange data and 
+instructions using main memory.
+o
+Without shared memory, both client and server use use operating system 
+buffers to accomplish the modification and exchange. 
+o
+With 
+shared memory, the client writes its process directly into RAM and 
+issues a semaphore value to flag sever attention. There is 
+only 1 read and 1 
+write per communication, and 
+the read/write is considerably faster than 
+using system services. 
+Ï
+to achieve higher performance computing
+
+Need of inter process communication
+i.
+Information sharing
+ii.
+Speedup
+iii.
+Modularity
+iv.
+Convenience
+System V IPC is more heavy weight than BSD mmap and provides three methods of 
+communication.
+-
+Message Queues
+-
+Semaphore and
+-
+Shared 
+segment
+.
+Shared memory is a concept 
+where two or more process 
+Share resources from one 
+memory address space.
+4
+| 
+Page
+Pipes and pipe demonstration using P open () and P close () 
+functions
+Pipe is unidirectional (
+moving in a 
+single direction
+) Byte stream. It has two ends 
+means that two processes are connected to each 
+other. (
+connection between two 
+processes
+)
+Unlike other processes in 
+IPC
+pipe only offer one
+-
+way communication.
+Pipe () is a Linux system function.
+The pipe () system function is used to open 
+file descriptors
+which are used to 
+communicate between different Lin
+ux processes.
+Pipe is a special file that follows 
+the FIFO mechanism 
+All about pipe () function:
+The syntax of the pipe () function is:
+i
+nt 
+pipe (
+int 
+pipefd [
+2]);
+here, the 
+pipe () 
+function creates a unidirectional data channel for inter
+-
+process 
+communication. You pass in an 
+int
+(integer) type array pipefd consisting of 2 
+array element to the function pipe () then the pipe () function creates two file 
+descriptors in the 
+pipefd
+array.
+The first element of the pipefd array, 
+pipefd
+[0
+] is used for reading data from the 
+pipe.
+The second element of the pipefd array, 
+pipefd
+[1
+] is used for writing data to the 
+pipe.
+On success, the 
+pipe (
+) function return 0. If an error occurs during pipe 
+initialization,
+then pipe returns 
+-
+1
+LS
+?
+list the content of the 
+directory
+WC
+-
+word count 
+the 
+number of lines
+, bytes, 
+words output from first 
+command to input of 
+second, and so forth 
+5
+| 
+Page
+Why do we use/Benefits of using pipes?
+1.
+You can use them across different 
+systems
+that may not exist at the same 
+time
+. Suppose you want real
+-
+time 
+communication of different machines. Just 
+use FIFO files to share data.
+2.
+As a file you can control ownership and permissions
+3.
+You donÔt have to start the reading/ writing processes at the same time. 
+Example 1;
+To create a new C source file pipe.c
+Codes explained 
+Exit (EXIT_FAILURE) 
+If code fails the it exits there.
+6
+| 
+Page
+Popen and Pclose functions for inter
+-
+process communication.
+Popen
+Ï
+opens a pipe stream to or from a process
+A common use of pipes is to send data to or receive data from a program being 
+run in a sub process. 
+P
+open
+and 
+P
+close
+functions ease this paradigm by 
+eliminating the need to 
+invoke pipe, fork,
+dup
+2, exec
+, and fd open.
+How to access the Linux manual 
+7
+| 
+Page
+Program to write into a pipe
+Example to illustrate the above written codes
+File* rd;
+Data type file stream= file * 
+rd the file name.
+Char buffer [50] = 
+buffer as a stream storage
+.
+Sprintf  () = 
+print string to write data into the 
+buffer 
+???????? ???? 
+?
+??? ????? ? ?? 
+name of the file 
+that will use open pipe using write mode.
+fwrite(buffer,sizeof(char),strlen(buffer),rd;
+wc = 
+cmd that reads either standard input or a 
+list of computer files and gen
+erate one of the 
+following statistics newline, word count, and byte 
+count.
+-
+c = cmd that pass your code as a string (print 
+number of characters that Wc will receive)
+8
+| 
+Page
+UNIX Thread management and 
+synchronization
+Posix standards and its sub group
+What is posix standards? Ñ
+Portability operating system interface
+Ò 
+is the name of 
+a family 
+related standards specified by IEEE to define the application 
+programming interface (API), along with shell 
+utilities interface for the software 
+compat
+ible with variants of the UNIX 
+operating system.
+B
+e
+cause many versions of UNIX exist today and each of them provides its own 
+set of API functions, it is difficult for system developers to create applications 
+that
+can be easily ported to different versions of UNIX.
+Some 
+of 
+the subgroups
+of POSIX are 
+POSIX.1, POSIX.1b & POSIX.1c 
+are 
+concerned with the development of set of standards for system developers.
+1.
+POSIX. 1
+o
+T
+his commit
+t
+ee
+proposes a standard for a base operating system API; this 
+standard specifies 
+APIs for the manipulating of files and processes.
+o
+It is formally known as IEEE standard 1003.1
+-
+1990 and it was also 
+adopted by the ISO as the international standard ISO/IEC 
+9945
+:
+1: 1990.
+2.
+POSIX.1b
+o
+This committee
+proposes a set of standard APIs for
+a real time OS 
+interface;
+these include IPC (
+interposes communication
+)
+o
+This standard is formally known as IEEE standard 10034
+-
+1993.
+3.
+Posix.1c
+o
+This standard specifies 
+multi
+-
+threaded programming interface. This is 
+the newest POSIX standard.
+9
+| 
+Page
+o
+These standards are proposed for a generic OS that is not necessary be 
+UNIX system.
+o
+E.g VMS from Digital 
+Equipment corporation, OS/2 from IBM, & 
+Windows NT from Microsoft corporation 
+are POSIX
+-
+compliant, yet 
+they are not UNIX systems.
+o
+To ensure a user program conforms to POSIX.1 standard the user 
+should either define the manifested constant
+_ POSIX_SOURCE 
+at the 
+beginning of each source module of the program (before inclusion of 
+any hea
+der) as; 
+# define_POSIX_SOURCE 
+OR specify the 
+Ï
+D_ 
+POSIX_SOURCE
+option to a C++ compiler(CC)
+in a compilation; 
+% CC 
+Ï
+D_ POSIX_SOURCE *.C
+o
+POSIX.1b defines different manifested constant to check conformance 
+of user program to that standard. The new macro is 
+P
+OSIX_C_SOURCE 
+and its value indicates POSIX version to which a 
+user program conforms. Its value can be:
+10
+| 
+Page
+Threading Concept in systems programming
+Knowing 
+how to properly use threads should be part of every computer science 
+and engineering student 
+repertoire.
+Thread
+s?
+Def 1:
+A thread is a basic unit of CPU utilization.
+Def 2:
+A thread of execution is often regarded as the smallest unit of processing 
+that a scheduler works on.
+i.
+A program counter
+-
+is a register that manages the memory 
+address of the 
+instruction to be executed nextÈ
+ii.
+A register set
+-
+processor can be partitioned into different register 
+classes. 
+iii.
+A stack
+Ï
+a mount of memory allocated to the stack in each thread.
+It 
+shares with other threads belonging to the same process i
+ts code section, data 
+section, and other operating
+-
+system resources, such as open files and signals.
+A traditional / heavyweight process has a 
+single thread 
+of control. If a process 
+has 
+multiple threads 
+of control, it can perform 
+more than one task at a time.
+11
+| 
+Page
+Fig 1 : process threads view
+Fig 2: showing the different processes 
+Fig 3: 
+details concerning the threads
+from processor illustrated in Fig 2.
+12
+| 
+Page
+Threads are useful 
+Ï
+Example 
+applications
+Example 1: 
+A web serer
+o
+It needs to handle several download requests over a short period
+o
+Hence more efficient to create (and destroy) a single thread for each 
+request
+o
+Multiple threads can possibly be executing simultaneously on different 
+proces
+sors
+Example 2: A responsive user interface 
+o
+One area in which threads can be very helpful is in user
+-
+interface programs.
+These programs are usually centered around a loop of reading user input, 
+processing it, and showing the results of the proce
+ssing. The processing part may 
+sometimes take a while to complete, and the user is made to wait during this 
+operation. By placing such long operations in a separate 
+thread to read, while 
+having another thread to read user input, the program can be more res
+ponsive. It 
+may allow the user to cancel the operation in the middle.
+13
+| 
+Page
+Thread Identification
+Just as a process is identified through a 
+process ID
+, a thread is identified by a 
+thread 
+ID
+. But interestingly, the similarity between the two ends here.
+A 
+process ID
+is unique across the system where as a 
+thread ID is unique only in context 
+of a single process.
+A 
+process ID is an 
+integer value
+but 
+the thread ID is not necessarily an integer value
+. It 
+could well be a structure
+A 
+process ID can be printed very
+easily
+while 
+a thread ID is not easy to print
+.
+The above points give an idea about the difference between a process ID and thread ID.
+Thread Creation
+Normally when a program starts up and becomes a process, it starts with a default 
+thread. So we can say that every process has at least one thread of control.
+Thread ID
+is 
+represented by the type Ó
+pthread_tÔ.
+What are pthreads?
+Historically
+, hardware vendors have implemented their own proprietary 
+versions of threads. These implementati
+ons differed substantially from each 
+other, making it difficult for programmers to develop portable threaded 
+applications.
+In order to take full advantage of the capabilities provided by threads, a 
+standardized programming interface was required. for UNIX 
+systems, 
+this 
+interface has been specified by the IEEE POSIX 1003.1c standard (1995
+).
+implementations which adhere to this standard are referred to as 
+POSIX threads 
+or 
+Pthreads
+. 
+Most hardware vendors now offer Pthreads in additional to their 
+proprietary threads.
+14
+| 
+Page
+How to Create Threads
+ID
+in Linux (With a C Example Program
+)
+We must include the 
+pthread.h 
+header file at the beginning of the script to use all 
+the functions of the pthreads library.
+How do I find thread ID?
+The 
+pthread_self () function 
+is used to get the ID
+of the current thread
+. 
+But if 
+there are multiple threads, and   one thread is completed, then that ID can be 
+reused. 
+Because it remains unchanged during its lifetime.
+Output
+In function 
+Thread id =1
+In main
+Thread id =1
+Void* func (void*p) 
+?
+pointer which is 
+??? ?????????? ???? ??? ???? ?????? L??? ? 
+general purpose 
+pointer
+.
+means function does not pass any argument
+.
+Pthread_
+create
+(
+&
+thread, NULL, func, NULL
+)
+= creates
+a new thread in the calling 
+process,
+if attr
+is NULL the default attributes shall be used.
+Pthread_join
+?
+this is useful when you want to wait for thread/s to terminate before 
+further processing in main thread.
+15
+| 
+Page
+Mutex and semaphore in 
+systems administration
+Read on mutex vs semaphore
+Javatpoint search mutex and semaphore
+www.Guru99.com
+when should we use semaphores and when should we use mutex?
+Read 
+semaphore and mutex
+implementation using c programming

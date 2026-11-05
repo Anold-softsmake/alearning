@@ -1,0 +1,1111 @@
+{
+  "a11y": {
+    "images_without_alt": 0,
+    "landmarks": {
+      "main": 1
+    },
+    "lang": "en",
+    "unnamed_controls": 0,
+    "unnamed_examples": []
+  },
+  "assets": {
+    "background_images": [
+      "https://masomo3.kyu.ac.ke/theme/moove/pix/loginbg.png"
+    ],
+    "fonts": [
+      "https://fonts.googleapis.com/css2",
+      "https://masomo3.kyu.ac.ke/theme/font.php/moove/core/1789046438/fa-solid-900.woff2"
+    ],
+    "images": [
+      {
+        "alt": "KyU Masomo Portal",
+        "h": 1074,
+        "src": "https://masomo3.kyu.ac.ke/pluginfile.php/1/theme_moove/logo/1789046438/kyu_logo2.png",
+        "w": 1050
+      }
+    ],
+    "inline_scripts": 8,
+    "requests": [
+      {
+        "bytes": 1210,
+        "type": "link",
+        "url": "https://masomo3.kyu.ac.ke/theme/yui_combo.php"
+      },
+      {
+        "bytes": 160543,
+        "type": "link",
+        "url": "https://masomo3.kyu.ac.ke/theme/styles.php/moove/1789046438_1789046469/all"
+      },
+      {
+        "bytes": 2233,
+        "type": "link",
+        "url": "https://fonts.googleapis.com/css2"
+      },
+      {
+        "bytes": 60782,
+        "type": "script",
+        "url": "https://masomo3.kyu.ac.ke/lib/javascript.php/1789046438/lib/polyfills/polyfill.js"
+      },
+      {
+        "bytes": 83892,
+        "type": "script",
+        "url": "https://masomo3.kyu.ac.ke/theme/yui_combo.php"
+      },
+      {
+        "bytes": 6866,
+        "type": "script",
+        "url": "https://masomo3.kyu.ac.ke/lib/javascript.php/1789046438/lib/javascript-static.js"
+      },
+      {
+        "bytes": 838775,
+        "type": "img",
+        "url": "https://masomo3.kyu.ac.ke/pluginfile.php/1/theme_moove/logo/1789046438/kyu_logo2.png"
+      },
+      {
+        "bytes": 6874,
+        "type": "script",
+        "url": "https://masomo3.kyu.ac.ke/lib/javascript.php/1789046438/lib/requirejs/require.min.js"
+      },
+      {
+        "bytes": 20334,
+        "type": "script",
+        "url": "https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js"
+      },
+      {
+        "bytes": 685818,
+        "type": "css",
+        "url": "https://masomo3.kyu.ac.ke/theme/moove/pix/loginbg.png"
+      },
+      {
+        "bytes": 150424,
+        "type": "css",
+        "url": "https://masomo3.kyu.ac.ke/theme/font.php/moove/core/1789046438/fa-solid-900.woff2"
+      },
+      {
+        "bytes": 623914,
+        "type": "script",
+        "url": "https://masomo3.kyu.ac.ke/lib/requirejs.php/1789046438/core/first.js"
+      },
+      {
+        "bytes": 30667,
+        "type": "script",
+        "url": "https://masomo3.kyu.ac.ke/lib/javascript.php/1789046438/lib/jquery/jquery-3.7.1.min.js"
+      },
+      {
+        "bytes": 5530,
+        "type": "script",
+        "url": "https://masomo3.kyu.ac.ke/theme/yui_combo.php"
+      },
+      {
+        "bytes": 5228,
+        "type": "xmlhttprequest",
+        "url": "https://masomo3.kyu.ac.ke/lib/ajax/service.php"
+      },
+      {
+        "bytes": 1450,
+        "type": "other",
+        "url": "https://masomo3.kyu.ac.ke/pluginfile.php/1/theme_moove/favicon/1789046438/favicon%284%29.ico"
+      },
+      {
+        "bytes": 32519,
+        "type": "xmlhttprequest",
+        "url": "https://masomo3.kyu.ac.ke/lib/ajax/service-nologin.php"
+      },
+      {
+        "bytes": 578,
+        "type": "xmlhttprequest",
+        "url": "https://masomo3.kyu.ac.ke/lib/ajax/service-nologin.php"
+      },
+      {
+        "bytes": 511,
+        "type": "xmlhttprequest",
+        "url": "https://masomo3.kyu.ac.ke/lib/ajax/service-nologin.php"
+      },
+      {
+        "bytes": 2391,
+        "type": "xmlhttprequest",
+        "url": "https://masomo3.kyu.ac.ke/lib/ajax/service-nologin.php"
+      }
+    ],
+    "scripts": [
+      "https://masomo3.kyu.ac.ke/theme/yui_combo.php?3.18.1/event-mousewheel/event-mousewheel-min.js&3.18.1/event-resize/event-resize-min.js&3.18.1/event-hover/event-hover-min.js&3.18.1/event-touch/event-touch-min.js&3.18.1/event-move/event-move-min.js&3.18.1/event-flick/event-flick-min.js&3.18.1/event-valuechange/event-valuechange-min.js&3.18.1/event-tap/event-tap-min.js&m/1789046438/core/event/event-min.js",
+      "https://masomo3.kyu.ac.ke/lib/requirejs.php/1789046438/core/first.js",
+      "https://masomo3.kyu.ac.ke/lib/javascript.php/1789046438/lib/jquery/jquery-3.7.1.min.js",
+      "https://masomo3.kyu.ac.ke/lib/javascript.php/1789046438/lib/polyfills/polyfill.js",
+      "https://masomo3.kyu.ac.ke/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.js",
+      "https://masomo3.kyu.ac.ke/lib/javascript.php/1789046438/lib/javascript-static.js",
+      "https://masomo3.kyu.ac.ke/lib/javascript.php/1789046438/lib/requirejs/require.min.js",
+      "https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js?delayStartupUntil=configured"
+    ],
+    "stylesheets": [
+      "https://masomo3.kyu.ac.ke/theme/yui_combo.php?rollup/3.18.1/yui-moodlesimple-min.css",
+      "https://masomo3.kyu.ac.ke/theme/styles.php/moove/1789046438_1789046469/all",
+      "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap"
+    ]
+  },
+  "breakpoints": [
+    {
+      "count": 1,
+      "px": 420,
+      "query": "max-width 420px"
+    },
+    {
+      "count": 5,
+      "px": 480,
+      "query": "max-width 480px"
+    },
+    {
+      "count": 21,
+      "px": 576,
+      "query": "max-width 576px"
+    },
+    {
+      "count": 39,
+      "px": 576,
+      "query": "min-width 576px"
+    },
+    {
+      "count": 2,
+      "px": 670,
+      "query": "max-width 670px"
+    },
+    {
+      "count": 2,
+      "px": 671,
+      "query": "min-width 671px"
+    },
+    {
+      "count": 8,
+      "px": 767,
+      "query": "max-width 767px"
+    },
+    {
+      "count": 41,
+      "px": 768,
+      "query": "max-width 768px"
+    },
+    {
+      "count": 28,
+      "px": 768,
+      "query": "min-width 768px"
+    },
+    {
+      "count": 1,
+      "px": 840,
+      "query": "min-width 840px"
+    },
+    {
+      "count": 1,
+      "px": 960,
+      "query": "max-width 960px"
+    },
+    {
+      "count": 1,
+      "px": 979,
+      "query": "max-width 979px"
+    },
+    {
+      "count": 19,
+      "px": 992,
+      "query": "min-width 992px"
+    },
+    {
+      "count": 17,
+      "px": 992,
+      "query": "max-width 992px"
+    },
+    {
+      "count": 1,
+      "px": 1199,
+      "query": "max-width 1199px"
+    },
+    {
+      "count": 37,
+      "px": 1200,
+      "query": "max-width 1200px"
+    },
+    {
+      "count": 12,
+      "px": 1200,
+      "query": "min-width 1200px"
+    },
+    {
+      "count": 1,
+      "px": 1600,
+      "query": "max-width 1600px"
+    }
+  ],
+  "design": {
+    "backgrounds": [
+      {
+        "count": 3,
+        "value": "#ffffff"
+      },
+      {
+        "count": 1,
+        "value": "#f2f3f7"
+      },
+      {
+        "count": 1,
+        "value": "#f8f9fa"
+      },
+      {
+        "count": 1,
+        "value": "#f4d6d2"
+      },
+      {
+        "count": 1,
+        "value": "#1e964f"
+      },
+      {
+        "count": 1,
+        "value": "#ced4da"
+      }
+    ],
+    "css_variables": {
+      "--activityadministration": "#5d63f6",
+      "--activityassessment": "#eb66a2",
+      "--activitycollaboration": "#f7634d",
+      "--activitycommunication": "#11a676",
+      "--activitycontent": "#399be2",
+      "--activityinterface": "#a378ff",
+      "--blue": "#0f6cbf",
+      "--breakpoint-lg": "992px",
+      "--breakpoint-md": "768px",
+      "--breakpoint-sm": "576px",
+      "--breakpoint-xl": "1200px",
+      "--breakpoint-xs": "0",
+      "--cyan": "#008196",
+      "--danger": "#ca3120",
+      "--dark": "#343a40",
+      "--fa-font-brands": "normal 400 1em/1 \"Font Awesome 6 Brands\"",
+      "--fa-font-regular": "normal 400 1em/1 \"Font Awesome 6 Free\"",
+      "--fa-font-solid": "normal 900 1em/1 \"Font Awesome 6 Free\"",
+      "--fa-style-family-brands": "\"Font Awesome 6 Brands\"",
+      "--fa-style-family-classic": "\"Font Awesome 6 Free\"",
+      "--font-family-monospace": "SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+      "--font-family-sans-serif": "Roboto",
+      "--gray": "#6a737b",
+      "--gray-dark": "#343a40",
+      "--green": "#64a44e",
+      "--indigo": "#6610f2",
+      "--info": "#008196",
+      "--light": "#f8f9fa",
+      "--navbar-height": "60px",
+      "--orange": "#f0ad4e",
+      "--pink": "#e83e8c",
+      "--primary": "#1e964f",
+      "--purple": "#613d7c",
+      "--red": "#ca3120",
+      "--secondary": "#ced4da",
+      "--success": "#64a44e",
+      "--teal": "#20c997",
+      "--warning": "#f0ad4e",
+      "--white": "#fff",
+      "--yellow": "#ff7518"
+    },
+    "font_faces": [
+      {
+        "family": "VideoJS",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Font Awesome 6 Brands",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Font Awesome 6 Free",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Font Awesome 6 Free",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "900"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "italic",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "300"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "300"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "300"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "300"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "300"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "300"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "300"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "300"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "300"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "400"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "500"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "unloaded",
+        "style": "normal",
+        "weight": "700"
+      },
+      {
+        "family": "Roboto",
+        "status": "loaded",
+        "style": "normal",
+        "weight": "700"
+      }
+    ],
+    "font_sizes": [
+      {
+        "count": 7,
+        "value": "15px"
+      },
+      {
+        "count": 1,
+        "value": "30px"
+      },
+      {
+        "count": 1,
+        "value": "18.75px"
+      }
+    ],
+    "font_weights": [
+      {
+        "count": 8,
+        "value": "400"
+      },
+      {
+        "count": 1,
+        "value": "700"
+      }
+    ],
+    "fonts": [
+      {
+        "count": 9,
+        "value": "Roboto"
+      }
+    ],
+    "max_widths": [],
+    "radii": [
+      {
+        "count": 5,
+        "value": "8px"
+      },
+      {
+        "count": 3,
+        "value": "9.6px"
+      }
+    ],
+    "shadows": [
+      {
+        "count": 1,
+        "value": "rgba(0, 0, 0, 0.15) 0px 8px 16px 0px"
+      }
+    ],
+    "spacing": [
+      {
+        "count": 12,
+        "value": "16px"
+      },
+      {
+        "count": 8,
+        "value": "-1px"
+      },
+      {
+        "count": 8,
+        "value": "15px"
+      },
+      {
+        "count": 8,
+        "value": "8px"
+      },
+      {
+        "count": 6,
+        "value": "12px"
+      },
+      {
+        "count": 5,
+        "value": "32px"
+      },
+      {
+        "count": 4,
+        "value": "6px"
+      },
+      {
+        "count": 2,
+        "value": "20px"
+      }
+    ],
+    "text_colors": [
+      {
+        "count": 4,
+        "value": "#1d2125"
+      },
+      {
+        "count": 3,
+        "value": "#1e964f"
+      },
+      {
+        "count": 1,
+        "value": "#691911"
+      },
+      {
+        "count": 1,
+        "value": "#ffffff"
+      }
+    ]
+  },
+  "forms": [
+    {
+      "action": "https://masomo3.kyu.ac.ke/login/index.php",
+      "fields": [
+        {
+          "label": "",
+          "name": "logintoken",
+          "placeholder": "",
+          "required": false,
+          "tag": "input",
+          "type": "hidden"
+        },
+        {
+          "label": "Username",
+          "name": "username",
+          "placeholder": "Username",
+          "required": false,
+          "tag": "input",
+          "type": "text"
+        },
+        {
+          "label": "Password",
+          "name": "password",
+          "placeholder": "Password",
+          "required": false,
+          "tag": "input",
+          "type": "password"
+        },
+        {
+          "label": "",
+          "name": "",
+          "placeholder": "",
+          "required": false,
+          "tag": "button",
+          "type": "submit"
+        }
+      ],
+      "method": "post"
+    },
+    {
+      "action": "https://masomo3.kyu.ac.ke/login/index.php",
+      "fields": [
+        {
+          "label": "",
+          "name": "logintoken",
+          "placeholder": "",
+          "required": false,
+          "tag": "input",
+          "type": "hidden"
+        },
+        {
+          "label": "",
+          "name": "username",
+          "placeholder": "",
+          "required": false,
+          "tag": "input",
+          "type": "hidden"
+        },
+        {
+          "label": "",
+          "name": "password",
+          "placeholder": "",
+          "required": false,
+          "tag": "input",
+          "type": "hidden"
+        },
+        {
+          "label": "",
+          "name": "",
+          "placeholder": "",
+          "required": false,
+          "tag": "button",
+          "type": "submit"
+        }
+      ],
+      "method": "post"
+    }
+  ],
+  "headings": [
+    {
+      "level": 1,
+      "text": "Log in to KyU Masomo Portal"
+    }
+  ],
+  "health": {
+    "errors": [],
+    "failed_requests": []
+  },
+  "lang": "en",
+  "layouts": [
+    {
+      "blocks": [
+        {
+          "h": 966,
+          "heading": "Log in to KyU Masomo Portal",
+          "pad": [
+            0,
+            15,
+            0,
+            15
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 1395,
+          "y": 0
+        }
+      ],
+      "page_h": 966,
+      "page_w": 1425,
+      "type": {
+        "body": 0,
+        "h1": 30,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 1440
+    },
+    {
+      "blocks": [
+        {
+          "h": 884,
+          "heading": "Log in to KyU Masomo Portal",
+          "pad": [
+            0,
+            15,
+            0,
+            15
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 738,
+          "y": 16
+        }
+      ],
+      "page_h": 900,
+      "page_w": 768,
+      "type": {
+        "body": 0,
+        "h1": 30,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 768
+    },
+    {
+      "blocks": [
+        {
+          "h": 783,
+          "heading": "Log in to KyU Masomo Portal",
+          "pad": [
+            0,
+            15,
+            0,
+            15
+          ],
+          "per_row": 2,
+          "tag": "section",
+          "w": 390,
+          "y": 16
+        }
+      ],
+      "page_h": 900,
+      "page_w": 390,
+      "type": {
+        "body": 0,
+        "h1": 30,
+        "h2": 0,
+        "h3": 0
+      },
+      "width": 390
+    }
+  ],
+  "links": [
+    {
+      "href": "https://masomo3.kyu.ac.ke/login/index.php#maincontent",
+      "text": "Skip to main content"
+    },
+    {
+      "href": "https://masomo3.kyu.ac.ke/login/forgot_password.php",
+      "text": "Lost password?"
+    },
+    {
+      "href": "https://masomo3.kyu.ac.ke/admin/tool/dataprivacy/summary.php",
+      "text": "Data retention summary"
+    }
+  ],
+  "meta": {
+    "description": "",
+    "icons": [
+      "https://masomo3.kyu.ac.ke/pluginfile.php/1/theme_moove/favicon/1789046438/favicon%284%29.ico"
+    ],
+    "og_image": "",
+    "og_title": "",
+    "theme_color": ""
+  },
+  "outline": [
+    {
+      "box": {
+        "h": 1,
+        "w": 1,
+        "x": -1,
+        "y": -1
+      },
+      "class": "sr-only sr-only-focusable",
+      "color": "#1e964f",
+      "depth": 4,
+      "font": "15px 400",
+      "href": "https://masomo3.kyu.ac.ke/login/index.php#maincontent",
+      "tag": "a",
+      "text": "Skip to main content"
+    },
+    {
+      "box": {
+        "h": 966,
+        "w": 1395,
+        "x": 15,
+        "y": 0
+      },
+      "class": "col-12 h-100",
+      "color": "#1d2125",
+      "depth": 6,
+      "display": "block",
+      "font": "15px 400",
+      "id": "region-main",
+      "tag": "section"
+    },
+    {
+      "box": {
+        "h": 934,
+        "w": 1365,
+        "x": 30,
+        "y": 0
+      },
+      "color": "#1d2125",
+      "depth": 9,
+      "font": "15px 400",
+      "role": "main",
+      "tag": "div",
+      "text": "Log in to KyU Masomo Portal The site is undergoing maintenance and is currently not available Username Password Log in Lost password? Access as a guest Cookies notice"
+    },
+    {
+      "alt": "KyU Masomo Portal",
+      "box": {
+        "h": 462,
+        "w": 452,
+        "x": 487,
+        "y": 33
+      },
+      "class": "img-fluid",
+      "color": "#1d2125",
+      "depth": 13,
+      "font": "15px 400",
+      "id": "logoimage",
+      "src": "https://masomo3.kyu.ac.ke/pluginfile.php/1/theme_moove/logo/1789046438/kyu_logo2.png",
+      "tag": "img"
+    },
+    {
+      "box": {
+        "h": 1,
+        "w": 1,
+        "x": 712,
+        "y": 32
+      },
+      "class": "login-heading sr-only",
+      "color": "#1d2125",
+      "depth": 13,
+      "font": "30px 700",
+      "tag": "h1",
+      "text": "Log in to KyU Masomo Portal"
+    },
+    {
+      "box": {
+        "h": 209,
+        "w": 452,
+        "x": 487,
+        "y": 596
+      },
+      "class": "login-form",
+      "color": "#1d2125",
+      "depth": 12,
+      "display": "block",
+      "font": "15px 400",
+      "id": "login",
+      "tag": "form"
+    },
+    {
+      "background": "#ffffff",
+      "box": {
+        "h": 46,
+        "w": 452,
+        "x": 487,
+        "y": 596
+      },
+      "class": "form-control form-control-lg",
+      "color": "#495057",
+      "depth": 14,
+      "font": "18.75px 400",
+      "id": "username",
+      "name": "username",
+      "placeholder": "Username",
+      "tag": "input",
+      "type": "text"
+    },
+    {
+      "background": "#ffffff",
+      "box": {
+        "h": 46,
+        "w": 452,
+        "x": 487,
+        "y": 658
+      },
+      "class": "form-control form-control-lg",
+      "color": "#495057",
+      "depth": 14,
+      "font": "18.75px 400",
+      "id": "password",
+      "name": "password",
+      "placeholder": "Password",
+      "tag": "input",
+      "type": "password"
+    },
+    {
+      "background": "#1e964f",
+      "box": {
+        "h": 46,
+        "w": 452,
+        "x": 487,
+        "y": 721
+      },
+      "class": "btn btn-primary btn-block btn-lg",
+      "color": "#ffffff",
+      "depth": 14,
+      "font": "18.75px 400",
+      "id": "loginbtn",
+      "tag": "button",
+      "text": "Log in"
+    },
+    {
+      "box": {
+        "h": 18,
+        "w": 105,
+        "x": 660,
+        "y": 785
+      },
+      "color": "#1e964f",
+      "depth": 14,
+      "font": "15px 400",
+      "href": "https://masomo3.kyu.ac.ke/login/forgot_password.php",
+      "tag": "a",
+      "text": "Lost password?"
+    },
+    {
+      "box": {
+        "h": 37,
+        "w": 452,
+        "x": 487,
+        "y": 821
+      },
+      "class": "mt-2",
+      "color": "#1d2125",
+      "depth": 12,
+      "display": "block",
+      "font": "15px 400",
+      "id": "guestlogin",
+      "tag": "form"
+    },
+    {
+      "background": "#ced4da",
+      "box": {
+        "h": 37,
+        "w": 452,
+        "x": 487,
+        "y": 821
+      },
+      "class": "btn btn-secondary btn-block",
+      "color": "#1d2125",
+      "depth": 13,
+      "font": "15px 400",
+      "tag": "button",
+      "text": "Access as a guest"
+    },
+    {
+      "box": {
+        "h": 37,
+        "w": 143,
+        "x": 795,
+        "y": 866
+      },
+      "class": "ml-auto btn btn-link",
+      "color": "#1e964f",
+      "depth": 13,
+      "font": "15px 400",
+      "tag": "button",
+      "text": "Cookies notice"
+    }
+  ],
+  "page": {
+    "h": 966,
+    "w": 1425
+  },
+  "text": "Skip to main content Log in to KyU Masomo Portal The site is undergoing maintenance and is currently not available Username Password Log in Lost password? Access as a guest Cookies notice",
+  "title": "In maintenance mode | Masomo Year 3 & 4",
+  "unreadable_stylesheets": 1,
+  "url": "https://masomo3.kyu.ac.ke/login/index.php",
+  "viewport": {
+    "h": 900,
+    "w": 1440
+  }
+}

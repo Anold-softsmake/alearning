@@ -1,0 +1,145 @@
+How does AI (Artificial Intelligence) Work?
+Artificial Intelligence is a field of data science, and the term artificial intelligence is used because it incorporates intelligence like humans into machines artificially, enabling machines to perform tasks independently without depending on any explicit factors or programming.
+Each intelligence is created through complex algorithms and mathematical functions. 
+Artificial intelligence
+ is the practice of making machines so that they can act like humans and make decisions on their own in different situations.
+Core Cognitive Functions of Artificial Intelligence
+There are three core cognitive functions of artificial intelligence.
+Generalized Learning
+Reasoning
+Problem Solving
+Generalized learning
+Generalized learning is a cognitive process that allows machines to make and perform the right decisions in different situations or any unexpected situation.
+Means to make an accurate prediction on the data for which it has not been trained.
+Reasoning
+Reasoning in AI
+ is the process of artificial intelligence to make logical conclusions and make informed decisions with the help of available data. It encloses many different types of logical processes, including deductive, inductive, and abductive reasoning, to make accurate predictions, innovative ideas, and responses according to the situation.
+Problem solving
+Problem-solving in AI is the ability of a machine to identify or 
+analyse
+ a problem, then evaluate the best solution, and then execute a strategy to reach a desired goal, again and again, through the use of mathematical functions, complex algorithms, and search strategies within a defined problem space.
+Key Components of Artificial Intelligence
+The following are the key components of Artificial Intelligence:
+Machine Learning (ML)
+:
+ It is a subset of Artificial Intelligence (AI) that allows machines to learn from large datasets and from past actions without being explicitly programmed. It permits performing tasks like image categorization, data analysis, and fraud detection.
+Machine learning is mainly 
+categorised
+ into four types, which are as follows:
+Supervised Learning
+Unsupervised Learning
+Semi-Supervised Learning
+Reinforcement Learning
+: Machines learn by trial and error. They receive feedback. This feedback is in the form of rewards or penalties.
+Deep Learning
+: It is a subset of machine learning. It uses neural networks, and these networks have many layers. This is why it's called "deep."
+Neural Networks:
+ It is a machine learning system inspired by the functioning of the human brain. It consists of layers of interconnected nodes, and those interconnected nodes are called neurons.
+Natural Language Processing
+ (NLP):
+ It is a branch of Artificial Intelligence that learns machines to understand, interpret, and create or generate human language, both written and spoken. It allows computers to understand the meaning of human language and respond in a natural way.
+Computer Vision
+ (CV):
+ It is a field of Artificial Intelligence that allows computers to understand and interpret digital images and videos. It extracts data from images and videos, analyzes and classifies them, and provides meaningful insights.
+Expert Systems
+: It is a software of Artificial Intelligence that is used for problem solving and decision making, like a human. User interacts with the system, shares their problem, and acquires an expert system response. I have specific domain knowledge, facts, and rules.
+How does Artificial Intelligence (AI) Work?
+Understanding of how Artificial Intelligence (AI) functions is essential. We must break down the process. It needs to be broken down into specific stages and mechanisms. At the core, AI mimics human decision-making. This is done with data, algorithms, and Computational power. Let's get a closer look at how AI functions. We'll do it step by step:
+1. Data Collection
+AI systems are 
+learns
+ to perform tasks form data. They need a large amount of data for performing complex tasks, problem-solving, predictions, and to emulate humans for decision-making and critical thinking. 
+So
+ it collects the data from many different sources.
+The data can be structured as well as unstructured, such as images, text, numbers, or speech.
+2. Data 
+Pre-processing
+The data is collected from various sources, which is raw data. It might be useful or a waste, so in data pre-processing, it is cleaned, transformed, and organized. There are key tasks involved in data pre-processing that follow:
+Cleaning the data:
+ The cleaning of the data consists of filling missing values, extracting duplicate data, and correcting errors in the data.
+Scaling and Normalization: 
+Scaling adjusted the values of the feature of the collected data to a smaller range. Normalization means changing values commonly with a mean = 0 and a standard deviation = 1.
+Encoding: 
+Converts the 
+categorised
+ data into numerical data, as machine learning models can understand only numbers. Some data can be in text, so convert it into numbers.
+Feature 
+Engineering:
+Creating
+, transforming, or extracting new features or details from existing data so the models can learn new things.
+Data Reduction: 
+Sometimes you have unnecessary features (columns) in datasets. 
+So
+ you need to remove data and keep only the necessary relevant data, so it makes it easier and faster to learn models.
+Data Integration: 
+The data is gathered from various sources, like Excel, databases, files, and surroundings. Combine all data into a single dataset so models can easily 
+analyse
+ the data and show a complete picture.
+3. Algorithm Selection
+There are many algorithms based on different performance, so particularly for machine learning, choosing the most suitable and appropriate algorithm among the options according to machine training is known as algorithm selection.
+They are used based on the Task at hand, such as:
+Linear Regression:
+ This refers to the supervised machine learning algorithm. In this algorithm, it predicts the value of a continuous dependent variable with one or more 
+independent variables as a straight line.
+Decision Trees:
+ A decision tree in AI is a supervised learning algorithm that splits data into branches based on feature conditions to make predictions or classifications based on a hierarchical structure where each internal node represents a decision rule. Each leaf 
+node provides an ultimate result and a classification result.
+Neural Networks:
+ It is a machine learning system inspired by the functioning of the human brain. It consists of layers of interconnected nodes, and those interconnected nodes are called neurons.
+It 
+learn
+ from data and makes decisions and predictions, allowing it to perform tasks like image recognition and forecasting without explicit programming.
+4. Model Training
+Model training is the process of learning machines different algorithms repeatedly so they can make productive decisions and perform accurate predictions.
+This is considered the training of the model with large datasets to achieve desired outcomes.
+5. Model Optimization
+Model optimization is the process of improving the performance of a machine or AI model (accuracy of data and predictions, faster response, effective and efficient productivity) in fewer resources, such as power, memory, or computation.
+Example
+Hyperparameter tuning → 
+Selection of optimum learning rate, batch size, or the number of layers.
+Regularization → 
+Avoiding overfitting so that the model generalizes well on new data.
+Pruning (in decision trees/neural networks) →
+ Deleting unnecessary branches/nodes.
+Quantization → 
+Lowering precision (e.g., from 32-bit numbers to 8-bit) to lighten models.
+Early stopping →
+Stop training when accuracy ceases to improve. Inference (Making Predictions).
+6. Inference (Making Predictions)
+AI inference involves predicting, classifying, or making decisions based on new, previously unseen data, with an AI model that has been trained on existing data. It's when the AI actually uses the knowledge it has learned to generate real-world outputs, such as by having a photo generator make a new image or a language model take some text and make it into something new. Think of it like the AI "doing" a job after it's "taught" a skill.
+Examples
+Image Recognition:
+ An AI model 
+recognises
+ a cat in a new photograph it has not seen before.
+Natural Language Processing (NLP):
+ A model makes personalized show recommendations on Netflix based on a user's viewing history, or it auto-completes the next word in an email message.
+Self-Driving Car:
+ An autonomous vehicle, such as a self-driving car, leverages inference to perceive road signs and to move through challenging road scenarios.
+Types of Inference
+Batch Inference: 
+It processes a large batch of data at once and makes predictions offline.
+Online Inference:
+ With each request, predictions are produced immediately, and response time is real-time.
+Streaming Inference:
+ A streaming pipeline processes data as it comes in for predictions.
+7. Deployment
+AI model deployment is the last step of putting a trained machine learning model into a production environment, where it can make accurate predictions and create value for users or systems. Deployment is where the models are captured, put into an application, and the predictions can be assessed through an 
+API
+.
+Deployment has unique challenges, including operational needs or scalability, reliability, and security once deployed into production, and lastly, the need to monitor the model because it may fail or degrade in performance and need to be retrained.
+Deployment is a transition of a trained AI model that is being moved from a development environment to a live environment, where it can make predictions based on new data and return those outputs.
+The goal is to make the capabilities of the model accessible to end-users, applications, or other systems, thereby being able to automate decisions or tasks.
+This is a significant step in getting tangible AI to come to value, whether that is fraud detection, patient risk prediction, or face recognition.
+Applications of Artificial Intelligence
+The following is a list of applications of artificial intelligence:
+Healthcare
+: AI is used in diagnosing diseases. It is also used in personalizing treatment plans. AI is even used in drug discovery.
+Finance
+: AI is helpful in fraud detection. It is also helpful in credit scoring. Algorithmic trading is another Area AI aids in. Customer service chatbots also have a Role where AI plays.
+Transportation
+: Autonomous vehicles like self-driving cars need AI to navigate. They also use AI to make real-time decisions.
+Retail
+: AI enhances recommendation engines. It is useful in Customer segmentation, too. AI also improves inventory management systems.
+Entertainment
+: AI offers personalized Content recommendations. Platforms like Netflix and YouTube benefit from this technology.

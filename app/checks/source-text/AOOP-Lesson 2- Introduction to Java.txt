@@ -1,0 +1,703 @@
+Lesson 2: 
+Introduction to Java Programming
+Java is −
+Object Oriented
+ − In Java, everything is an Object. Java can be easily extended since it is based on the Object model.
+Platform Independent
+ − Unlike many other programming languages including C and C++, when Java is compiled, it is not compiled into platform specific machine, rather into platform independent byte code. This byte code is distributed over the web and interpreted by the Virtual Machine (JVM) on whichever platform it is being run on.
+Simple
+ − Java is designed to be easy to learn. If you understand the basic concept of OOP Java, it would be easy to master.
+Secure
+ − With Java's secure feature it enables to develop virus-free, tamper-free systems. Authentication techniques are based on public-key encryption.
+Architecture-neutral
+ − Java compiler generates an architecture-neutral object file format, which makes the compiled code executable on many processors, with the presence of Java runtime system.
+Portable
+ − Being architecture-neutral and having no implementation dependent aspects of the specification makes Java portable. Compiler in Java is written in ANSI C with a clean portability boundary, which is a POSIX subset.
+Robust
+ − Java makes an effort to eliminate error prone situations by emphasizing mainly on compile time error checking and runtime checking.
+Multithreaded
+ − With Java's multithreaded feature it is possible to write programs that can perform many tasks simultaneously. This design feature allows the developers to construct interactive applications that can run smoothly.
+Interpreted
+ − Java byte code is translated on the fly to native machine instructions and is not stored anywhere. The development process is more rapid and analytical since the linking is an incremental and light-weight process.
+High Performance
+ − With the use of Just-In-Time compilers, Java enables high performance.
+Distributed
+ − Java is designed for the distributed environment of the internet.
+Dynamic
+ − Java is considered to be more dynamic than C or C++ since it is designed to adapt to an evolving environment. Java programs can carry extensive amount of run-time information that can be used to verify and resolve accesses to objects on run-time.
+History
+Java is used in internet programming, mobile devices, games, e-business solutions, etc. There are given significant points that describe the history of Java.
+1) 
+James Gosling
+, 
+Mike Sheridan
+, and 
+Patrick Naughton
+ initiated the Java language project in June 1991. The small team of sun engineers called 
+Green Team
+.
+2) Initially designed for small, embedded systems in electronic appliances like set-top boxes.
+3) Firstly, it was called 
+"
+Greentalk
+"
+ by James Gosling, and the file extension was .
+gt.
+4) After that, it was called 
+Oak
+ and was developed as a part of the Green project.
+Why Java named "Oak"?
+5) 
+Why Oak?
+ Oak is a symbol of strength and chosen as a national tree of many countries like the U.S.A., France, Germany, Romania, etc.
+6) In 1995, Oak was renamed as 
+"Java"
+ because it was already a trademark by Oak Technologies.
+Why Java Programming named "Java"?
+7) 
+Why had they chosen java name for Java language?
+ The team gathered to choose a new name. The suggested words were "dynamic", "revolutionary", "Silk", "jolt", "DNA", etc. They wanted something that reflected the essence of the technology: revolutionary, dynamic, lively, cool, unique, and easy to spell and fun to say.
+According to James Gosling, "Java was one of the top choices along with 
+Silk
+". Since Java was so unique, most of the team members preferred Java than other names.
+8) Java is an island of Indonesia where the first coffee was produced (called java coffee). It is a kind of espresso bean. Java name was chosen by James Gosling while having coffee near his office.
+9) Notice that Java is just a name, not an acronym.
+10) Initially developed by James Gosling at Sun Microsystems (which is now a subsidiary of Oracle Corporation) and released in 1995.
+11) In 1995, Time magazine called 
+Java one of the Ten Best Products of 1995
+.
+Features of Java
+The primary objective of Java programming language creation was to make it portable, simple and secure programming language. Apart from this, there are also some excellent features which play an important role in the popularity of this language. The features of Java are also known as java 
+buzzwords
+.
+7
+A Simple Java Program
+Every Java program must have at least one class. Each class has a name. By convention, class names start with an uppercase letter.
+In a program, multiple classes may cooperate with each other.
+Each program needs an entry point to start execution.
+The program is executed from the 
+main 
+method 
+that is defined in one of the classes. A class may contain several methods. The 
+main 
+method is the entry point where the program begins execution.
+8
+Creating, Compiling, and Running Programs
+9
+Compiling Java Source Code
+The Java language is a high-level language, but Java bytecode is a low-level language. The 
+bytecode 
+is similar to machine instructions but is architecture neutral and can run on any platform that has a 
+Java Virtual Machine (JVM)
+. 
+The virtual machine is a program that interprets Java bytecode. This is one of Java’s primary advantages: 
+Java bytecode can run on a variety of hardware platforms and operating systems. 
+Java source code is compiled into Java bytecode (.class file) and Java bytecode is interpreted by the JVM. Your Java code may use the code in the Java library. To execute a Java program is to run the program’s bytecode. 
+10
+Compiling Java Source Code
+You can execute the bytecode on any platform with a JVM, which is an interpreter and resides in RAM. It translates the individual instructions in the bytecode into the target machine (i.e. the machine on which it is working at) language code one at a time rather than the whole program as a single unit. 
+Each step is executed immediately after it is translated.
+The bytecode can then run on any computer with a Java Virtual Machine, as shown below. In fact, Java Virtual Machine is a software that interprets Java bytecode. 
+11
+Compiling Java Source Code
+12
+Anatomy of a Java Program
+Class name
+Main method
+Statements
+Statement terminator
+Reserved words
+Comments
+Blocks
+13
+// This program prints Welcome to Java! 
+public class Welcome {	
+  public static void main(String[] args) { 
+    System.out.println("Welcome to Java!");
+  }
+}
+Class Name
+Every Java program must have at least one class. Each class has a name. By convention, class names start with an uppercase letter. In this example, the class name is Welcome. 
+14
+// This program prints Welcome to Java! 
+public class Welcome {	
+  public static void main(String[] args) { 
+    System.out.println("Welcome to Java!");
+  }
+}
+Main Method
+Line 2 defines the main method. In order to run a class, the class must contain a method named 
+main
+. The program is executed from the main method. 
+15
+// This program prints Welcome to Java! 
+public class Welcome {	
+  public static void main(String[] args) { 
+    System.out.println("Welcome to Java!");
+  }
+}
+Statement
+A statement represents an action or a sequence of actions. The statement System.out.println("Welcome to Java!") in the program below is a statement to display the greeting "Welcome to Java!”.
+16
+// This program prints Welcome to Java! 
+public class Welcome {	
+  public static void main(String[] args) { 
+    System.out.println("Welcome to Java!");
+  }
+}
+Statement Terminator
+Every statement in Java ends with a semicolon (;).
+17
+// This program prints Welcome to Java! 
+public class Welcome {	
+  public static void main(String[] args) { 
+    System.out.println("Welcome to Java!");
+  }
+}
+Reserved words
+Reserved words or keywords are words that have a specific meaning to the compiler and cannot be used for other purposes in the program. For example, when the compiler sees the word 
+class
+, it understands that the word after class is the name for the class. 
+18
+Blocks
+A pair of braces in a program forms a block that groups components of a program.
+ 
+19
+Special Symbols
+20
+Programming Errors
+Syntax Errors
+Detected by the compiler
+Runtime Errors
+Causes the program to abort
+Logic Errors
+Produces incorrect result
+Constants, Variables and Data types
+A 
+constant
+ is an entity in programming that is immutable. In other words, the value that cannot be changed. In this section, we will learn about 
+Java constant
+ and 
+how to declare a constant in Java
+.
+What is constant?
+Constant
+ is a value that cannot be changed after assigning it. Java does not directly support the constants. There is an alternative way to define the constants in Java by using the non-access modifiers static and final.
+How to declare constant in Java?
+In Java, to declare any variable as constant, we use static and final modifiers. It is also known as 
+non-access
+ modifiers. According to the Java naming convention the identifier name must be in 
+capital letters
+.
+Static and Final Modifiers
+The purpose to use the static modifier is to manage the memory.
+It also allows the variable to be available without loading any instance of the class in which it is defined.
+The final modifier represents that the value of the variable cannot be changed. It also makes the primitive data type immutable or unchangeable.
+The syntax to declare a constant is as follows:
+static
+ 
+final
+ datatype 
+identifier_name
+=value; 
+For example, 
+price
+ is a variable that we want to make constant.
+static
+ 
+final
+ 
+double
+ PRICE=432.78;  
+Where static and final are the non-access modifiers. The double is the data type and PRICE is the identifier name in which the value 432.78 is assigned.
+In the above statement, the 
+static
+ modifier causes the variable to be available without an instance of its defining class being loaded and the 
+final
+ modifier makes the variable fixed. 
+Here a question arises that 
+why we use both static and final modifiers to declare a constant?
+If we declare a variable as 
+static
+, all the objects of the class (in which constant is defined) will be able to access the variable and can be changed its value. To overcome this problem, we use the 
+final
+ modifier with a static modifier.
+When the variable defined as 
+final
+, the multiple instances of the same constant value will be created for every different object which is not desirable.
+When we use 
+static
+ and 
+final
+ modifiers together, the variable remains static and can be initialized once. Therefore, to declare a variable as constant, we use both static and final modifiers. It shares a common memory location for all objects of its containing class.
+ConstantExample1.java
+import
+ 
+java.util.Scanner
+;  
+public
+ 
+class
+ ConstantExample1   
+{  
+//declaring constant   
+private
+ 
+static
+ 
+final
+ 
+double
+ PRICE=234.90;  
+public
+ 
+static
+ 
+void
+ main(String[] 
+args
+)  
+{  
+int
+ unit;  
+double
+ 
+total_bill
+;  
+System.out.print
+("Enter the number of units you have used: ");  
+Scanner 
+sc
+=
+new
+ Scanner(System.in);  
+unit=
+sc.nextInt
+();  
+total_bill
+=PRICE*unit;  
+System.out.println
+("The total amount you have to deposit is: "+
+total_bill
+);  
+}  }  
+Java Variables
+A variable is a container which holds the value while the Java program is executed. A variable is assigned with a data type.
+Variable is a name of memory location. There are three types of variables in java: local, instance and static.
+There are two types of data types in Java: primitive and non-primitive.
+Variable
+Variable
+ is name of 
+reserved area allocated in memory
+. In other words, it is a 
+name of memory location
+. It is a combination of "vary + able" that means its value can be changed.
+int
+ data=50;//Here data is variable  
+1) Local Variable:
+A variable declared inside the body of the method is called local variable. You can use this variable only within that method and the other methods in the class aren't even aware that the variable exists.
+A local variable cannot be defined with "static" keyword.
+2) Instance Variable
+A variable declared inside the class but outside the body of the method, is called instance variable. It is not declared as static.
+It is called instance variable because its value is instance specific and is not shared among instances.
+3) Static variable
+A variable which is declared as static is called static variable. It cannot be local. You can create a single copy of static variable and share among all the instances of the class. Memory allocation for static variable happens only once when the class is loaded in the memory.
+Types of Variables
+Example to understand the types of variables in java
+class
+ A
+{  
+int
+ data=50;//instance variable  
+static
+ 
+int
+ m=100;//static variable  
+void
+ method()
+{  
+int
+ n=90;//local variable  
+}  
+}//end of class 
+ 
+Java Variable Example: Add Two Numbers
+class
+ Simple
+{  
+public
+ 
+static
+ 
+void
+ main(String[] 
+args
+)
+{  
+int
+ a=10;  
+int
+ b=10;  
+int
+ c=
+a+b
+;  
+System.out.println
+(c);  
+}
+}  
+Output:
+	20
+Data Types in Java
+Data types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java:
+Primitive data types:
+ The primitive data types include 
+boolean
+, char, byte, short, int, long, float and double.
+Non-primitive data types:
+ The non-primitive data types include Classes, Interfaces, and Arrays.
+Java Primitive Data Types:
+In Java language, primitive data types are the building blocks of data manipulation. These are the most basic data types available in Java language.
+Data Type
+Default Value
+Default size
+boolean
+false
+1 bit
+char
+'\u0000'
+2 byte
+byte
+0
+1 byte
+short
+0
+2 byte
+int
+0
+4 byte
+long
+0L
+8 byte
+float
+0.0f
+4 byte
+double
+0.0d
+8 byte
+Boolean Data Type:
+The Boolean data type is used to store only two possible values: true and false. This data type is used for simple flags that track true/false conditions.
+The Boolean data type specifies one bit of information, but its "size" can't be defined precisely.
+Example:
+Boolean one = 
+false
+  
+Byte Data Type:
+The byte data type is an example of primitive data type. It 
+isan
+ 8-bit signed two's complement integer. Its value-range lies between -128 to 127 (inclusive). Its minimum value is -128 and maximum value is 127. Its default value is 0.
+The byte data type is used to save memory in large arrays where the memory savings is most required. It saves space because a byte is 4 times smaller than an integer. It can also be used in place of "int" data type.
+Example:
+byte
+ a = 10, 
+byte
+ b = -20  
+Short Data Type:
+The short data type is a 16-bit signed two's complement integer. Its value-range lies between -32,768 to 32,767 (inclusive). Its minimum value is -32,768 and maximum value is 32,767. Its default value is 0.
+The short data type can also be used to save memory just like byte data type. A short data type is 2 times smaller than an integer.
+Example:
+short
+ s = 10000, 
+short
+ r = -5000  
+Int Data Type:
+The int data type is a 32-bit signed two's complement integer. Its value-range lies between - 2,147,483,648 (-2^31) to 2,147,483,647 (2^31 -1) (inclusive). Its minimum value is - 2,147,483,648and maximum value is 2,147,483,647. Its default value is 0.
+The int data type is generally used as a default data type for integral values unless if there is no problem about memory.
+Example:
+int
+ a = 100000, 
+int
+ b = -200000  
+Long Data Type:
+The long data type is a 64-bit two's complement integer. Its value-range lies between -9,223,372,036,854,775,808(-2^63) to 9,223,372,036,854,775,807(2^63 -1)(inclusive). Its minimum value is - 9,223,372,036,854,775,808and maximum value is 9,223,372,036,854,775,807. Its default value is 0. The long data type is used when you need a range of values more than those provided by int.
+Example:
+long
+ a = 100000L, 
+long
+ b = -200000L  
+Float Data Type:
+The float data type is a single-precision 32-bit IEEE 754 floating 
+point.Its
+ value range is unlimited. It is recommended to use a float (instead of double) if you need to save memory in large arrays of floating point numbers. The float data type should never be used for precise values, such as currency. Its default value is 0.0F.
+Example:
+float
+ f1 = 234.5f  
+Double Data Type:
+The double data type is a double-precision 64-bit IEEE 754 floating point. Its value range is unlimited. The double data type is generally used for decimal values just like float. The double data type also should never be used for precise values, such as currency. Its default value is 0.0d.
+Example:
+double
+ d1 = 12.3  
+Char Data Type:
+The char data type is a single 16-bit Unicode character. Its value-range lies between '\u0000' (or 0) to '\
+uffff
+' (or 65,535 inclusive).The char data type is used to store characters.
+Example:
+char
+ 
+letterA
+ = 'A' 
+Basic Input/ Output
+Java I/O
+ (Input and Output) is used 
+to process the input
+ and 
+produce the output
+.
+Java uses the concept of a stream to make I/O operation fast. The java.io package contains all the classes required for input and output operations.
+We can perform 
+file handling in Java
+ by Java I/O API.
+Stream:
+A stream is a sequence of data. In Java, a stream is composed of bytes. It's called a stream because it is like a stream of water that continues to flow.
+In Java, 3 streams are created for us automatically. All these streams are attached with the console.
+1) 
+System.out
+: 
+standard output stream
+2) System.in: 
+standard input stream
+3) 
+System.err
+: 
+standard error stream
+Operators and Expressions
+Operator
+ in Java is a symbol which is used to perform operations. For example: +, -, *, / etc.
+There are many types of operators in Java which are given below:
+Unary Operator,
+Arithmetic Operator,
+Shift Operator,
+Relational Operator,
+Bitwise Operator,
+Logical Operator,
+Ternary Operator and
+Assignment Operator.
+Java Operator Precedence
+Operator Type
+Category
+Precedence
+Unary
+postfix
+expr
+++ 
+expr
+--
+prefix
+++
+expr
+ --
+expr
+ +
+expr
+ -
+expr
+ ~ !
+Arithmetic
+multiplicative
+* / %
+additive
++ -
+Shift
+shift
+<< >> >>>
+Relational
+comparison
+< > <= >= instanceof
+equality
+== !=
+Bitwise
+bitwise AND
+&
+bitwise exclusive OR
+^
+bitwise inclusive OR
+|
+Logical
+logical AND
+&&
+logical OR
+||
+Ternary
+ternary
+? :
+Assignment
+assignment
+= += -= *= /= %= &= ^= |= <<= >>= >>>=
+Unary Operator:
+The Java unary operators require only one operand. Unary operators are used to perform various operations i.e.:
+incrementing/decrementing a value by one
+negating an expression
+inverting the value of a Boolean
+Java Unary Operator Example: ++ and --
+class
+ 
+OperatorExample
+{  
+public
+ 
+static
+ 
+void
+ main(String 
+args
+[]){  
+int
+ x=10;  
+System.out.println
+(x++);//10 (11)  
+System.out.println
+(++x);//12  
+System.out.println
+(x--);//12 (11)  
+System.out.println
+(--x);//10  
+}
+}  
+Output:
+	10
+	12
+	12
+	10
+Arithmetic Operators:
+Java 
+arithmatic
+ operators are used to perform addition, subtraction, multiplication, and division. They act as basic mathematical operations.
+Java Arithmetic Operator Example:
+class
+ 
+OperatorExample
+{  
+public
+ 
+static
+ 
+void
+ main(String 
+args
+[]){  
+int
+ a=10;  
+int
+ b=5;  
+System.out.println
+(
+a+b
+);//15  
+System.out.println
+(a-b);//5  
+System.out.println
+(a*b);//50  
+System.out.println
+(a/b);//2  
+System.out.println
+(
+a%b
+);//0  
+}}  
+Output:
+	15
+	5
+	50
+	2
+	0
+Java AND Operator Example: Logical && and Bitwise &:
+The logical && operator doesn't check second condition if first condition is false. It checks second condition only if first one is true.
+The bitwise & operator always checks both conditions whether first condition is true or false.
+class
+ 
+OperatorExample
+{  
+public
+ 
+static
+ 
+void
+ main(String 
+args
+[]){  
+int
+ a=10;  
+int
+ b=5;  
+int
+ c=20;  
+System.out.println
+(a<b&&a<c);//false && true = false  
+System.out.println
+(a<
+b&a
+<c);//false & true = false  
+}
+}  
+Output:
+	false
+	false
+Java Ternary Operator:
+Java Ternary operator is used as one liner replacement for if-then-else statement and used a lot in Java programming. it is the only conditional operator which takes three operands.
+Java Ternary Operator Example:
+class
+ 
+OperatorExample
+{  
+public
+ 
+static
+ 
+void
+ main(String 
+args
+[])
+{  
+int
+ a=2;  
+int
+ b=5;  
+int
+ min=(a<b)?
+a:b
+;  
+System.out.println
+(min);  
+}
+} 
+Output:
+	2
+Assignment Operator:
+Java assignment operator is one of the most common operator. It is used to assign the value on its right to the operand on its left.
+Java Assignment Operator Example:
+class
+ 
+OperatorExample
+{  
+public
+ 
+static
+ 
+void
+ main(String 
+args
+[]){  
+int
+ a=10;  
+int
+ b=20;  
+a+=4;//a=a+4 (a=10+4)  
+b-=4;//b=b-4 (b=20-4)  
+System.out.println
+(a);  
+System.out.println
+(b);  
+}}  
+Output:
+	14
+	16

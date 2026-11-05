@@ -1,0 +1,16 @@
+{
+  "id": "unk_2ffbb94a5bbe743c",
+  "revision": 2,
+  "question": "The live portal capture contains only a maintenance login, with no authenticated dashboard or course content. Student/admin design and sample content follow the requested redesign. Private browser inspection is unavailable because the tool requires approval under the current never-approve policy.",
+  "severity": "low",
+  "domain": "reference",
+  "status": "resolved",
+  "probes": [
+    "Obtain an authorized dashboard capture after the live portal leaves maintenance"
+  ],
+  "evidence_for": [
+    "ev_0351ed210082d16d070cddbe86b0e9268c5d38ef4681fd40f81170cbd9671d38"
+  ],
+  "evidence_against": [],
+  "resolution": "The captured evidence is a maintenance login only. The requested Inclusive University System redesign is the implemented specification; original private student/admin screens cannot be verified and were not copied. The original-login likeness score is therefore not a success criterion for the requested dashboard redesign."
+}

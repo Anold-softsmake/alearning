@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-11-05T13:59:41.233Z",
+  "buildId": "PFjUv0FERT_5SyNPhPV8D",
+  "passed": true,
+  "units": 7,
+  "topics": 57,
+  "documents": 53,
+  "checked": [
+    "all unit contents",
+    "source-file integrity",
+    "bookmarks and completion persistence",
+    "unit navigation and browser back",
+    "search highlighting",
+    "notes download",
+    "PDF response",
+    "library filters",
+    "legacy quiz",
+    "desktop, tablet and mobile layouts",
+    "no page script errors"
+  ]
+}

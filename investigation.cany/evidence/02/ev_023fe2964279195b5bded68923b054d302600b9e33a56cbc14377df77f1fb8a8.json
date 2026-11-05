@@ -1,0 +1,143 @@
+{
+  "id": "ev_023fe2964279195b5bded68923b054d302600b9e33a56cbc14377df77f1fb8a8",
+  "subject": {
+    "kind": "website",
+    "name": "http://127.0.0.1:65507/"
+  },
+  "operation": "web_site_open",
+  "params": {
+    "height": 900,
+    "url": "http://127.0.0.1:65507/",
+    "width": 1440
+  },
+  "result": {
+    "browser": "Chrome/156.0.8078.80",
+    "facts": {
+      "elements": 752,
+      "forms": 1,
+      "height": 2180,
+      "images": 0,
+      "lang": "en",
+      "links": 44,
+      "ready": "complete",
+      "title": "Inclusi — Your learning, without limits",
+      "url": "http://127.0.0.1:65507/",
+      "width": 1425
+    },
+    "health": {
+      "errors": [
+        {
+          "kind": "console",
+          "text": "Failed to fetch RSC payload for http://127.0.0.1:64751/index.txt. Falling back to browser navigation. TypeError: Failed to fetch",
+          "url": ""
+        },
+        {
+          "kind": "console",
+          "text": "Failed to fetch RSC payload for http://127.0.0.1:64751/courses/index.txt. Falling back to browser navigation. TypeError: Failed to fetch",
+          "url": ""
+        },
+        {
+          "kind": "console",
+          "text": "Failed to fetch RSC payload for http://127.0.0.1:64751/library/index.txt. Falling back to browser navigation. TypeError: Failed to fetch",
+          "url": ""
+        },
+        {
+          "kind": "console",
+          "text": "Failed to fetch RSC payload for http://127.0.0.1:64751/quizzes/index.txt. Falling back to browser navigation. TypeError: Failed to fetch",
+          "url": ""
+        },
+        {
+          "kind": "console",
+          "text": "Failed to fetch RSC payload for http://127.0.0.1:64751/progress/index.txt. Falling back to browser navigation. TypeError: Failed to fetch",
+          "url": ""
+        },
+        {
+          "kind": "console",
+          "text": "Failed to fetch RSC payload for http://127.0.0.1:64751/bookmarks/index.txt. Falling back to browser navigation. TypeError: Failed to fetch",
+          "url": ""
+        },
+        {
+          "kind": "console",
+          "text": "Failed to fetch RSC payload for http://127.0.0.1:64751/settings/index.txt. Falling back to browser navigation. TypeError: Failed to fetch",
+          "url": ""
+        },
+        {
+          "kind": "console",
+          "text": "Failed to fetch RSC payload for http://127.0.0.1:64751/read/index.txt?topic=dba-role. Falling back to browser navigation. TypeError: Failed to fetch",
+          "url": ""
+        }
+      ],
+      "failed_requests": [
+        {
+          "error": "net::ERR_CONNECTION_REFUSED",
+          "type": "Fetch",
+          "url": "http://127.0.0.1:64751/index.txt"
+        },
+        {
+          "error": "net::ERR_CONNECTION_REFUSED",
+          "type": "Fetch",
+          "url": "http://127.0.0.1:64751/courses/index.txt"
+        },
+        {
+          "error": "net::ERR_CONNECTION_REFUSED",
+          "type": "Fetch",
+          "url": "http://127.0.0.1:64751/library/index.txt"
+        },
+        {
+          "error": "net::ERR_CONNECTION_REFUSED",
+          "type": "Fetch",
+          "url": "http://127.0.0.1:64751/quizzes/index.txt"
+        },
+        {
+          "error": "net::ERR_CONNECTION_REFUSED",
+          "type": "Fetch",
+          "url": "http://127.0.0.1:64751/progress/index.txt"
+        },
+        {
+          "error": "net::ERR_CONNECTION_REFUSED",
+          "type": "Fetch",
+          "url": "http://127.0.0.1:64751/bookmarks/index.txt"
+        },
+        {
+          "error": "net::ERR_CONNECTION_REFUSED",
+          "type": "Fetch",
+          "url": "http://127.0.0.1:64751/settings/index.txt"
+        },
+        {
+          "error": "net::ERR_CONNECTION_REFUSED",
+          "type": "Fetch",
+          "url": "http://127.0.0.1:64751/read/index.txt"
+        }
+      ]
+    },
+    "title": "Inclusi — Your learning, without limits",
+    "url": "http://127.0.0.1:65507/"
+  },
+  "summary": "Opened http://127.0.0.1:65507/: \"Inclusi — Your learning, without limits\". While loading: 8 error(s), 8 failed request(s).",
+  "confidence": "observed",
+  "authority": "our-run",
+  "environment": {
+    "clean_room": false,
+    "engine": "cdp",
+    "engine_version": "1.3",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "private_profile",
+      "message": "A fresh private browser: pages behind a login show their signed-out state."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 1,
+    "total": 1
+  },
+  "locations": [
+    {
+      "kind": "url",
+      "value": "http://127.0.0.1:65507/"
+    }
+  ],
+  "links": []
+}

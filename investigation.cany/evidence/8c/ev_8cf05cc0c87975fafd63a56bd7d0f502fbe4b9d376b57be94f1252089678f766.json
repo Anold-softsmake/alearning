@@ -1,0 +1,45 @@
+{
+  "id": "ev_8cf05cc0c87975fafd63a56bd7d0f502fbe4b9d376b57be94f1252089678f766",
+  "subject": {
+    "kind": "website",
+    "name": "https://masomo3.kyu.ac.ke/login/index.php"
+  },
+  "operation": "web_page_states_capture",
+  "params": {
+    "max_states": 4,
+    "width": 1440
+  },
+  "result": {
+    "folder": "C:\\Users\\annord\\OneDrive\\Documents\\Craft Anything\\masomo3-kyu-ac-ke\\capture\\states",
+    "found": 0,
+    "states": [],
+    "url": "https://masomo3.kyu.ac.ke/login/index.php"
+  },
+  "summary": "https://masomo3.kyu.ac.ke/login/index.php has no menus, pop-ups, tabs or collapsed sections to open.",
+  "confidence": "observed",
+  "authority": "our-run",
+  "environment": {
+    "clean_room": false,
+    "engine": "cdp",
+    "engine_version": "1.3",
+    "host": "windows-x86_64"
+  },
+  "limitations": [
+    {
+      "code": "first_controls",
+      "message": "Only the first controls found are opened, one at a time; menus inside menus and hover-only menus are not."
+    }
+  ],
+  "coverage": {
+    "status": "complete",
+    "examined": 0,
+    "total": 0
+  },
+  "locations": [
+    {
+      "kind": "url",
+      "value": "https://masomo3.kyu.ac.ke/login/index.php"
+    }
+  ],
+  "links": []
+}

@@ -1,0 +1,221 @@
+Systems 
+programming lesson 5 & 6 combined
+COM 
+312: BSc Computer science
+Topics area coverage.
+IPC topic 
+(inter process communication)
+What is interprocess communication?
+Interprocess communication 
+(IPC) is 
+a process that allows different processes of a computer system to share information.
+ 
+How to do interprocess communication
+1. Message passing
+2. Shared memory
+3. Pipes
+4. Signal
+5.
+popen (
+) and 
+close
+IPC
+ lets different programs run in parallel, share data, and communicate with each other
+. 
+It’s important for two reasons:
+ 
+First, 
+it speeds up the execution of tasks
+, 
+and secondly
+, it ensures that the tasks run correctly and in the order that they were executed.
+Interposes
+ communication has two fundamental models i.e. 
+shared memory 
+system and 
+message passing 
+system.
+In the 
+shared memory 
+system, the cooperating process which wants to initiate the communication establishes a region of shared memory in its address space. The other cooperative process which requires the shared data has to attach itself to the address space of the initiating process.
+Two processes communicate with each other by establishing a shared memory in the address space of the process which wants to initiate the communication. and the other process that wishes to communicate attaches itself to the shared address space of the initiating process.
+The 
+message-passing 
+system shares the data by passing the messages. If a process needs to share the data, it writes the data in the message and passes it on to the kernel. The process that requires the shared data read it out from the kernel.
+Why interprocess communication is necessary
+IPC lets different programs run in parallel, share data, and communicate with each other. 
+It’s important for two reasons:
+It speeds up the execution of tasks.
+It ensures that the tasks run correctly and in the order that they were executed.
+IPC is essential for the efficient operation of an operating system.
+Operating systems use IPC to exchange data with tools and components that the system uses to interact with the user, such as the keyboard, the mouse, and the graphical user interface (GUI).
+IPC also lets the system run multiple programs at the same time. For example, the system might use IPC to provide information to the windowing system about the status of a window on the screen.
+Shared memory
+Shared memory 
+is a feature supported by 
+UNIX System V, 
+including Linux, SunOS and Solaris.
+Shared memory segments are memory areas which can be shared by several processes and which, once created, continue to exist until explicitly deleted using the 
+shmctl function.
+ A 
+shared memory
+ 
+is an extra piece of memory that is 
+attached
+ to some address spaces 
+for their owners to use. 
+In the discussion of the 
+fork (
+)
+ 
+system call, we mentioned that 
+a parent 
+and 
+its children 
+have 
+separate address spaces
+The 
+yellow rectangle
+ is a
+ shared memory attached to both address spaces 
+and both 
+process 1 and process 2
+ 
+can have access to this shared memory as if the shared memory is part of its own address space. 
+In some sense, 
+the original address spaces is "extended" by attaching this shared memory.
+As you can see in the image above process P1 has some data to be shared with P2. So, P1 writes the data in its shared memory. Now, process P2 wants the data shared by P1 so it attaches itself to shared address space of P1 and reads the required data from there.
+Advantages of Shared Memory
+Shared 
+memory system is faster interpro
+cess communication model.
+Shared memory allows cooperating processes to access the same pieces of data concurrently.
+Using shared memory, also speed ups the computation power of the system as the long task can be divided into smaller sub-tasks and can be executed in parallel.
+Modularity can also be achieved if we divide up the system functions into separate processes or threads.
+Using shared memory user can perform multiple tasks at a time. Like user can print, create a document, playing MP3 at the same time.
+A shared memory segment is identified by a unique integer, 
+the 
+shared memory ID
+. 
+The shared memory itself is described by a structure of type 
+shmid_ds
+ 
+in header 
+file 
+sys/shm.h
+. 
+To use this file, files 
+sys/types.h
+ 
+and 
+sys/ipc.h
+ 
+must be included. Therefore, your program should start with the following lines:
+#include  <sys/types.h>
+#include  <sys/ipc.h>
+#include  <sys/shm.h>
+A general scheme of using shared memory is the following:
+For a 
+server
+, it should be started before any
+ client
+. The server should perform the following tasks:
+Ask for a shared memory with a memory key and memorize the returned shared memory ID. This is performed by system call
+ 
+shmget()
+.
+Attach this shared memory to the server's address space with system call 
+shmat()
+.
+Initialize the shared memory, if necessary.
+Do something and wait for all clients' completion.
+Detach the shared memory with system call 
+shmdt()
+.
+Remove the shared memory with system call 
+shmctl()
+.
+For the client part, the procedure is almost the same:
+Ask for a shared memory with the same memory key and memorize the returned shared memory ID.
+Attach this shared memory to the client's address space.
+Use the memory.
+Detach all shared memory segments, if necessary.
+Exit.
+Codes Explained 
+<Unistd.h>
+ - 
+the name of the header file that provides access to the POSIX operating system API.
+Void * shared memory
+; // 
+to store the print address
+Char buffer [100];
+ // 
+user to input message/data into address space 
+int shmid ; //
+ 
+integer variable.
+Shmid 
+; // unique integer variable 
+( 
+A shared memory segment is identified by a unique integer
+)
+Generating output of sender.c
+ 
+PIPES
+Pipes are a type of data channel commonly used for one-way communication between two processes.
+Piping is a 
+method of taking the output of one command and using it as the input to the second command.
+piping is a form of redirection by which we take the output from one command and pass it on to another command, as input, for further processing.
+Piping is denoted with the | symbol.
+When working with piping in Linux, it is important to remember that the output flow is 
+unidirectional 
+– 
+from left to right
+.
+It cannot be reversed
+. The commands are executed simultaneously, one by one, each generating an output for the next command. With the execution of the last command, you get the desired output.
+Syntax in C language:
+int pipe(int fds[2]);
+Parameters :
+fd[0]
+ will be the fd(file descriptor) for the 
+read end of pipe.
+fd[1]
+ will be the fd for the write end of pipe.
+Returns :
+ 0 on Success.
+-1
+ on error.
+Pipes behave 
+FIFO
+ (
+First in First out), Pipe behave like a 
+queue
+ data structure. Size of read and write don’t have to match here. We can write 
+512
+ bytes at a time but we can read only 1 byte at a time in a pipe
+Parent and child sharing a pipe
+When we use fork in any process, 
+file descriptors remain open across child process and also parent process.
+ If we 
+call fork 
+after creating 
+a pipe
+, then the parent and child can communicate via the pipe.
+Popen and pclose
+ (functions in pipe)
+A common use of pipes is to send data to or receive data from a program being run in a 
+sub process
+.
+The 
+popen
+ and 
+pclose
+ functions 
+ease this paradigm by eliminating the need to invoke pipe, fork, dup2, exec, and fdopen.
+O
+utput
+Connecting process 1 to process 2
+Defining the IP2 (inter process 2)
+Use Nano editor to initiate process 2
+Ls – list the WC from first IPC 1(word count)

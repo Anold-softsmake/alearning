@@ -1,0 +1,1 @@
+import {Suspense} from 'react';import {Shell} from '@/components/shell';import {CoursesView} from '@/components/catalog';export default function Page(){return <Shell><Suspense fallback={<div className="panel" role="status">Loading your learning space?</div>}><CoursesView/></Suspense></Shell>}

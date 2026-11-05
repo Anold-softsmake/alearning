@@ -1,0 +1,604 @@
+1
+| 
+Page
+Systems 
+programming lesson 4
+COM 
+312: BSc Computer science
+Topics area coverage.
+Process management and scheduling 
+The most fundamental concept in modern 
+OS
+is the 
+process.
+The 
+principle function 
+of the 
+OS
+is to 
+create,
+manage
+,
+and 
+terminate processes
+.
+To perform its process management functions, the OS 
+maintains
+a description of 
+each process, or process image.
+During its life time, a process moves among a number of states
+. The most of 
+important of these
+are 
+Ready,
+Running, and Blocked.
+Operations on Processes
+The processes in the system execute concurrently and they must be 
+created 
+and 
+deleted
+dynamically
+thus the 
+operating system must provide the mechanism for 
+the 
+creation 
+and 
+deletion 
+of processes
+.
+Program vs. Process
+Definition
+: a 
+process
+is the O.S. 
+representation of a program during its execution
+How we check the 
+processes. using the ps command
+Process management and scheduling 
+
+Process identifications
+
+Process trees, chains, and fans
+
+Zombies and ophan processes 
+
+Process groups, sessions and controlling terminals
+
+Unix daemons
+
+Systems vR3 and system VR4 scheduler
+2
+| 
+Page
+Program vs process
+Lets look at the difference between process and program 
+?
+Why?
+? A user program is something static: 
+it is just a sequence of bytes stored in a 
+ÑdiskÒ 
+? When user asks the O.S. for executing a program, in a multiprogrammed
+-
+multiuser environment, the system needs to represent that particular Ñexecution 
+of XÒ w
+ith some attributes 
+o
+Which regions of physical memory is using 
+o
+Which files is accessing 
+o
+Which user is executing it 
+o
+What time it is started 
+o
+How many CPU time it has consume
+d? 
+-
+Every process in a UNIX system has the following attributes: 
+
+User 
+program
+-
+the program to be executed
+
+some 
+user 
+data
+Ï
+the modifiable part of the user space. May include program 
+data, user stack area, and programs that may be modified.
+
+a stack
+Ï
+each stack has one or more last
+-
+in
+-
+first
+-
+out (
+LIFO
+) stacks associated 
+with i
+t. A stack is used to store parameters and calling addresses for procedure 
+and systems calls.
+3
+| 
+Page
+
+Process control Block
+-
+Data needed by the OS to control the process
+
+a unique process
+ID
+number
+(
+PID
+)
+process states
+As a process executes, it changes state.
+The
+state of a process is defined in part by the current activity of that 
+process.
+Each process may be in one of the following states;
+i.
+NEW
+Ï
+the process is being created
+ii.
+RUNNING 
+Ï
+instructions are being executed
+iii.
+WAITING
+-
+the process is waiting for some event to
+occur (such as an I/O 
+completion or reception of a signal)
+iv.
+READY
+-
+the process is waiting to be assigned to a processor
+v.
+TERMINATED
+-
+the process has finished execution.
+4
+| 
+Page
+The Basic process creation using 
+fork (), exec () wait (), exit ()
+used in 
+system call in Linux processes
+FORK () 
+Ï
+creates a new process
+EXEC () 
+Ï
+replaces current process image with a new process image
+WAIT () 
+Ï
+used parent process to wait for childÔs completion
+EXIT () 
+Ï
+used to terminate a process.
+FORK & EXEC in L
+INUX
+The main aim of fork
+() is for development of parallel computing 
+Parallel computing
+refers to the process of executing several processors 
+an application or computation simultaneously. 
+Generally, it is a kind of 
+computing architecture where the large
+problems break into 
+independent, smaller, usually similar parts that can be processed in one 
+go.
+What is the purpose of folk?
+System call fork () is
+used to create processes
+.
+It takes no arguments and returns a process ID. 
+The purpose of fork () is to create a new process, 
+which becomes the child 
+process of the caller. After a new child process is created, both processes 
+will execute the next instruction following the fork() system call
+Why does fork () return twice?
+Once wi
+thin the parent process and once within the child. ...
+The OS arranges for 
+the fork
+() to return in the parent process with the pid of the child
+, and for it to 
+return in the child process with zero (
+if things go well
+). That is why they say 
+that fork
+() 
+returns twice.
+5
+| 
+Page
+Running a new program on Linux involves 2 steps.
+1.
+FORK
+: Clone current process
+o
+Fork () system call is used to create a separate, duplicate process.
+The fork
+() system call 
+allows one process, 
+the parent
+, to 
+create a new 
+process, the child
+. 
+This is done by making the new child 
+process an 
+(almost) exact dupli
+cate of the parent: the child obtains copies of the 
+parentÔs 
+stack, data, heap, and text segments.
+The term fork derives from the 
+fact that we can
+envisage the parent process as dividing t
+o yield two 
+copies of itself
+2.
+EXEC:
+Replace current program with a different one.
+o
+When an exec () system call is invoked, the program specified in the 
+parameter to exec () will replace the entire process
+-
+including all 
+threads.
+
+Fork is a system call used to clone a running process 
+-
+The cloned process is a child of the parent.
+
+The parent and child are identical processes
+-
+Have exactly the same stack (sequence of function calls)
+-
+Have same virtual memory (so pointers and other 
+data is preserved)
+-
+Have same set of files and consequently have
+o
+Same set of open files, devices, sockets, etc.
+
+The cloned child differs from the parent in:
+-
+The process ID (pid)
+-
+The returned value from fork in the parent and child a slightly 
+different
+o
+This
+is used to tell the difference between 
+parent 
+and 
+child 
+process 
+6
+| 
+Page
+Code explained
+
+The program is running in memory
+
+Reads data from more files
+
+Calls fork () system call and creates new program identical copy to that 
+of the parent.
+7
+| 
+Page
+Example Question
+After
+a program executes the following series of fork
+() calls, how many new
+processes will result (assuming that none of the calls fails)?
+fork();
+fork();
+fork();
+Result 
+The first fork
+() call creates one new child. Both parent and child carry on to execute
+the second fork
+(), and thus each creates a further process, making a total of four 
+processes. All four processes carry on to execute the next fork
+(), each creating a
+further child. Consequently, a total of seven new processes are created.
+Forking process
+es has advantages
+o
+Threads do not enjoy many of these advantages
+1.
+Fault tolerance: 
+if child process crashes parent process is unaffected heavily used 
+in web
+-
+servers and databases to improve resilience
+2.
+Security: 
+parent and child can have different security se
+ttings (or even run as 
+different users) for better auditing
+.
+3.
+Low latency: 
+since memory and I/O streams are identical start
+-
+up overheads are 
+minimized.
+4.
+Concurrency & performance: 
+parent and child can collaborate to perform 
+different operations to improve pe
+rformance
+5.
+Resource utilization: 
+processes get full set of resources enabling effective 
+utilization of computational platforms
+o
+Easier to migrate processes across cloud infrastructures 
+o
+Zombies and orphan processes
+What is Linux zombie process?
+Zombie 
+processes
+in Linux are sometimes also referred to as 
+defunct or dead processes
+. 
+They're
+processes that have completed their execution
+, 
+but their entries are not 
+removed from the process table.
+hasn't been properly cleaned up.
+A zombie is created by 
+programs that crash or weren't adequately coded 
+to handle the cleanup of a crash or exit.
+8
+| 
+Page
+Technically speaking, 
+when a process dies, the process descriptor remains 
+in memory and becomes labeled EXIT_ZOMBIE. 
+At this point, the parent 
+process is notified tha
+t the child process has died with the 
+SIGCHLD 
+signal and the parent is supposed to execute the wait system call, which 
+allows the parent to collect information from the now
+-
+dead process. This 
+generally happens almost immediately. But not always.
+Issue th
+e command ps aux | grep 'Z' and if any zombie processes are hanging around, 
+you should see them. Those zombie processes will be listed with an associated Process 
+ID. 
+To kill a zombie process, you can send the SIGCHLD signal with the command kill 
+-
+s 
+SIGCH
+LD PID (Where PID is the process ID of the 
+zombie
+process). 
+Typically, you shouldn't see any zombie processes on your system. But if your system is 
+behaving oddly (not as in trying to chomp your brains), check for zombie processes 
+and, if you find any, 
+kill them immediately.
+Example illustrating Zombie process
+Zombie step 1
+ÈÈ
+we start from fork() process
+Code 
+Explained 
+First we examine the fork system call where by 
+the parent will return positive 
+number 
+while 
+child if successful will return zero value.
+9
+| 
+Page
+Zombie step 2
+È
+how to remove zombie from process table by use of
+wait () 
+function
+Zombie step 3
+È. 
+how
+to 
+create a zombie process
+?
+Command to print all the process 
+Code explanation 
+Using 
+wait
+() function.
+Child process
+will report 
+to 
+parent 
+process
+, 
+then
+that process 
+will be removed from 
+the 
+process table
+Code 
+explanation 
+Using 
+sleep () function
+.
+
+As long as 
+wait () function
+is not 
+called
+. 
+child process will 
+terminate and will remain in the 
+process table
+in that duration 
+Known as Zombie process
+10
+| 
+Page
+Executed program to illustrate Zombie processÈ
+If you delete 
+sleep
+(60) 
+function? What will happen?
+code 
+explanation
+S
++
+single process which is the parent.
+Code output 
+Z + a.out 
+child process
+? ??????? ??????? ?? ?????? ?? ??? ??????? .?? ?????? ?????? ?????? 
+wait
+()
+function
+. That why child process is z+ (zombie)
+11
+| 
+Page
+Unix daemons
+Daemon
+: the term comes from Geek mythology, where daemons were guardian spirits.
+Daemon
+:
+Is a process that runs in the background and performs a specified 
+operation at predefined times or in response to certain events.
+o
+Def: 2 
+Ï
+is a process that runs in the Background and is independent of 
+control from all terminals.
+o
+There are 
+20 
+-
+50
+daemon p
+rocesses running in a Unix system: silently.
+There are several ways to start a daemon
+1.
+The system initialization scripts (/etc/rc)
+2.
+The inetd superserver
+3.
+Cron deamon
+: 
+daemon
+that executes commands at a scheduled time.
+4.
+The at command
+5.
+From user terminals
+Typical daemon process includes
+: 
+print spoolers, e
+-
+mail handlers, network 
+systems 
+and other 
+programs that perform administrative tasks for the operating 
+systems.
+Functions of daemons
+i.
+Open network port
+(such as 
+port 80
+)
+and respond to network requests.
+ii.
+Monitor system such as 
+hard disk health 
+or 
+RAID array.
+How to find PID of the process
+?
+The PID of the process can be found using Ñps
+-
+ef command.
+NB
+:
+Almost all daemons have names that end with the letter 
+Ñ
+d
+Ñ. 
+For example, 
+httpd
+the daemon that handles the Apache server, 
+or 
+sshd
+(
+secure shell daemon
+,
+) 
+which
+handles SSH remote access 
+connections. 
+Linux often start daemons at boot time
+. 
+Shell 
+scripts stored in/etc/init.d directory are used to start and stop 
+daemons.
+12
+| 
+Page
+Daemon 
+process program in Linux environment
+Orphan process 
+Created when a child process is running and the parent process is killed.
+The system recognizes the orphaned child process.
+And passes the orphan process to init which then becomes the itÔs
+new parent 
+process and terminates it.
+13
+| 
+Page
+If a parent dies before its child process, the child is automatically adopted 
+by the original init process.
+Write a C program to display the implementation of the orphan process 
+14
+| 
+Page
+The output of orphan process
+Revision Questions
+1.
+What will be the output of the below C fork program 
+assuming none of the 
+fork fails.
+#include<stdio.h>
+#include<sys/types.h>
+#include<unistd.h>
+int main()
+{
+fork();
+fork();
+fork();
+printf("hello
+\
+n");
+return 0;
+}
+2.
+suppose that in the 
+program the
+child process also needed to wait
+on the 
+parent to complete some actions. What changes to the program would be
+required in order to enforce this?

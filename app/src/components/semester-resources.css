@@ -1,0 +1,23 @@
+@media (max-width: 575px) {
+  .resource-list > .resource-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .resource-list > .resource-item > div:nth-child(2) {
+    flex: 1 1 calc(100% - 60px);
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .resource-list > .resource-item > [data-slot="button"] {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .resource-list > .resource-item > [data-slot="button"]:nth-child(3) {
+    margin-left: 47px;
+  }
+}

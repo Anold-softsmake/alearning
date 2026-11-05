@@ -1,0 +1,356 @@
+S
+C
+H
+OO
+L
+:
+ 
+SCHOOL OF PURE & APPLIED SCIENCES
+DEPARTMENT:
+ 
+PURE & APPLIED SCIENCES
+P
+R
+O
+G
+R
+A
+MM
+E
+:
+ 
+CS
+/
+S
+E
+/BIT
+YEAR: 
+I
+II
+SEMESTER: 
+I
+  
+    
+UNIT
+ 
+C
+O
+D
+E
+:
+ 
+SPC 2302
+UNIT
+ 
+T
+I
+T
+L
+E
+:
+ 
+DESIGN & ANALYSIS OF ALGORITHMS
+L
+E
+C
+T
+U
+R
+E
+ 
+H
+O
+U
+R
+S
+:
+ 
+4
+2
+PRE-REQUISITES:
+ 
+Data Structures and Algorithms
+L
+E
+C
+T
+U
+R
+E
+R
+’
+S
+ 
+N
+A
+M
+E
+:
+ 
+KIRORI
+ 
+LECTURER’S CONTACTS
+:
+ 
+TEL:
+ 
+0721744275 
+EMAIL
+:
+ 
+zkirori@kyu.ac.ke
+S
+C
+H
+OO
+L
+:
+ 
+SCHOOL OF PURE & APPLIED SCIENCES
+DEPARTMENT:
+ 
+PURE & APPLIED SCIENCES
+P
+R
+O
+G
+R
+A
+MM
+E
+:
+ 
+CS
+/
+S
+E
+/BIT
+YEAR: 
+I
+II
+SEMESTER: 
+I
+  
+    
+UNIT
+ 
+C
+O
+D
+E
+:
+ 
+SPC 2302
+UNIT
+ 
+T
+I
+T
+L
+E
+:
+ 
+DESIGN & ANALYSIS OF ALGORITHMS
+L
+E
+C
+T
+U
+R
+E
+ 
+H
+O
+U
+R
+S
+:
+ 
+4
+2
+PRE-REQUISITES:
+ 
+Data Structures and Algorithms
+L
+E
+C
+T
+U
+R
+E
+R
+’
+S
+ 
+N
+A
+M
+E
+:
+ 
+KIRORI
+ 
+LECTURER’S CONTACTS
+:
+ 
+TEL:
+ 
+0721744275 
+EMAIL
+:
+ 
+zkirori@kyu.ac.ke
+Welcome Message
+W
+elcome to the 
+course SPC
+ 
+DESIGN & ANALYSIS OF ALGORITHMS
+Welcome Message
+W
+elcome to the 
+course SPC
+ 
+DESIGN & ANALYSIS OF ALGORITHMS
+ 
+Learning Outcomes
+At the end of the course, the learner should be able to:- 
+1. Prove the correctness and analyze the running time of the basic algorithms for those classic problems in various domains; 
+2. Apply the algorithms and design techniques to solve problems; 
+3. Analyze the complexities of various problems in different domains. 
+Learning Outcomes
+At the end of the course, the learner should be able to:- 
+1. Prove the correctness and analyze the running time of the basic algorithms for those classic problems in various domains; 
+2. Apply the algorithms and design techniques to solve problems; 
+3. Analyze the complexities of various problems in different domains. 
+Teaching Methodology
+Lectures, directed reading, practical demonstrations of communication services, and ;
+Hands-on laboratory sessions and projects.
+Case analysis
+Group discussions
+Teaching Methodology
+Lectures, directed reading, practical demonstrations of communication services, and ;
+Hands-on laboratory sessions and projects.
+Case analysis
+Group discussions
+Instructional Materials
+White board
+LCD Projector
+Smarboards
+Masomo
+ Portal
+Instructional Materials
+White board
+LCD Projector
+Smarboards
+Masomo
+ Portal
+Course Evaluation
+CAT 1 = 10
+ %
+CAT 2 = 10
+ %
+Assignments = 10 %
+Examination = 70%
+Pass mark = 40 %
+Course Evaluation
+CAT 1 = 10
+ %
+CAT 2 = 10
+ %
+Assignments = 10 %
+Examination = 70%
+Pass mark = 40 %
+COURSE OUTLINE
+Week
+Topic
+Sub-Topic
+Comments
+1
+Introduction
+Properties of an Algorithm
+Design & Analysis
+Methods of Proof
+2
+Introduction
+Asymptotic growth rate
+Orders of growth
+3
+Asymptotic Analysis
+Asymptotic Notations
+Bounds
+Asymptotic Running Times
+4
+Asymptotic Analysis
+Asymptotic Analysis
+General Rules
+Assignment 1
+5
+CAT 1
+6
+Recursion & Recurrence Relations
+Relations vs Equations
+Recurrences vs Iterations
+Solution Methods
+7
+Divide & Conquer
+Concept
+D & C Algorithms
+Analysis of D & C Algorithms
+8
+The Greedy Algorithm
+The General Method
+Activity -Selection Problem
+Optimal storage on Tapes
+9
+The Greedy Algorithm
+Knapsack problem
+Minimal Spanning Tree
+Single Source shortest paths
+Assignment 2
+CAT 2
+10
+Dynamic Programming
+Matrix-Chain Multiplication
+Longest Common Subsequence
+Optimal Binary Search Tree
+11
+Graph & Graph Algorithms
+Paths & Cycles
+Trees & Graphs
+Topological Sort
+12
+Graph & Graph Algorithms
+Graph Algorithms
+Analysis
+13
+Presentations
+14
+Course Summary & Revision
+15 - 16
+Final Examination
+COURSE TEXTS BOOKS
+Introduction to The Design & Analysis of Algorithms, Anany Levitin  
+Introduction to Algorithms, 
+Cormen
+, 
+Leiserson
+, Rivest, Stein
+Robert Sedgewick: Algorithms in C++ (3rd edition) Volumes 1 and 2. Addison-Wesley, 1998.
+REFERENCE TEXT BOOKS
+Data structures and algorithms by 
+Wayme
+ Amsbury
+Data structures and algorithms by Aho, 
+A.v
+, 
+Hocroft
+, J.E and Ullman, J.B
+COURSE JOURNALS 
+1. Machine Learning Journal. Springer. ISSN: 0885-6125. 
+2. IEEE Transactions on Pattern Analysis and Machine Intelligence. ISSN: 0162-8828. 
+3. IEEE Transactions on Intelligent Systems. ISSN: 1524-9050. 
+REFERENCE JOURNALS 
+1. Thinking & Reasoning journal. ISSN: 1354-6783. 
+2. Artificial Intelligence. Elsevier. ISSN: 0004-3702. 
+3. AI Magazine. ISSN: 0738-4602. 

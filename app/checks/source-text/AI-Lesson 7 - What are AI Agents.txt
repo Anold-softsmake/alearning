@@ -1,0 +1,98 @@
+What are AI Agents? Definition and Types
+Artificial Intelligence is defined as the study of rational agents. A rational agent may take the form of a person, firm, machine, or software to make decisions. It works with the best results after considering past and present perceptions (perceptual inputs of the agent at a given instance). An 
+AI
+ system is made up of an agent and its environment. Agents work in their environment, and the environment may include other agents.
+An agent is anything that can be viewed as:
+Attention readers! Don't stop learning now. Catch up on all important DSA concepts and be industry-ready with the DSA Self-Pace Course at student-friendly prices. If you would like to attend live classes with experts, please check out DSA Live Classes for Working Professionals and live competitive programming for students.
+Understanding your environment through 
+sensorsand
+Acting on that environment through actuators
+Note: Every agent can perceive its actions (but not always the effects)
+To understand the structure of Intelligent Agents, we must be familiar with 
+the architecture
+ and 
+agent 
+programs. Architecture is the machinery on which the agent executes. It is a device with sensors and actuators, for example, a robot car, a camera, a PC. An agent program is an implementation of an agent function. An agent function concept is a map from the sequence (the history of all that an agent has considered to date).
+agent = architecture + agent program
+Agent examples
+A software agent has keystrokes, file contents, received network packages that act as sensors and are displayed on the screen, files, sent network packets to act as actuators.
+The human agent has eyes, ears, and other organs that act as sensors, and hands, feet, mouth, and other body parts act as actuators.
+A robotic agent consists of cameras and infrared range finders that act as sensors and various motors that act as actuators.
+Types of agents
+Agents can be divided into four classes based on their perceived intelligence and ability:
+Simple reflex agent
+Model-based reflex agent
+Target-based agent
+Utility-based agent
+Learning agent
+Simple reflex agent
+Simple reflex agents ignore the rest of the concept history and act only based on the current concept. Concept history is the history of all that an agent has believed to date. The agent function is based on the condition-action rule. A condition-action rule is a rule that maps a state, that is, a condition, to an action. If the condition is true, then action is taken; otherwise, not. This agent function succeeds only when the environment is fully observable. For simple reflex agents operating in a partially observable environment, infinite loops are often unavoidable. If the agent can randomize its actions, then it may be possible to avoid the infinite loop.
+The problems with simple reflex agents are:
+Very limited intelligence.
+There is no knowledge of the non-perceptual parts of the state.
+It is usually too large to generate and store.
+If a change occurs in the environment, the rules collection needs to be updated.
+Model-based reflex agents:
+It works by searching for a rule whose position matches the current state. A model-based agent can handle a partially observable environment using a model about the world. The agent has to keep track of the internal state, adjusted by each concept, depending on the concept history. The current state is stored inside the agent, which maintains some structure describing the part of the world that cannot be seen.
+Updating the state requires information about:
+how the world develops independently of the agent, and
+How the agent's actions affect the world.
+Goal-based agents
+These types of agents make decisions based on how far they are currently from their goals (details of desired conditions). Their every action is aimed at reducing its distance from the target. This gives the agent a way to choose from a number of possibilities, leading to a target position. The knowledge supporting their decisions is clearly presented and can be modified, which makes these agents more flexible. They usually require discovery and planning. The behavior of a target-based agent can be easily changed.
+Utility-based agents
+The agents which are developed having their end uses as building blocks are called utility-based agents. When there are multiple possible alternatives, then to decide which one is best, utility-based agents are used. They choose actions based on a 
+preference (utility)
+ for each state. Sometimes achieving the desired goal is not enough. We may look for a quicker, safer, cheaper trip to reach a destination. Agent happiness should be taken into consideration.
+Utility describes how 
+"happy"
+ the agent is. Because of the uncertainty in the world, a utility agent chooses the action that maximizes the expected utility. A utility function maps a state onto a real number which describes the associated degree of happiness.
+Learning Agent
+A learning agent in AI is the type of agent that can learn from its past experiences or it has learning capabilities. It starts to act with basic knowledge and then is able to act and adapt automatically through learning.
+A learning agent has mainly four conceptual components, which are:
+Learning 
+element:
+It
+ is responsible for making improvements by learning from the environment
+Critic:
+ The learning element takes feedback from critics which describe how well the agent is doing with respect to a fixed performance standard.
+Performance 
+element:
+It
+ is responsible for selecting external action
+Problem Generator:
+ This component is responsible for suggesting actions that will lead to new and informative experiences.
+The Nature of Environments
+Some programs operate in completely artificial environments that are limited to keyboard input, databases, computer file systems, and character output on the screen.
+In contrast, some software agents (software robots or softbots) exist in rich, unlimited softbot domains. The simulator has a very detailed, complex environment. The software agent needs to choose from a long range of tasks in real time.
+A softbot designed to scan the customer's online preferences and show interesting items to the customer works in a real as well as an artificial environment.
+The most famous artificial environment is the Turing test environment, in which 
+a real and other artificial agents
+ are tested on an equal basis. This is a very challenging environment as it is extremely difficult for a software agent to perform side-by-side with a human.
+Turing Test
+The success of a system's intelligent behavior can be measured with the Turing test.
+Two persons and a machine to be evaluated participate in the test. One of the two persons plays the role of the examiner. Each of them is sitting in different rooms. The examiner is unaware of who is a machine and who is a human. He inquires by typing the questions and sending them to both intelligences, for which he receives typed responses.
+The purpose of this test is to fool the tester. If the tester fails to determine the response of the machine from the human response, the machine is said to be intelligent.
+Properties of Environment
+The environment has multifold properties -
+Discrete/continuous
+ - if there are a limited number of distinct, clearly defined, environmental conditions, then the environment is discrete (for example, chess); 
+Otherwise
+ it is continuous (e.g., driving).
+Observable/partly observable
+ - if it is possible to determine the overall state of the environment from observable assumptions at each time point; 
+otherwise
+ it is only partially observable.
+Static / Dynamic
+ - If the environment does not change while the agent is working, it is static; 
+Otherwise
+ it is dynamic.
+Single Agent / Multiple Agents
+ - There may be other agents in the environment that may be the same or different types of agents.
+Accessible / Inaccessible
+ - If the agent's sensory system can have access to the entire state of the environment, then the environment is accessible to that agent.
+Deterministic / non-deterministic
+ - if the next state of the environment is completely determined by the current state and actions of the agent, then the environment is deterministic; 
+otherwise
+ it is non-deterministic.
+Episodic/Non-Episodic
+ - In an episodic environment, each episode involves the agent understanding and then acting. The quality of its action depends only on the episode. Subsequent episodes do not depend on the actions of the previous episode. Episodic environments are much simpler because the agent does not need to think ahead.
