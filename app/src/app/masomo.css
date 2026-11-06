@@ -109,48 +109,54 @@ html[data-contrast=high] body{color:#142f20}html[data-contrast=high] .muted,html
 }
 
 
-/* A Learning: low-glare dark forest theme */
+
+
+/* A Learning — warm editorial theme */
 :root{
- --background:#121b16;--foreground:#e3ebe5;--card:#1b2821;--card-foreground:#e3ebe5;
- --primary:#78ad87;--primary-foreground:#102017;--secondary:#26372d;--secondary-foreground:#dce9df;
- --muted:#26332b;--muted-foreground:#a0b0a3;--accent:#26372d;--accent-foreground:#dce9df;
- --border:#304137;--input:#3a4a3e;--ring:#78ad87;--popover:#1b2821;--popover-foreground:#e3ebe5;
- color-scheme:dark;
+ --background:#f4f1e9;--foreground:#293342;--card:#fffdf8;--card-foreground:#293342;
+ --primary:#426a9a;--primary-foreground:#ffffff;--secondary:#e8edf3;--secondary-foreground:#34465c;
+ --muted:#ece9e1;--muted-foreground:#687486;--accent:#e4ebf3;--accent-foreground:#344e70;
+ --border:#deded8;--input:#d7dce2;--ring:#7392b8;--popover:#fffdf8;--popover-foreground:#293342;
+ color-scheme:light;
 }
-html,body{background:#121b16!important;color:#e3ebe5}
-.sidebar,.topbar,.mobile-sidebar{background:#17231c!important;border-color:#304137!important}
-.brand,.brand small,.breadcrumb,.breadcrumb strong,.dashboard-heading h1,.section-heading h2,
-.page-heading h1,.card-title-row h2,.course-card h3,.deadline-copy>strong,.support-details strong{color:#e3ebe5!important}
-.institution,.support-card,.global-search,.panel,.empty-state,.course-card,.continue-card,.quiz-summary,
+html,body{background:#f4f1e9!important;color:#293342}
+.sidebar,.mobile-sidebar{background:#202b3c!important;color:#e8edf4!important;border-color:#344256!important}
+.topbar{background:#fffdf8!important;color:#293342!important;border-color:#e2dfd7!important}
+.sidebar .brand,.sidebar .brand small,.sidebar .institution,.sidebar .institution *,
+.sidebar .nav-item,.sidebar .support-card,.sidebar .support-card *,
+.sidebar .sidebar-profile,.sidebar .sidebar-profile *{color:#e1e8f0!important}
+.sidebar .nav-item:hover,.sidebar .nav-item.active{background:#34445b!important;color:#ffffff!important}
+.sidebar .institution,.sidebar .support-card{background:#29374b!important;border-color:#3a4a60!important}
+.workspace,.main-content,.dashboard-content{background:#f4f1e9!important;color:#293342}
+.brand,.breadcrumb,.breadcrumb strong,.dashboard-heading h1,.section-heading h2,
+.page-heading h1,.card-title-row h2,.course-card h3,.deadline-copy>strong,.support-details strong{color:#293342!important}
+.institution,.global-search,.panel,.empty-state,.course-card,.continue-card,.quiz-summary,
 .recommendation,.weekly-goal,.calendar-card,.notification-item,.semester-pill,.filter-input,
 .filters select,.filters input,.filters textarea,.resource-item,.unit-summary,.topic-row,
-.progress-metric{background:#1b2821!important;border-color:#304137!important;color:#e3ebe5}
-.nav-item{color:#a0b0a3!important}
-.nav-item:hover,.nav-item.active{background:#26372d!important;color:#a8d5b2!important}
-.welcome-banner{background:linear-gradient(115deg,#26372d 0%,#213128 58%,#1d2b22 100%)!important;border-color:#3b5142!important}
-.welcome-banner h2{color:#e3ebe5!important}
+.progress-metric,.stat-card{background:#fffdf8!important;border-color:#e1ded6!important;color:#293342!important}
+.nav-item{color:#d5deea!important}
+.welcome-banner{background:linear-gradient(115deg,#e5ebf2 0%,#eef0ed 58%,#f5f0e6 100%)!important;border-color:#d9e0e7!important}
+.welcome-banner h2,.course-card h3{color:#293342!important}
 .welcome-banner p,.muted,.eyebrow,.lecturer,.course-progress-label,.course-bottom>span,
 .dashboard-heading p,.section-heading p,.resource-item p,.reading-meta,.continue-details>p,
 .quiz-summary p,.recommendation small,.upcoming-description,.deadline-copy>small,.deadline-type,
 .workspace-footer,.calendar-grid>span,.calendar-legend,.stat-card>div>span,.stat-card small,
 .goal-message,.goal-visual small,.institution div>span,.support-card p,.sidebar-profile small,
-.page-heading p,.breadcrumb-parent{color:#a0b0a3!important}
-.stat-card{background:#1b2821!important;border-color:#304137!important}
-.stat-icon,.small-icon,.quiz-summary-icon{background:#2a3b30!important;color:#a8d5b2!important}
-.course-card{box-shadow:0 2px 8px #0003!important}
-.course-cover{filter:brightness(.78) saturate(.78)}
-.course-progress{background:#35443a!important}
-.course-progress>div{background:#78ad87!important}
-.course-bottom,.week-days,.calendar-legend,.workspace-footer,.sidebar-profile{border-color:#304137!important}
-.week-days b,.calendar-grid>span:not(.calendar-day-name){background:#26372d;color:#c4d2c7}
-.week-days .day-done,.calendar-grid .calendar-today{background:#78ad87!important;color:#102017!important}
-.deadline-item:hover{background:#26372d!important}
-.inclusion-note{border-color:#304137!important}
-.inclusion-note p,.inclusion-note strong,.inclusion-note>small{color:#b3c3b5!important}
-.text-link,.subtle-link,.course-bottom>a{color:#9bcba7!important}
+.page-heading p,.breadcrumb-parent{color:#687486!important}
+.stat-icon,.small-icon,.quiz-summary-icon{background:#e8edf3!important;color:#426a9a!important}
+.course-card{box-shadow:0 3px 12px #26364a0c!important}
+.course-cover{filter:saturate(.82)}
+.course-progress{background:#e4e7e9!important}
+.course-progress>div{background:#6486b1!important}
+.course-bottom,.week-days,.calendar-legend,.workspace-footer,.sidebar-profile{border-color:#e1ded6!important}
+.week-days b,.calendar-grid>span:not(.calendar-day-name){background:#edf0f3;color:#536276}
+.week-days .day-done,.calendar-grid .calendar-today{background:#426a9a!important;color:#fff!important}
+.deadline-item:hover{background:#eef2f6!important}
+.inclusion-note{border-color:#dce2e8!important;background:#f0f3f5!important}
+.inclusion-note p,.inclusion-note strong,.inclusion-note>small{color:#536276!important}
+.text-link,.subtle-link,.course-bottom>a{color:#426a9a!important}
 button,a{color:inherit}
-input,select,textarea{background:#1b2821!important;color:#e3ebe5!important;border-color:#405346!important}
-input::placeholder,textarea::placeholder{color:#8fa092!important}
-.avatar{border-color:#26372d!important;background:#34483a!important;color:#dce9df!important}
-.toast{background:#263b2e!important;color:#e3ebe5!important}
-@media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important}}
+input,select,textarea{background:#fffdf8!important;color:#293342!important;border-color:#d7dce2!important}
+input::placeholder,textarea::placeholder{color:#8993a0!important}
+.avatar{border-color:#e0e4e8!important;background:#e8edf3!important;color:#344e70!important}
+.toast{background:#29374b!important;color:#fff!important}
