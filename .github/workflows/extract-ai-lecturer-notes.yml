@@ -1,0 +1,34 @@
+name: Extract lecturer notes (temporary)
+on:
+  push:
+    branches:
+      - tools/extract-ai-lecturer-notes
+    paths:
+      - ".github/workflows/extract-ai-lecturer-notes.yml"
+      - "notes/YEAR 3/AI/**"
+permissions:
+  contents: read
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Extract Topic 1 lecturer document
+        run: |
+          python - <<'PY'
+          from docx import Document
+          from pathlib import Path
+          path = Path("notes/YEAR 3/AI/Lesson 1 Introduction to Artificial Intelligence.docx")
+          doc = Document(path)
+          for p in doc.paragraphs:
+              text = p.text.strip()
+              if text:
+                  print(text)
+          for ti, table in enumerate(doc.tables, 1):
+              print(f"\\n[TABLE {ti}]")
+              for row in table.rows:
+                  print(" | ".join(cell.text.replace("\\n", " / ").strip() for cell in row.cells))
+          PY
