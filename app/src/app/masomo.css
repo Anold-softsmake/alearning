@@ -107,3 +107,97 @@ html[data-contrast=high] body{color:#142f20}html[data-contrast=high] .muted,html
 @media(prefers-reduced-motion:reduce){
  .stat-card,.course-card,.recommendation,.deadline-item{transition:none}
 }
+
+
+/* MasomoFiti low-glare forest theme */
+:root{
+ --background:#121b16;--foreground:#e3ebe5;--card:#1b2821;--card-foreground:#e3ebe5;
+ --primary:#78ad87;--primary-foreground:#102016;--secondary:#26372d;--secondary-foreground:#d5e5d8;
+ --muted:#24332a;--muted-foreground:#a0b0a3;--accent:#2b4032;--accent-foreground:#d8e9dc;
+ --border:#304137;--input:#34473a;--ring:#78ad87;--popover:#1b2821;--popover-foreground:#e3ebe5;
+ color-scheme:dark;
+}
+body{background:#121b16;color:#e3ebe5}
+.sidebar,.topbar{background:#17231c;border-color:#2b3a30}
+.brand{color:#dce9df}.brand small,.institution div>span,.nav-label{color:#91a296}
+.institution{background:#202f26;border-color:#304238}
+.institution strong,.sidebar-profile strong,.breadcrumb strong{color:#dce8df}
+.nav-item{color:#a5b3a8}
+.nav-item.active{background:#294332;color:#a9d3b2}
+.nav-item:hover{background:#26392d;color:#d6e6d9}
+.nav-count{background:#36513d;color:#c5dfc9}
+.support-card{background:#243328;border-color:#344638}
+.support-card>strong{color:#dce8df}.support-card p{color:#a3b19e}
+.sidebar-profile{border-color:#304137}
+.avatar{background:#3a493b;color:#e0d7bd;border-color:#17231c;box-shadow:0 0 0 1px #405247}
+.workspace{background:#121b16}
+.breadcrumb-parent,.breadcrumb-divider{color:#91a196}
+.global-search{background:#202d25;border-color:#34443a;color:#a4b2a7}
+.global-search input{color:#e0e9e2}
+.global-search kbd{background:#29382e;border-color:#405044;color:#b0beb2}
+.notification-button,.header-profile{color:#a6b4a8}
+.main-content{color:#e1e9e2}
+.dashboard-heading h1,.section-heading h2,.page-heading h1{color:#e2ebe4}
+.dashboard-heading p,.section-heading p{color:#a2b0a4}
+.semester-pill{background:#202e25;border-color:#35463a;color:#c2d0c4}
+.semester-pill>span:not(.status-dot){color:#91a194}
+.welcome-banner{background:linear-gradient(115deg,#263d2e 0%,#24372b 58%,#1e3326 100%);border-color:#3b5542}
+.welcome-banner h2{color:#d8eadb}
+.welcome-banner p,.banner-caption{color:#b0c2b2}
+.banner-tag{color:#a8c9ad}
+.welcome-banner .continue-button{background:#78a985;color:#102016}
+.stat-card,.course-card,.continue-card,.quiz-summary,.recommendation,.weekly-goal,.calendar-card,.panel,.resource-item{
+ background:#1b2821;border-color:#304137;color:#e0e9e2;
+}
+.stat-card>div>span,.stat-card small,.eyebrow,.lecturer,.course-progress-label,.course-bottom>span,
+.continue-details>p,.quiz-summary p,.recommendation small,.muted{color:#a3b1a5}
+.stat-card strong,.course-card h3,.continue-details h3,.quiz-summary strong,.recommendation strong{color:#e0e9e2}
+.stat-icon.mint,.mint{background:#294235;color:#a5d2b0}
+.lavender{background:#373044;color:#c4addf}.peach{background:#41352b;color:#d8b28a}
+.blue{background:#293b49;color:#a5c5dc}.yellow{background:#403d2c;color:#d4c58a}
+.rose{background:#423138;color:#d4a7b3}
+.course-card:hover{box-shadow:0 9px 24px #050b0780}
+.course-cover{filter:saturate(.78) brightness(.82)}
+.course-progress{background:#304137!important}
+.course-progress>div{background:#79ad87}
+.course-bottom{border-color:#304137}
+.course-bottom>a,.text-link{color:#9bc9a4}
+.text-link:hover{color:#c1e2c6}
+.reading-preview{background:#29342d;border-color:#3a493e}
+.reading-preview>span{color:#b4b49c}.reading-preview>div{background:#596356}
+.continue-details [data-slot=button]{background:#25372b;color:#b4d5b9;border-color:#3c5541}
+.quiz-summary-icon{background:#3a382b;color:#d4c58a}
+.score-ring{border-color:#385340;color:#a7d2ad}
+.recommendation{border-color:#304137}
+.recommendation:hover{border-color:#58755e}
+.weekly-goal,.calendar-card{box-shadow:0 2px 12px #050b0760}
+.card-title-row h2,.upcoming-section h2{color:#dfe9e1}
+.goal-visual strong{color:#e1ebe3}
+.goal-visual strong>span,.goal-visual small,.goal-message,.week-days span{color:#a4b2a5}
+.week-days{border-color:#304137}
+.week-days b{background:#2b392f;color:#aab9ac}
+.week-days .day-done{background:#6f9f7a;color:#102016}
+.week-days .day-today{background:#344c39;color:#c3e0c7;border-color:#64856a}
+.calendar-arrows,.calendar-grid>span{color:#a8b6a9}
+.calendar-grid .calendar-day-name,.calendar-legend{color:#a2b0a3}
+.calendar-grid .calendar-today{background:#6f9f7a;color:#102016}
+.calendar-grid .calendar-deadline:after{background:#d0b779}
+.calendar-legend{border-color:#304137}
+.deadline-copy>strong{color:#d0dfd2}
+.deadline-copy>small,.deadline-type,.upcoming-description{color:#a2b0a3}
+.deadline-date{background:#2a3b30!important;color:#c9dfcc!important}
+.deadline-item:hover{background:#25362b}
+.inclusion-note{border-color:#344538}
+.inclusion-note p{color:#b0bda9}.inclusion-note strong{color:#c4d8b3}
+.workspace-footer{border-color:#304137;color:#9eac9f}
+.workspace-footer a{color:#a8c9ad}
+.page-heading p,.empty-state p{color:#a5b2a6}
+.panel,.empty-state{background:#1b2821;border-color:#35463a}
+.empty-state{border-style:dashed}
+.filters select,.filter-select,.filter-input input,input,textarea,select{
+ background-color:#202e25;color:#e0e9e2;border-color:#3a4b3e
+}
+.resource-item h3{color:#e0e9e2}
+.resource-item .resource-meta{color:#a5b2a6}
+.toast{background:#294b34;color:#e8f2e9}
+@media(prefers-color-scheme:light){html{color-scheme:dark}}
