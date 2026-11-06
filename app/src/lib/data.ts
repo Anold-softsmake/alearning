@@ -105,9 +105,9 @@ export const courses:Course[] = [
     "progress": 0,
     "year": 3,
     "semester": 1,
-    "topics": 8,
+    "topics": 9,
     "materials": 11,
-    "description": "Study intelligent behaviour, learning, agents, applications and search algorithms."
+    "description": "Study AI foundations, intelligent agents, search, knowledge representation, reasoning, game playing, learning, natural language and planning."
   }
 ];
 export const topics:Topic[] = [
@@ -1876,294 +1876,414 @@ export const topics:Topic[] = [
       "daa-daa-outline"
     ]
   },
-  {
-    "id": "ai-introduction",
-    "courseId": "ai",
-    "title": "Introduction to artificial intelligence",
-    "minutes": 5,
-    "objectives": [
-      "Define AI and describe its scope",
-      "Compare narrow and general intelligence concepts"
-    ],
-    "sections": [
-      {
-        "heading": "Introduction",
-        "text": "Artificial intelligence studies systems that perform tasks associated with intelligent behaviour, including reasoning, learning, perception and decision-making. The supplied introductory lesson covers its definition, history, types, advantages, limitations and challenges."
-      },
-      {
-        "heading": "Key concepts",
-        "text": "Narrow AI is designed for particular tasks. General intelligence describes a broader ability across tasks. AI systems can use explicitly programmed rules, search or learned patterns. Useful evaluation considers the actual task, the evidence of performance and the consequences of errors rather than whether an output appears human."
-      },
-      {
-        "heading": "Worked example and solution",
-        "text": "A timetable conflict checker uses rules to detect overlapping classes. A prediction model learns associations from past enrolment data. Both support decisions, but each has limits and depends on how the task and data are defined."
-      },
-      {
-        "heading": "Key terms",
-        "text": "AI: artificial intelligence. Agent: a system that perceives and acts. Learning: adapting behaviour or predictions from data. Inference: deriving a conclusion or producing a model output."
-      },
-      {
-        "heading": "Revision questions",
-        "text": "1. Give a rule-based and a learning-based AI example.\n2. Compare narrow and general AI.\n3. Name two limitations of an AI system."
-      }
-    ],
-    "takeaway": "Define intelligence in terms of the task and evaluate actual behaviour and limitations.",
-    "sources": [
-      "ai-lesson-1-introduction-to-artificial-intelligence"
-    ]
-  },
-  {
-    "id": "ai-applications",
-    "courseId": "ai",
-    "title": "Applications of artificial intelligence",
-    "minutes": 5,
-    "objectives": [
-      "Identify application areas",
-      "Relate AI techniques to useful tasks"
-    ],
-    "sections": [
-      {
-        "heading": "Introduction",
-        "text": "AI applications combine a problem, suitable information and a method for producing useful outputs. The supplied lesson surveys sectors including healthcare, finance, astronomy and robotics."
-      },
-      {
-        "heading": "Key concepts",
-        "text": "Applications include classification, prediction, recommendation, anomaly detection, language processing and automated control. Choosing an application requires a clear purpose and suitable evaluation. Errors can have unequal costs, and a model that works in one setting may fail when the input population or conditions change."
-      },
-      {
-        "heading": "Worked example and solution",
-        "text": "A university helpdesk can classify messages by department. Evaluate misrouted messages, not just overall accuracy, and allow staff to correct assignments. Sensitive or ambiguous cases may require review rather than automatic action."
-      },
-      {
-        "heading": "Key terms",
-        "text": "Classification: selecting a category. Prediction: estimating an unknown outcome. Recommendation: ranking useful options. Anomaly: an observation that differs from expected patterns."
-      },
-      {
-        "heading": "Revision questions",
-        "text": "1. Map three sectors to specific AI tasks.\n2. What data would a helpdesk classifier need?\n3. Why might two errors have different costs?"
-      }
-    ],
-    "takeaway": "Start with the user’s task and define how useful performance will be measured.",
-    "sources": [
-      "ai-lesson-2-applications-of-artificial-intelligence"
-    ]
-  },
-  {
-    "id": "ai-features",
-    "courseId": "ai",
-    "title": "Features and capabilities of AI systems",
-    "minutes": 5,
-    "objectives": [
-      "Describe automation, data ingestion and learning",
-      "Explain the role of representation and analysis"
-    ],
-    "sections": [
-      {
-        "heading": "Introduction",
-        "text": "The features lesson describes AI through capabilities such as automation, ingesting information, analysis and learning. These capabilities depend on the system’s design and information sources."
-      },
-      {
-        "heading": "Key concepts",
-        "text": "Data ingestion collects inputs; preprocessing prepares them; representation makes relevant aspects available to a method. Learning estimates useful patterns, while inference applies a rule set or trained model. Automation follows a defined workflow and should include handling for uncertain, missing or invalid inputs."
-      },
-      {
-        "heading": "Worked example and solution",
-        "text": "A document classification pipeline first extracts text, then represents the text, predicts a subject and records the result. A scanned page with no extractable text needs a different handling path. Ignoring that condition may generate a confident label from empty input."
-      },
-      {
-        "heading": "Key terms",
-        "text": "Ingestion: collecting inputs. Preprocessing: preparing data. Representation: an encoded form. Model: a rule or learned relationship used to produce outputs."
-      },
-      {
-        "heading": "Revision questions",
-        "text": "1. Distinguish training from inference.\n2. Why does representation affect performance?\n3. What should a pipeline do with missing input?"
-      }
-    ],
-    "takeaway": "AI capability comes from a complete information-processing pipeline, including failure handling.",
-    "sources": [
-      "ai-lesson-3-features-of-artificial-intelligence"
-    ]
-  },
-  {
-    "id": "ai-examples",
-    "courseId": "ai",
-    "title": "AI examples: reasoning, language and perception",
-    "minutes": 5,
-    "objectives": [
-      "Recognize reasoning, learning and self-correction examples",
-      "Distinguish language and vision tasks"
-    ],
-    "sections": [
-      {
-        "heading": "Introduction",
-        "text": "Examples help connect abstract AI ideas to observable operations. The supplied lesson discusses learning, reasoning, self-correction, recommendation, natural language processing and computer vision."
-      },
-      {
-        "heading": "Key concepts",
-        "text": "Reasoning uses represented knowledge to derive conclusions. Natural language processing operates on language; computer vision operates on images or video. A recommendation system ranks candidates from available signals. Feedback can support improvement, but an individual correction does not automatically retrain every system."
-      },
-      {
-        "heading": "Worked example and solution",
-        "text": "An accessibility tool may detect text in an image and then read it aloud. Image processing recognizes characters; language processing can help interpret their sequence. If the characters are misrecognized, later stages may produce fluent but incorrect text."
-      },
-      {
-        "heading": "Key terms",
-        "text": "NLP: natural language processing. Computer vision: interpreting visual inputs. Reasoning: deriving conclusions. Feedback: information used to evaluate or improve behaviour."
-      },
-      {
-        "heading": "Revision questions",
-        "text": "1. Separate the stages in an image-to-speech tool.\n2. Give a reasoning example.\n3. Why should fluent output still be checked?"
-      }
-    ],
-    "takeaway": "Identify the specific capability behind an example and trace errors across its stages.",
-    "sources": [
-      "ai-lesson-4-examples-of-ai"
-    ]
-  },
-  {
-    "id": "ai-human-intelligence",
-    "courseId": "ai",
-    "title": "Artificial intelligence and human intelligence",
-    "minutes": 5,
-    "objectives": [
-      "Compare strengths and limitations",
-      "Explain the role of context and judgment"
-    ],
-    "sections": [
-      {
-        "heading": "Introduction",
-        "text": "The supplied lesson compares artificial and human intelligence. Useful comparison considers the task, learning conditions and environment rather than assuming one universal ranking."
-      },
-      {
-        "heading": "Key concepts",
-        "text": "Computers can process large quantities of structured information consistently and quickly for suitable tasks. Human intelligence includes flexible contextual understanding, lived experience and social judgment. AI performance depends on its design, data and evaluation conditions. Systems can reproduce patterns and errors present in their information sources."
-      },
-      {
-        "heading": "Worked example and solution",
-        "text": "A model can flag unusual attendance patterns across thousands of records. A lecturer may know that a timetable change or a documented personal circumstance explains the pattern. Combining the signal with contextual review produces a better-supported decision."
-      },
-      {
-        "heading": "Key terms",
-        "text": "Context: surrounding circumstances. Generalization: applying learned patterns to new cases. Bias: systematic distortion. Judgment: assessing a situation using relevant evidence and context."
-      },
-      {
-        "heading": "Revision questions",
-        "text": "1. Compare humans and AI on a clearly specified task.\n2. Why is context important?\n3. Give a decision where human review adds information."
-      }
-    ],
-    "takeaway": "Use AI strengths within their evaluated limits and include the context needed for sound decisions.",
-    "sources": [
-      "ai-lesson-5-difference-between-artificial-intelligence-and-human-intelligence"
-    ]
-  },
-  {
-    "id": "ai-how-it-works",
-    "courseId": "ai",
-    "title": "How AI works: data, models and evaluation",
-    "minutes": 5,
-    "objectives": [
-      "Describe a model-development workflow",
-      "Compare supervised, unsupervised and reinforcement learning"
-    ],
-    "sections": [
-      {
-        "heading": "Introduction",
-        "text": "The supplied lesson introduces machine learning, deep learning, language processing, vision and expert systems. A learning workflow connects a defined problem to data, training and evaluation."
-      },
-      {
-        "heading": "Key concepts",
-        "text": "Supervised learning uses labelled examples; unsupervised learning seeks structure without task labels; reinforcement learning studies actions and reward through interaction. A typical workflow collects and prepares data, selects a model, trains it and evaluates it on data excluded from fitting. Leakage makes evaluation overoptimistic when information from the answer or test set enters training."
-      },
-      {
-        "heading": "Worked example and solution",
-        "text": "To classify lecture notes by unit, split examples before fitting data-dependent preprocessing, train on the training set and assess performance on held-out examples. Several pages from the same document may be too similar to split independently without inflating the result."
-      },
-      {
-        "heading": "Key terms",
-        "text": "Training set: examples used for fitting. Validation: data used for development choices. Test set: held-out evaluation data. Leakage: improper access to information during development."
-      },
-      {
-        "heading": "Revision questions",
-        "text": "1. Compare three learning paradigms.\n2. Why keep evaluation data separate?\n3. Give an example of leakage in a document classifier."
-      }
-    ],
-    "takeaway": "A credible model result requires a clear task and an evaluation that reflects new cases.",
-    "sources": [
-      "ai-lesson-6-how-does-ai-work"
-    ]
-  },
-  {
-    "id": "ai-agents",
-    "courseId": "ai",
-    "title": "Intelligent agents and environments",
-    "minutes": 5,
-    "objectives": [
-      "Compare major agent types",
-      "Describe environment properties"
-    ],
-    "sections": [
-      {
-        "heading": "Introduction",
-        "text": "An agent receives percepts from an environment and chooses actions. A performance measure defines what successful behaviour means for the task."
-      },
-      {
-        "heading": "Key concepts",
-        "text": "Simple reflex agents use current percepts and condition-action rules. Model-based agents maintain internal state. Goal-based agents reason about achieving goals; utility-based agents compare preferences among outcomes; learning agents improve from experience. Environments may be fully or partially observable, deterministic or stochastic, episodic or sequential, static or dynamic, and discrete or continuous."
-      },
-      {
-        "heading": "Worked example and solution",
-        "text": "A campus delivery robot senses obstacles, tracks its position and chooses routes to a destination. Limited sensors make the environment partially observable; moving people make it dynamic. The performance measure should consider safe arrival and resource use rather than speed alone."
-      },
-      {
-        "heading": "Key terms",
-        "text": "Percept: an observation. Action: an environment-changing choice. Utility: a measure of outcome preference. Rationality: choosing appropriately given available information and goals."
-      },
-      {
-        "heading": "Revision questions",
-        "text": "1. Compare reflex and goal-based agents.\n2. Classify a chess environment and justify assumptions.\n3. Design a performance measure for a delivery robot."
-      }
-    ],
-    "takeaway": "Choose an agent design that matches what it can observe and how the environment changes.",
-    "sources": [
-      "ai-lesson-7-what-are-ai-agents"
-    ]
-  },
-  {
-    "id": "ai-search",
-    "courseId": "ai",
-    "title": "Search algorithms and problem formulation",
-    "minutes": 5,
-    "objectives": [
-      "Specify states, actions, goals and path costs",
-      "Compare uninformed and informed search"
-    ],
-    "sections": [
-      {
-        "heading": "Introduction",
-        "text": "Search explores possible states to find a solution. A well-defined search problem states the initial state, available actions, transition behaviour, goal test and path cost."
-      },
-      {
-        "heading": "Key concepts",
-        "text": "Breadth-first search explores shallow states first; depth-first search explores a branch before backtracking. Uniform-cost search expands by accumulated path cost. Informed search uses a heuristic; A* orders by g(n) + h(n). Completeness, optimality, time and space depend on each algorithm’s assumptions. Admissibility and, for standard graph-search treatment, consistency of a heuristic matter for A* guarantees."
-      },
-      {
-        "heading": "Worked example and solution",
-        "text": "For a campus route, states are locations, actions traverse walkways and cost may be distance. A straight-line distance to the destination can be a lower-bound heuristic when walkway distance cannot be shorter. Fewest edges and shortest distance are different objectives when edges have unequal weights."
-      },
-      {
-        "heading": "Key terms",
-        "text": "State space: possible problem configurations. Heuristic: an estimated remaining cost. Completeness: finding a solution when one exists under stated conditions. Optimality: returning a minimum-cost solution."
-      },
-      {
-        "heading": "Revision questions",
-        "text": "1. Formulate a route problem.\n2. When does BFS find a least-cost path?\n3. Explain g(n) and h(n) in A*.\n4. Compare DFS time and memory concerns."
-      }
-    ],
-    "takeaway": "Define the search problem and assumptions before selecting a strategy.",
-    "sources": [
-      "ai-search-algorithms-in-artificial-intelligence"
-    ]
-  }
+{
+  "id": "ai-introduction",
+  "courseId": "ai",
+  "title": "Introduction to Artificial Intelligence",
+  "minutes": 20,
+  "objectives": [
+    "Define AI and explain its goals",
+    "Describe approaches, techniques, branches and applications",
+    "Explain types, strengths, limitations and challenges"
+  ],
+  "sections": [
+    {
+      "heading": "Lecturer's notes",
+      "text": "The lecturer's Lesson 1 introduces AI as a branch of computer science concerned with intelligent systems that can learn, infer, reason, solve problems and act. It covers history, contributing disciplines, types, advantages, disadvantages, challenges, AI tools and prerequisites. The other identified lecturer files cover applications, features, examples, human versus artificial intelligence and how AI works."
+    },
+    {
+      "heading": "Goals and approaches",
+      "text": "AI aims to build systems that perceive information, represent knowledge, reason or learn, and choose actions to achieve objectives. Classic approaches include thinking humanly, acting humanly (including the Turing Test), thinking rationally and acting rationally. Acting rationally means selecting actions expected to achieve goals using available evidence."
+    },
+    {
+      "heading": "Techniques, branches and applications",
+      "text": "Techniques include search, knowledge representation, logical inference, planning, machine learning and probabilistic reasoning. Branches include robotics, computer vision, speech processing, natural-language processing, expert systems and machine learning. Applications span healthcare, finance, education, transport, manufacturing, accessibility and scientific research."
+    },
+    {
+      "heading": "Types and limitations",
+      "text": "Narrow AI is designed for a limited task. Artificial general intelligence (AGI) would perform a broad range of intellectual tasks, but has not been achieved. Superintelligence is hypothetical. Functional categories often discuss reactive machines, limited-memory systems, theory-of-mind and self-aware systems; the last two are not established real-world AI capabilities. AI can be fast and consistent but may be biased, brittle, costly, opaque and dependent on data quality and human oversight."
+    },
+    {
+      "heading": "Worked example",
+      "text": "A university support chatbot classifies a question, retrieves a policy answer and responds. It combines language processing and information retrieval. It is narrow AI, and uncertain or high-impact cases should be escalated to a human."
+    },
+    {
+      "heading": "Course-outline coverage audit",
+      "text": "Missing from the lecturer's notes but required by the course outline: explicit goals, approaches and techniques. The verified Lesson 1 file covers definitions and related introductory material but does not systematically explain these three required areas. The additional explanation here fills that gap."
+    },
+    {
+      "heading": "Revision questions",
+      "text": "1. Define AI and explain four goals. 2. Compare the four classic approaches. 3. Explain five AI techniques and applications. 4. Distinguish narrow AI, AGI and hypothetical superintelligence. 5. Discuss benefits, limitations and ethical challenges."
+    }
+  ],
+  "takeaway": "AI combines representation, reasoning, learning and action; distinguish present-day narrow systems from hypothetical general intelligence.",
+  "sources": [
+    "Lecturer: Lesson 1 Introduction to AI",
+    "SPC 2303 course outline — Topic 1"
+  ]
+},
+{
+  "id": "ai-intelligent-agents",
+  "courseId": "ai",
+  "title": "Intelligent Agents",
+  "minutes": 20,
+  "objectives": [
+    "Define agents, environments, sensors and actuators",
+    "Apply PEAS to a practical system",
+    "Compare agent architectures and environment properties"
+  ],
+  "sections": [
+    {
+      "heading": "Agent and environment",
+      "text": "An agent perceives its environment through sensors and acts through actuators. A software agent may receive user input or API data and respond through a screen or network request. Its agent function maps percept histories to actions."
+    },
+    {
+      "heading": "PEAS",
+      "text": "PEAS means Performance measure, Environment, Actuators and Sensors. For a delivery robot: performance includes safe, timely delivery; environment includes corridors and people; actuators include wheels and grippers; sensors include cameras and distance sensors."
+    },
+    {
+      "heading": "Agent architectures",
+      "text": "A simple reflex agent uses current percepts and condition–action rules. A model-based agent maintains internal state. A goal-based agent chooses actions to reach goals. A utility-based agent compares outcomes using preferences or utility. A learning agent improves through experience; common components include a performance element, learning element, critic and problem generator."
+    },
+    {
+      "heading": "Environment properties",
+      "text": "Environments may be fully or partially observable, deterministic or stochastic, episodic or sequential, static or dynamic, discrete or continuous, and single-agent or multi-agent. Chess is commonly modelled as fully observable and deterministic; driving is partially observable, dynamic and stochastic."
+    },
+    {
+      "heading": "Turing Test and example",
+      "text": "The Turing Test evaluates whether a machine's conversational behaviour can be distinguished from a human's under specified conditions. It assesses behaviour, not consciousness. A thermostat is a simple agent: it senses temperature, compares it with a target and switches heating on or off."
+    },
+    {
+      "heading": "Course-outline coverage audit",
+      "text": "Missing from the lecturer's notes but required by the course outline: agent structures, simple and goal-based agents, decision-making agents, and the purpose and implementation of the Turing Test. The repository contains a Lesson 7 AI Agents file, but its full text has not been verified in this integration."
+    },
+    {
+      "heading": "Revision questions",
+      "text": "1. Explain sensors and actuators. 2. Apply PEAS to a library kiosk. 3. Compare reflex, model-based, goal-based and utility-based agents. 4. Explain four environment properties. 5. Describe one limitation of the Turing Test."
+    }
+  ],
+  "takeaway": "Agent design begins with the environment and performance measure; select an architecture suited to its percepts, goals and uncertainty.",
+  "sources": [
+    "Lecturer file listed: Lesson 7 What are AI Agents (full text not verified)",
+    "SPC 2303 course outline — Topic 2"
+  ]
+},
+{
+  "id": "ai-general-problem-solving",
+  "courseId": "ai",
+  "title": "General Problem Solving and Search",
+  "minutes": 20,
+  "objectives": [
+    "Formulate a problem as a state-space search",
+    "Compare uninformed and heuristic search",
+    "Explain forward and backward reasoning"
+  ],
+  "sections": [
+    {
+      "heading": "Problem formulation",
+      "text": "A search problem specifies an initial state, actions, a transition model, a goal test and a path-cost function. The state space contains reachable states. A solution is an action sequence reaching a goal; an optimal solution has minimum cost."
+    },
+    {
+      "heading": "Uninformed search",
+      "text": "Breadth-first search (BFS) expands shallowest nodes first and is complete for finite branching; it is optimal when all step costs are equal, but can use substantial memory. Depth-first search (DFS) follows a branch deeply and backtracks; it uses less memory but is not generally optimal and can fail in infinite-depth spaces. Uniform-cost search expands the lowest accumulated path cost."
+    },
+    {
+      "heading": "Heuristic search",
+      "text": "A heuristic h(n) estimates remaining cost. Greedy best-first search chooses the smallest h(n), but is not generally optimal. A* uses f(n)=g(n)+h(n), where g(n) is cost so far. An admissible heuristic does not overestimate true remaining cost; consistency supports standard graph-search optimality."
+    },
+    {
+      "heading": "Data-driven and goal-driven methods",
+      "text": "Forward chaining is data-driven: start with facts and apply rules to derive conclusions. Backward chaining is goal-driven: start with a query and work backward to the facts or rules that could establish it."
+    },
+    {
+      "heading": "Worked example",
+      "text": "In a maze, the initial state is the entrance, actions are moves, the transition model updates location, the goal test checks the exit and path cost counts steps. BFS finds a shortest path when every move has equal cost. A* may explore fewer states using a suitable distance heuristic."
+    },
+    {
+      "heading": "Course-outline coverage audit",
+      "text": "Missing from the lecturer's notes but required by the course outline: search-space strategies, heuristics, control strategies, exhaustive search and data-driven/goal-driven approaches. The repository lists Search Algorithms in Artificial Intelligence, but its complete text has not been verified here."
+    },
+    {
+      "heading": "Revision questions",
+      "text": "1. State the five elements of a search problem. 2. Compare BFS and DFS. 3. Explain uniform-cost search. 4. Explain A* and admissibility. 5. Distinguish forward from backward chaining."
+    }
+  ],
+  "takeaway": "Select a search strategy based on completeness, optimality, time, memory and the quality of available heuristics.",
+  "sources": [
+    "Lecturer file listed: Search Algorithms in Artificial Intelligence (full text not verified)",
+    "SPC 2303 course outline — Topic 3"
+  ]
+},
+{
+  "id": "ai-knowledge-representation",
+  "courseId": "ai",
+  "title": "Knowledge Representation",
+  "minutes": 20,
+  "objectives": [
+    "Explain why AI systems represent knowledge",
+    "Compare common representation methods",
+    "Represent simple facts and rules using predicate logic"
+  ],
+  "sections": [
+    {
+      "heading": "Meaning and purpose",
+      "text": "Knowledge representation (KR) encodes information about objects, properties, relationships and rules so an AI system can reason and act. A useful representation should be expressive, support efficient inference and make assumptions explicit."
+    },
+    {
+      "heading": "Facts, rules and acquisition",
+      "text": "A fact records information accepted as true, e.g. Enrolled(Amina, AI101). A rule expresses a conditional relationship, e.g. IF a student has completed a prerequisite THEN registration is permitted. Knowledge may be acquired from experts, documents, sensors or data and should be validated."
+    },
+    {
+      "heading": "Representation methods",
+      "text": "Methods include propositional logic, predicate logic, semantic networks, frames, production rules and ontologies. Propositional logic represents whole statements as true or false. Predicate logic represents objects, properties, relations and quantifiers. Semantic networks use nodes and labelled links; frames group attributes; production systems use IF–THEN rules."
+    },
+    {
+      "heading": "Predicate logic example",
+      "text": "Let Student(x) and Enrolled(x, AI101) be predicates. 'Every student enrolled in AI101 can access its notes' can be represented as ∀x ((Student(x) ∧ Enrolled(x, AI101)) → CanAccess(x, Notes_AI101)). Here ∀ means for every, ∧ means AND, and → means implication."
+    },
+    {
+      "heading": "Knowledge cycle and issues",
+      "text": "A knowledge cycle includes acquisition, representation, validation, storage, inference, explanation and updating. Issues include ambiguity, inconsistency, incompleteness, uncertainty, changing facts and maintenance cost."
+    },
+    {
+      "heading": "Course-outline coverage audit",
+      "text": "Missing from the lecturer's notes but required by the course outline: knowledge and facts, acquisition, representation logic, the knowledge cycle, representation issues and predicate logic. No dedicated lecturer document for this topic has been verified among the AI files reviewed."
+    },
+    {
+      "heading": "Revision questions",
+      "text": "1. Define KR and list its requirements. 2. Compare propositional and predicate logic. 3. Explain semantic networks, frames and production rules. 4. Translate a universal statement into predicate logic. 5. Discuss KR challenges."
+    }
+  ],
+  "takeaway": "A knowledge base stores facts and relationships; inference rules derive conclusions, whose reliability depends on the quality of the represented knowledge.",
+  "sources": [
+    "SPC 2303 course outline — Topic 4"
+  ]
+},
+{
+  "id": "ai-reasoning-systems",
+  "courseId": "ai",
+  "title": "Reasoning Systems",
+  "minutes": 20,
+  "objectives": [
+    "Explain reasoning in AI",
+    "Compare deductive, inductive and abductive reasoning",
+    "Distinguish symbolic and statistical reasoning"
+  ],
+  "sections": [
+    {
+      "heading": "Meaning",
+      "text": "Reasoning derives or evaluates conclusions from facts, rules, evidence or models. AI uses reasoning for diagnosis, prediction, planning, query answering and decision support."
+    },
+    {
+      "heading": "Deduction",
+      "text": "Deduction derives a conclusion that must follow if premises are true and the argument is valid. Example: all registered students may access the portal; Nia is registered; therefore Nia may access the portal. A valid argument may still be unsound if a premise is false."
+    },
+    {
+      "heading": "Induction and abduction",
+      "text": "Induction generalizes from observations to a likely pattern; its conclusions are probable, not guaranteed. Abduction proposes a plausible explanation for an observation. If a server is unreachable, a router failure may explain it, but other causes remain possible."
+    },
+    {
+      "heading": "Symbolic and statistical reasoning",
+      "text": "Symbolic reasoning manipulates explicit symbols, facts and rules and can provide traceable logical steps. Statistical reasoning uses data and probability to estimate patterns and uncertainty. Hybrid systems may combine statistical predictions with symbolic policy rules."
+    },
+    {
+      "heading": "Applications and challenges",
+      "text": "Reasoning supports medical decision systems, fault diagnosis, fraud detection, recommendation, planning and expert systems. Challenges include incomplete or conflicting evidence, uncertainty, bias, computational cost, explainability and confusing correlation with causation."
+    },
+    {
+      "heading": "Course-outline coverage audit",
+      "text": "Missing from the lecturer's notes but required by the course outline: symbolic and statistical reasoning, deductive, abductive and inductive reasoning, applications and challenges. No dedicated lecturer document for this topic has been verified among the AI files reviewed."
+    },
+    {
+      "heading": "Revision questions",
+      "text": "1. Define reasoning. 2. Compare deduction, induction and abduction with examples. 3. Distinguish symbolic from statistical reasoning. 4. Discuss four applications and four challenges."
+    }
+  ],
+  "takeaway": "Deduction follows from premises, induction generalizes from examples, and abduction proposes explanations; they differ in certainty and purpose.",
+  "sources": [
+    "SPC 2303 course outline — Topic 5"
+  ]
+},
+{
+  "id": "ai-game-playing",
+  "courseId": "ai",
+  "title": "Game Playing: Minimax and Alpha–Beta Pruning",
+  "minutes": 20,
+  "objectives": [
+    "Model a competitive game as a search tree",
+    "Apply minimax",
+    "Explain alpha–beta pruning"
+  ],
+  "sections": [
+    {
+      "heading": "Game model",
+      "text": "A two-player, zero-sum game can be represented by states, legal actions, a player-to-move function, a terminal test and a utility function. MAX maximizes utility; MIN minimizes it."
+    },
+    {
+      "heading": "Minimax",
+      "text": "Assign utility values to terminal states and propagate upward. At MAX nodes choose the maximum child value; at MIN nodes choose the minimum. The root selects the move with the best guaranteed result assuming optimal play."
+    },
+    {
+      "heading": "Worked example",
+      "text": "MAX has moves A and B. A leads to MIN choices with values 3 and 5, so MIN chooses 3. B leads to values 2 and 9, so MIN chooses 2. MAX chooses A because 3 is better than 2."
+    },
+    {
+      "heading": "Alpha–beta pruning",
+      "text": "Alpha is the best value MAX can guarantee so far; beta is the best value MIN can guarantee. When alpha ≥ beta, remaining children cannot affect the final decision and can be pruned. Alpha–beta returns the same minimax choice while potentially examining fewer nodes; move ordering affects efficiency."
+    },
+    {
+      "heading": "Practical limitations",
+      "text": "Game trees grow rapidly with depth and branching factor. Programs use depth limits, evaluation functions, iterative deepening, move ordering and transposition tables when full search is infeasible."
+    },
+    {
+      "heading": "Course-outline coverage audit",
+      "text": "Missing from the lecturer's notes but required by the course outline: game-playing overview, minimax and alpha–beta pruning. No dedicated lecturer document for this topic has been verified among the AI files reviewed."
+    },
+    {
+      "heading": "Revision questions",
+      "text": "1. Explain MAX and MIN. 2. Apply minimax to a small tree. 3. Define alpha and beta. 4. State the pruning condition. 5. Explain why move ordering matters."
+    }
+  ],
+  "takeaway": "Minimax chooses the best move against optimal opposition; alpha–beta skips branches that cannot change that choice.",
+  "sources": [
+    "SPC 2303 course outline — Topic 6"
+  ]
+},
+{
+  "id": "ai-learning",
+  "courseId": "ai",
+  "title": "Learning in Artificial Intelligence",
+  "minutes": 20,
+  "objectives": [
+    "Compare supervised, unsupervised and reinforcement learning",
+    "Explain other learning approaches",
+    "Describe neural networks and genetic algorithms"
+  ],
+  "sections": [
+    {
+      "heading": "Meaning and major types",
+      "text": "Learning improves a system's performance through experience or data. Supervised learning uses labelled examples; unsupervised learning seeks structure in unlabelled data; reinforcement learning learns actions or policies through rewards and penalties. Rote learning stores facts or solutions for reuse."
+    },
+    {
+      "heading": "Other approaches",
+      "text": "Learning from experience updates behaviour based on outcomes. Analogy transfers a relationship from a familiar problem to a new one. Induction generalizes from examples. Discovery identifies previously unknown patterns. The course outline also includes genetic algorithms and connectionist models."
+    },
+    {
+      "heading": "Neural networks",
+      "text": "A neural network is a parameterized model made of interconnected computational units. Training adjusts weights to reduce a loss function. A feed-forward network commonly has input, hidden and output layers. Applications include image recognition, speech, language and prediction; limitations include data needs, computation and interpretability."
+    },
+    {
+      "heading": "Genetic algorithms",
+      "text": "A genetic algorithm initializes candidate solutions, evaluates fitness, selects candidates, applies crossover and mutation, and repeats over generations. It can explore complex search spaces but does not guarantee a global optimum; results depend on encoding and fitness design."
+    },
+    {
+      "heading": "Applications and reliability",
+      "text": "Examples include spam classification, customer grouping, robot navigation and timetable optimization. Fault tolerance addresses noisy inputs, missing data and component failure through validation, fallback rules, checkpoints, monitoring and human review. Models should be monitored for data drift after deployment."
+    },
+    {
+      "heading": "Course-outline coverage audit",
+      "text": "Missing from the lecturer's notes but required by the course outline: rote, supervised, reinforcement and unsupervised learning; experience, analogy, induction, discovery; genetic algorithms; neural networks; applications; fault tolerance and recovery. No complete lecturer document for this topic has been verified among the AI files reviewed."
+    },
+    {
+      "heading": "Revision questions",
+      "text": "1. Compare the three major learning paradigms. 2. Explain rote and inductive learning. 3. Describe neural-network training. 4. Outline a genetic algorithm. 5. Explain fault tolerance and model drift."
+    }
+  ],
+  "takeaway": "Choose the learning paradigm based on the feedback available: labels, unlabelled structure or rewards from interaction.",
+  "sources": [
+    "SPC 2303 course outline — Topic 7"
+  ]
+},
+{
+  "id": "ai-natural-language",
+  "courseId": "ai",
+  "title": "Natural Language Processing",
+  "minutes": 20,
+  "objectives": [
+    "Define NLP and identify applications",
+    "Explain syntactic, semantic and pragmatic analysis",
+    "Discuss NLP challenges"
+  ],
+  "sections": [
+    {
+      "heading": "Definition and applications",
+      "text": "Natural Language Processing (NLP) is the AI area concerned with processing, interpreting or generating human language. Applications include search, translation, speech interfaces, text classification, summarization, question answering and chatbots."
+    },
+    {
+      "heading": "Syntactic processing",
+      "text": "Syntax concerns grammatical structure and how words combine into phrases and sentences. Processing may include tokenization, part-of-speech tagging and parsing. Parsing identifies sentence structure; ambiguity and incomplete sentences complicate analysis."
+    },
+    {
+      "heading": "Semantic analysis",
+      "text": "Semantics concerns meaning. Systems may identify entities, relations, word senses, intent and semantic roles. Context can help distinguish words with multiple meanings."
+    },
+    {
+      "heading": "Pragmatic analysis",
+      "text": "Pragmatics interprets language in context, including speaker intention, shared knowledge and implied meaning. 'Can you open the notes?' is usually a request to open them, not merely a question about ability."
+    },
+    {
+      "heading": "Pipeline and challenges",
+      "text": "A simplified pipeline cleans text, tokenizes it, analyzes structure and meaning, uses context and produces output. Modern neural systems may learn these capabilities jointly. Challenges include ambiguity, idioms, sarcasm, spelling variation, low-resource languages, bias, privacy and hallucinations."
+    },
+    {
+      "heading": "Course-outline coverage audit",
+      "text": "Missing from the lecturer's notes but required by the course outline: the definition of natural language, syntactic processing, semantic analysis and pragmatic analysis. No dedicated lecturer document for this topic has been verified among the AI files reviewed."
+    },
+    {
+      "heading": "Revision questions",
+      "text": "1. Define NLP and list five applications. 2. Distinguish syntax, semantics and pragmatics. 3. Explain contextual ambiguity. 4. Discuss four NLP challenges."
+    }
+  ],
+  "takeaway": "Syntax analyzes structure, semantics analyzes meaning, and pragmatics interprets meaning in context.",
+  "sources": [
+    "SPC 2303 course outline — Topic 8"
+  ]
+},
+{
+  "id": "ai-planning",
+  "courseId": "ai",
+  "title": "Planning in Artificial Intelligence",
+  "minutes": 20,
+  "objectives": [
+    "Explain planning components",
+    "Describe goal-stack, nonlinear and hierarchical planning",
+    "Explain the frame problem and reactive systems"
+  ],
+  "sections": [
+    {
+      "heading": "Meaning and components",
+      "text": "AI planning selects and organizes actions to achieve a goal from an initial state. A classical planning problem specifies an initial state, goal conditions and actions. Actions have preconditions and effects."
+    },
+    {
+      "heading": "Goal-stack planning",
+      "text": "Goal-stack planning works backward from a goal. If a goal is not true, the planner selects an action that can achieve it, makes the action's preconditions subgoals, satisfies them and then applies the action. Interacting subgoals can make this approach difficult."
+    },
+    {
+      "heading": "Nonlinear and hierarchical planning",
+      "text": "A linear plan fixes a total order of actions. Nonlinear or partial-order planning leaves actions unordered when no dependency requires an order. Hierarchical planning decomposes a high-level task into subtasks until executable actions are reached."
+    },
+    {
+      "heading": "Frame problem",
+      "text": "The frame problem asks how to represent what remains unchanged when an action occurs. If a robot moves a cup, unrelated facts such as the room's wall colour should persist without restating every unchanged fact for every action."
+    },
+    {
+      "heading": "Reactive systems and example",
+      "text": "Reactive systems respond to current percepts or events, often with limited deliberation. A delivery robot may plan a route to a room while a reactive obstacle-avoidance behaviour responds immediately when a person crosses its path. Hybrid systems combine reactive behaviour with deliberative planning."
+    },
+    {
+      "heading": "Course-outline coverage audit",
+      "text": "Missing from the lecturer's notes but required by the course outline: planning components, the frame problem, goal-stack planning, nonlinear and hierarchical planning, and reactive systems. No dedicated lecturer document for this topic has been verified among the AI files reviewed."
+    },
+    {
+      "heading": "Revision questions",
+      "text": "1. Define AI planning and list its components. 2. Explain preconditions and effects. 3. Describe goal-stack planning. 4. Compare linear, nonlinear and hierarchical planning. 5. Explain the frame problem and reactive systems."
+    }
+  ],
+  "takeaway": "Planning organizes actions through preconditions and effects; partial-order, hierarchical and reactive approaches address different forms of complexity.",
+  "sources": [
+    "SPC 2303 course outline — Topic 9"
+  ]
+}
 ];
 export const resources:Resource[] = [
   {
