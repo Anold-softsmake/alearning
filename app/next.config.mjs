@@ -2,6 +2,7 @@ import {fileURLToPath} from 'node:url';
 
 const nextConfig = {
   output: 'export',
+  ...(process.env.GITHUB_ACTIONS === 'true' ? { basePath: '/alearning', assetPrefix: '/alearning/' } : {}),
   trailingSlash: true,
   images: { unoptimized: true },
   // OneDrive folders can appear as Windows reparse points. Next's cache
