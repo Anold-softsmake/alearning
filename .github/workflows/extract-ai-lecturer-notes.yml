@@ -5,9 +5,8 @@ on:
       - tools/extract-ai-lecturer-notes
     paths:
       - ".github/workflows/extract-ai-lecturer-notes.yml"
-      - "notes/YEAR 3/AI/**"
 permissions:
-  contents: read
+  contents: write
 jobs:
   extract:
     runs-on: ubuntu-latest
@@ -25,12 +24,21 @@ jobs:
           from pathlib import Path
           path = Path("notes/YEAR 3/AI/Lesson 1 Introduction to Artificial Intelligence.docx")
           doc = Document(path)
+          lines = []
           for p in doc.paragraphs:
               text = p.text.strip()
               if text:
-                  print(text)
+                  lines.append(text)
           for ti, table in enumerate(doc.tables, 1):
-              print(f"\\n[TABLE {ti}]")
+              lines.append(f"\\n[TABLE {ti}]")
               for row in table.rows:
-                  print(" | ".join(cell.text.replace("\\n", " / ").strip() for cell in row.cells))
+                  lines.append(" | ".join(cell.text.replace("\\n", " / ").strip() for cell in row.cells))
+          Path("notes/YEAR 3/AI/extracted/Lesson 1 Introduction to Artificial Intelligence.txt").write_text("\\n".join(lines), encoding="utf-8")
+          print(f"Extracted {len(lines)} text blocks.")
           PY
+          mkdir -p "notes/YEAR 3/AI/extracted"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "notes/YEAR 3/AI/extracted/Lesson 1 Introduction to Artificial Intelligence.txt"
+          git commit -m "Extract Topic 1 lecturer notes as text" || true
+          git push
