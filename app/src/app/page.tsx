@@ -1,11 +1,16 @@
 import type { Metadata } from 'next';
-import { PortalLogin } from '@/components/portal-login';
+import { Shell } from '@/components/shell';
+import { Dashboard } from '@/components/dashboard';
 
 export const metadata: Metadata = {
-  title: 'In maintenance mode | Masomo Year 3 & 4',
-  description: 'Log in to KyU Masomo Portal.',
+  title: 'MasomoFiti | Your university learning space',
+  description: 'Read your university notes, practise with quizzes, and track your learning progress with MasomoFiti.',
 };
 
 export default function Page() {
-  return <PortalLogin />;
+  return (
+    <Shell>
+      <Dashboard />
+    </Shell>
+  );
 }
